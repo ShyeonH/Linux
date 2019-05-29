@@ -1,0 +1,12 @@
+[hwangsh@para ~/hw9]_5251
+$ gcc -c mygop.c 
+[hwangsh@para ~/hw9]_5252
+$ ar rv libmy.a mygop.o
+ar: creating libmy.a
+a - mygop.o
+[hwangsh@para ~/hw9]_5253
+$ mv libmy.a ~/lib 
+[hwangsh@para ~/hw9]_5254
+$ ls ~/lib 
+libmy.a  libmy.so  libmy.so.1  libmy.so.2
+

@@ -1,0 +1,32 @@
+[hwangsh@para ~/hw9]_6010
+$ joe myuname.c 
+Processing '/etc/joe/joerc'...Processing '/etc/joe/ftyperc'...done
+done
+^K  I A  myuname.c (Modified)(c)  int ma  Row 15   Col 6    9:58  Ctrl-K H
+for help
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/utsname.h>
+
+int main(void){
+  struct utsname mysys;
+
+  if(uname(&mysys)==-1) {
+    perror("uname");
+    exit(1);
+    }
+
+    printf("%s %s %s %s %s\n"
+     , mysys.sysname, mysys.nodename, mysys.release, mysys.version,
+mysys.machine);
+  
+  return 0;
+}
+
+File myuname.c saved
+[hwangsh@para ~/hw9]_6011
+$ gcc -o myuname myuname.c 
+[hwangsh@para ~/hw9]_6012
+$ ./myuname 
+Linux para 3.9.5-301.fc19.x86_64 #1 SMP Tue Jun 11 19:39:38 UTC 2013 x86_64

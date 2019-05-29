@@ -10422,3 +10422,1729 @@ jor .bash_logout
 joe .bash_logout
 #1559117440
 exit
+#1559116911
+ls
+#1559116978
+cd linux_git/etc/
+#1559116979
+ls
+#1559116989
+cd HwangshEtc/
+#1559116990
+ls
+#1559117001
+cd ../bin/
+#1559117002
+ls
+#1559117012
+./mylast 
+#1559117014
+ls
+#1559117018
+cd ../lib/
+#1559117019
+ls
+#1559117028
+cd ../
+#1559117029
+ls
+#1559117050
+mv -rf bin/ HwangshEtc/
+#1559117055
+mv -r bin/ HwangshEtc/
+#1559117080
+mv -f bin/ HwangshEtc/
+#1559117082
+ls
+#1559117094
+cd HwangshEtc/
+#1559117096
+ls
+#1559117107
+mv -f ./* ../
+#1559117108
+ls
+#1559117111
+cd ..
+#1559117111
+ls
+#1559117126
+rm -rf HwangshEtc/
+#1559117126
+ls
+#1559117197
+mv HSH_BackUp BackUp
+#1559117197
+ls
+#1559117201
+cd BackUp/
+#1559117202
+ls
+#1559117206
+ls -a
+#1559117215
+pwd
+#1559117239
+ls
+#1559117321
+cd
+#1559117322
+ls
+#1559117340
+ls -a
+#1559117389
+ls
+#1559117406
+rm -rf HwangshEtc/
+#1559117411
+rm -rf HSH_BackUp/
+#1559117432
+cd linux_git/etc/BackUp/
+#1559117434
+ll
+#1559117436
+ll -a
+#1559117488
+cd ~/linux_git/
+#1559117489
+ls
+#1559117494
+git branch 
+#1559117504
+git log
+#1559117530
+git log --decorate
+#1559117543
+git status 
+#1559117552
+git add *
+#1559117557
+git log
+#1559117567
+git commit -m v2
+#1559117575
+git status 
+#1559117600
+ls ./practise/
+#1559117607
+ls ./practise/ch3-1
+#1559117612
+ls ./practise/ch3-2
+#1559117620
+ls ./practise/ch3-2/v3
+#1559117629
+git push 
+#1559117938
+ls
+#1559117940
+cd
+#1559117941
+ls
+#1559117968
+git remote -v
+#1559117972
+cd linux_git/
+#1559117973
+git remote -v
+#1559117980
+git remote remove origin 
+#1559117982
+git remote -v
+#1559117983
+cd
+#1559117987
+ls
+#1559117995
+cp linux_git/ ./aaa
+#1559117995
+ls
+#1559118001
+cp -rf linux_git/ ./aaa
+#1559118003
+ls
+#1559118012
+rm -rf linux_git/
+#1559118014
+ls
+#1559118022
+mv aaa/ ./linux_git
+#1559118023
+ls
+#1559118026
+cd linux_git/
+#1559118031
+git init .
+#1559118033
+ls
+#1559118037
+git log
+#1559118055
+cd
+#1559118064
+md git_linux
+#1559118065
+ls
+#1559118113
+cp -rf linux_git/* ./git_linux/
+#1559118114
+ls
+#1559118530
+cd git_linux/
+#1559118531
+ls
+#1559118536
+git init .
+#1559118540
+git log
+#1559118547
+git add *
+#1559118556
+git commit -m v1
+#1559118561
+git log
+#1559118574
+git tag 1.0.0 d4364078d8e51e410d6dada6890bda7ee30674a9
+#1559118582
+git log --decorate
+#1559118593
+git remote add origin https://github.com/ShyeonH/linux.git
+#1559118598
+git push -u origin master
+#1559118616
+git remote -v
+#1559118621
+git remote remove origin 
+#1559118623
+git remote -v
+#1559118628
+git remote add origin git@github.com:ShyeonH/linux.git
+#1559118634
+git push -u origin master
+#1559118645
+git push --tags 
+#1559118669
+cd etc/BackUp/
+#1559118669
+ls
+#1559118671
+pwd
+#1559118679
+cd
+#1559118686
+joe .bash_logout
+#1559118711
+ls
+#1559118721
+rm -rf linux_git/
+#1559118722
+ls
+#1559118726
+cd git_linux/
+#1559118729
+git log
+#1559118739
+cd etc/BackUp/
+#1559118757
+ll -a
+#1559118828
+cd
+#1559118852
+md hw9
+#1559118853
+ls
+#1559118856
+cd hw9/
+#1559118856
+ls
+#1559118858
+pwd
+#1559118915
+cp -rf /home/smpldir/hwfiles/main.c .
+#1559118936
+cp -rf /home/smpldir/hwfiles/mygop.c 
+#1559118936
+ls
+#1559118946
+cp -rf /home/smpldir/hwfiles/mygop.c .
+#1559118947
+ls
+#1559119019
+cd
+#1559119020
+ls
+#1559119123
+cdhw
+#1559119126
+cd hw9/
+#1559119362
+gcc -c mygop.c 
+#1559119363
+ls
+#1559119393
+ar rv libmy.a mygop.o
+#1559119394
+ls
+#1559119417
+rm -f libmy.a mygop.o
+#1559119417
+ls
+#1559119430
+gcc -c mygop.c
+#1559119449
+ar rv libmy.a mygop.o
+#1559119473
+mv libmy.a ~/lib
+#1559119482
+ls ~/lib
+#1559119504
+ls
+#1559119516
+vi 1-1.txt
+#1559119537
+cat 1-1.txt 
+#1559119657
+gcc main.c -o static -lmy
+#1559119664
+ls
+#1559119753
+gcc main.c -o static -L~/lib -libmy
+#1559119795
+gcc main.c -o static -L~/lib -my
+#1559119802
+gcc main.c -o static -L~/lib -libmy.a
+#1559119816
+gcc main.c -o static -l~/lib -libmy.a
+#1559119820
+ls
+#1559119834
+gcc main.c -o static -lmy
+#1559119900
+ls ~/lib/
+#1559119921
+cd ~/lib/
+#1559119921
+ls
+#1559119927
+rm -rf libmy.so
+#1559119931
+rm -rf libmy.so.*
+#1559119932
+ll
+#1559119936
+cd ~/hw9/
+#1559119936
+ls
+#1559119943
+ls ~/lib/
+#1559119946
+ls
+#1559119956
+gcc main.c -o static -lmy
+#1559119968
+cat main.c 
+#1559119978
+gcc main.c -o static -lmy
+#1559119989
+gcc main.c -o static -L~/lib -libmy.a
+#1559119993
+ls
+#1559120043
+printenv 
+#1559120072
+ls
+#1559120073
+cd
+#1559120074
+ls
+#1559120077
+rm -rf
+#1559120080
+rm -rf lib
+#1559120081
+ls
+#1559120085
+md lib
+#1559120088
+cd hw9/
+#1559120089
+ls
+#1559120092
+cat 1-1.txt 
+#1559120119
+ar rv libmy.a mygop.o
+#1559120120
+ls
+#1559120159
+gcc main.c -o static -L. -libmy.a
+#1559120160
+ls
+#1559120169
+gcc main.c -o static -lmy
+#1559120170
+ls
+#1559120173
+lgbo;sdj'
+#1559120274
+gcc -o static main.c -L./ -lmy
+#1559120275
+ls
+#1559120281
+rm -f static 
+#1559120282
+ls
+#1559120295
+mv libmy.a ~/lib/
+#1559120299
+ls ~/lib/
+#1559120300
+ls
+#1559120441
+gcc -o static main.c -lmy
+#1559120442
+ls
+#1559120454
+gcc -o static main.c -L~/lib/ -lmy
+#1559120456
+ls
+#1559120499
+gcc -o static main.c -L../lib/ -lmy
+#1559120503
+ls
+#1559120509
+rm static 
+#1559120510
+ls
+#1559120522
+pwd
+#1559120544
+gcc -o static main.c -L/home/class/hwangsh/lib/ -lmy
+#1559120553
+./static 
+#1559120575
+ls
+#1559120583
+vi 1-2.txt
+#1559120590
+ls
+#1559120595
+cat 1-2.txt 
+#1559120605
+ls
+#1559120717
+slslsls
+#1559120719
+slslslslslslslslslsl
+#1559120728
+s s
+#1559120732
+lllllll
+#1559120735
+lsllallasfllasl;asf;'lsfg;'
+#1559120735
+aslfas;'fl
+asf
+las;fl
+as;fl;
+
+
+
+ff
+asf
+asf
+asf
+asf
+asf
+as
+fasf
+#1559120783
+cp -f /home/smpldir/hwfiles/main2.c .
+#1559120793
+cp -f /home/smpldir/hwfiles/mycomp.c .
+#1559120794
+ls
+#1559120794
+ll
+#1559121145
+mkdir lib
+#1559121160
+joe ~/.bash_profile
+#1559121237
+gcc -fPIC -c mycomp.c 
+#1559121270
+cat mycomp.c 
+#1559121313
+ls
+#1559121326
+rm -rf lib
+#1559121326
+ls
+#1559121337
+joe ~/.bash_profile
+#1559121348
+ls
+#1559121385
+gcc -fPIC -c mycomp.c 
+#1559121449
+history | grep gcc -fPIC
+#1559122794
+printenv
+#1559123203
+cat .bash_profile
+#1559116911
+ls
+#1559116978
+cd linux_git/etc/
+#1559116979
+ls
+#1559116989
+cd HwangshEtc/
+#1559116990
+ls
+#1559117001
+cd ../bin/
+#1559117002
+ls
+#1559117012
+./mylast 
+#1559117014
+ls
+#1559117018
+cd ../lib/
+#1559117019
+ls
+#1559117028
+cd ../
+#1559117029
+ls
+#1559117050
+mv -rf bin/ HwangshEtc/
+#1559117055
+mv -r bin/ HwangshEtc/
+#1559117080
+mv -f bin/ HwangshEtc/
+#1559117082
+ls
+#1559117094
+cd HwangshEtc/
+#1559117096
+ls
+#1559117107
+mv -f ./* ../
+#1559117108
+ls
+#1559117111
+cd ..
+#1559117111
+ls
+#1559117126
+rm -rf HwangshEtc/
+#1559117126
+ls
+#1559117197
+mv HSH_BackUp BackUp
+#1559117197
+ls
+#1559117201
+cd BackUp/
+#1559117202
+ls
+#1559117206
+ls -a
+#1559117215
+pwd
+#1559117239
+ls
+#1559117321
+cd
+#1559117322
+ls
+#1559117340
+ls -a
+#1559117389
+ls
+#1559117406
+rm -rf HwangshEtc/
+#1559117411
+rm -rf HSH_BackUp/
+#1559117432
+cd linux_git/etc/BackUp/
+#1559117434
+ll
+#1559117436
+ll -a
+#1559117488
+cd ~/linux_git/
+#1559117489
+ls
+#1559117494
+git branch 
+#1559117504
+git log
+#1559117530
+git log --decorate
+#1559117543
+git status 
+#1559117552
+git add *
+#1559117557
+git log
+#1559117567
+git commit -m v2
+#1559117575
+git status 
+#1559117600
+ls ./practise/
+#1559117607
+ls ./practise/ch3-1
+#1559117612
+ls ./practise/ch3-2
+#1559117620
+ls ./practise/ch3-2/v3
+#1559117629
+git push 
+#1559117938
+ls
+#1559117940
+cd
+#1559117941
+ls
+#1559117968
+git remote -v
+#1559117972
+cd linux_git/
+#1559117973
+git remote -v
+#1559117980
+git remote remove origin 
+#1559117982
+git remote -v
+#1559117983
+cd
+#1559117987
+ls
+#1559117995
+cp linux_git/ ./aaa
+#1559117995
+ls
+#1559118001
+cp -rf linux_git/ ./aaa
+#1559118003
+ls
+#1559118012
+rm -rf linux_git/
+#1559118014
+ls
+#1559118022
+mv aaa/ ./linux_git
+#1559118023
+ls
+#1559118026
+cd linux_git/
+#1559118031
+git init .
+#1559118033
+ls
+#1559118037
+git log
+#1559118055
+cd
+#1559118064
+md git_linux
+#1559118065
+ls
+#1559118113
+cp -rf linux_git/* ./git_linux/
+#1559118114
+ls
+#1559118530
+cd git_linux/
+#1559118531
+ls
+#1559118536
+git init .
+#1559118540
+git log
+#1559118547
+git add *
+#1559118556
+git commit -m v1
+#1559118561
+git log
+#1559118574
+git tag 1.0.0 d4364078d8e51e410d6dada6890bda7ee30674a9
+#1559118582
+git log --decorate
+#1559118593
+git remote add origin https://github.com/ShyeonH/linux.git
+#1559118598
+git push -u origin master
+#1559118616
+git remote -v
+#1559118621
+git remote remove origin 
+#1559118623
+git remote -v
+#1559118628
+git remote add origin git@github.com:ShyeonH/linux.git
+#1559118634
+git push -u origin master
+#1559118645
+git push --tags 
+#1559118669
+cd etc/BackUp/
+#1559118669
+ls
+#1559118671
+pwd
+#1559118679
+cd
+#1559118686
+joe .bash_logout
+#1559118711
+ls
+#1559118721
+rm -rf linux_git/
+#1559118722
+ls
+#1559118726
+cd git_linux/
+#1559118729
+git log
+#1559118739
+cd etc/BackUp/
+#1559118757
+ll -a
+#1559118828
+cd
+#1559118852
+md hw9
+#1559118853
+ls
+#1559118856
+cd hw9/
+#1559118856
+ls
+#1559118858
+pwd
+#1559118915
+cp -rf /home/smpldir/hwfiles/main.c .
+#1559118936
+cp -rf /home/smpldir/hwfiles/mygop.c 
+#1559118936
+ls
+#1559118946
+cp -rf /home/smpldir/hwfiles/mygop.c .
+#1559118947
+ls
+#1559119019
+cd
+#1559119020
+ls
+#1559119123
+cdhw
+#1559119126
+cd hw9/
+#1559119362
+gcc -c mygop.c 
+#1559119363
+ls
+#1559119393
+ar rv libmy.a mygop.o
+#1559119394
+ls
+#1559119417
+rm -f libmy.a mygop.o
+#1559119417
+ls
+#1559119430
+gcc -c mygop.c
+#1559119449
+ar rv libmy.a mygop.o
+#1559119473
+mv libmy.a ~/lib
+#1559119482
+ls ~/lib
+#1559119504
+ls
+#1559119516
+vi 1-1.txt
+#1559119537
+cat 1-1.txt 
+#1559119657
+gcc main.c -o static -lmy
+#1559119664
+ls
+#1559119753
+gcc main.c -o static -L~/lib -libmy
+#1559119795
+gcc main.c -o static -L~/lib -my
+#1559119802
+gcc main.c -o static -L~/lib -libmy.a
+#1559119816
+gcc main.c -o static -l~/lib -libmy.a
+#1559119820
+ls
+#1559119834
+gcc main.c -o static -lmy
+#1559119900
+ls ~/lib/
+#1559119921
+cd ~/lib/
+#1559119921
+ls
+#1559119927
+rm -rf libmy.so
+#1559119931
+rm -rf libmy.so.*
+#1559119932
+ll
+#1559119936
+cd ~/hw9/
+#1559119936
+ls
+#1559119943
+ls ~/lib/
+#1559119946
+ls
+#1559119956
+gcc main.c -o static -lmy
+#1559119968
+cat main.c 
+#1559119978
+gcc main.c -o static -lmy
+#1559119989
+gcc main.c -o static -L~/lib -libmy.a
+#1559119993
+ls
+#1559120043
+printenv 
+#1559120072
+ls
+#1559120073
+cd
+#1559120074
+ls
+#1559120077
+rm -rf
+#1559120080
+rm -rf lib
+#1559120081
+ls
+#1559120085
+md lib
+#1559120088
+cd hw9/
+#1559120089
+ls
+#1559120092
+cat 1-1.txt 
+#1559120119
+ar rv libmy.a mygop.o
+#1559120120
+ls
+#1559120159
+gcc main.c -o static -L. -libmy.a
+#1559120160
+ls
+#1559120169
+gcc main.c -o static -lmy
+#1559120170
+ls
+#1559120173
+lgbo;sdj'
+#1559120274
+gcc -o static main.c -L./ -lmy
+#1559120275
+ls
+#1559120281
+rm -f static 
+#1559120282
+ls
+#1559120295
+mv libmy.a ~/lib/
+#1559120299
+ls ~/lib/
+#1559120300
+ls
+#1559120441
+gcc -o static main.c -lmy
+#1559120442
+ls
+#1559120454
+gcc -o static main.c -L~/lib/ -lmy
+#1559120456
+ls
+#1559120499
+gcc -o static main.c -L../lib/ -lmy
+#1559120503
+ls
+#1559120509
+rm static 
+#1559120510
+ls
+#1559120522
+pwd
+#1559120544
+gcc -o static main.c -L/home/class/hwangsh/lib/ -lmy
+#1559120553
+./static 
+#1559120575
+ls
+#1559120583
+vi 1-2.txt
+#1559120590
+ls
+#1559120595
+cat 1-2.txt 
+#1559120605
+ls
+#1559120717
+slslsls
+#1559120719
+slslslslslslslslslsl
+#1559120728
+s s
+#1559120732
+lllllll
+#1559120735
+lsllallasfllasl;asf;'lsfg;'
+#1559120735
+aslfas;'fl
+asf
+las;fl
+as;fl;
+
+
+
+ff
+asf
+asf
+asf
+asf
+asf
+as
+fasf
+#1559120783
+cp -f /home/smpldir/hwfiles/main2.c .
+#1559120793
+cp -f /home/smpldir/hwfiles/mycomp.c .
+#1559120794
+ls
+#1559120794
+ll
+#1559121145
+mkdir lib
+#1559121160
+joe ~/.bash_profile
+#1559121237
+gcc -fPIC -c mycomp.c 
+#1559121270
+cat mycomp.c 
+#1559121313
+ls
+#1559121326
+rm -rf lib
+#1559121326
+ls
+#1559121337
+joe ~/.bash_profile
+#1559121348
+ls
+#1559121385
+gcc -fPIC -c mycomp.c 
+#1559121449
+history | grep gcc -fPIC
+#1559121459
+history | grep "gcc -fPIC"
+#1559121495
+history | grep gcc
+#1559121555
+gcc -c -fPIC mycomp.c 
+#1559121581
+cat ~/.bashrc
+#1559121586
+kor
+#1559121588
+gcc -c -fPIC mycomp.c 
+#1559121597
+c
+#1559121642
+ls
+#1559121658
+joe mycomp.c 
+#1559121690
+gcc -c -fPIC mycomp.c 
+#1559121692
+ls
+#1559121705
+rm mycomp.c!
+#1559121716
+rm mycomp.c~
+#1559121717
+ls
+#1559121732
+rm mycomp.o
+#1559121753
+gcc -fPIC -c mycomp.c 
+#1559121906
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559121955
+ls
+#1559121972
+rm libmy.so.1.0.1 mycomp.o
+#1559121972
+ls
+#1559121984
+cd;
+#1559121992
+mkdir lib
+#1559121994
+ls
+#1559121998
+cd hw9/
+#1559121999
+ls
+#1559122013
+mkdir lib
+#1559122025
+joe ~/.bash_profile
+#1559122045
+rm -rf lib/
+#1559122048
+mkdir lib
+#1559122051
+joe ~/.bash_profile
+#1559122097
+rm -rf lib/
+#1559122103
+mkdir lib
+#1559122106
+joe ~/.bash_profile
+#1559122113
+rm -rf lib/
+#1559122115
+mkdir lib
+#1559122116
+joe ~/.bash_profile
+#1559122147
+gcc -fPIC -c mycomp.c 
+#1559122162
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559122193
+mv libmy.so.1.0.1 ./lib
+#1559122200
+cd ./lib
+#1559122243
+ln -s libmy.so.1.0.1 libmy.so
+#1559122263
+cd ..
+#1559122312
+gcc -o main2 main2.c -lmy
+#1559122348
+joe ~/.bash_profile
+#1559122366
+gcc -o main2 main2.c -lmy
+#1559122586
+ls
+#1559122615
+gcc -o main2 main2.c -lmy
+#1559122652
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$HOME/libls
+#1559122655
+ls
+#1559122693
+rm -rf libmy.so lib mycomp.o
+#1559122693
+ls
+#1559122708
+joe ~/.bash_profile
+#1559122730
+printenv 
+#1559122774
+LD_LIBRARY_PATH=/home/class/hwangsh/hw9
+#1559122777
+printenv 
+#1559122823
+ls
+#1559122850
+joe ~/.bash_profile
+#1559122883
+gcc -fPIC -c mycomp.c 
+#1559122898
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559122932
+ln -s libmy.so.1.0.1 libmy.so
+#1559122987
+gcc -o main2 main2.c -lmy
+#1559123023
+joe mycomp.
+#1559123032
+joe mycomp.c
+#1559123044
+gcc -fPIC -c mycomp.c 
+#1559123052
+joe mycomp.c
+#1559123065
+ls
+#1559123069
+gcc -fPIC -c mycomp.c 
+#1559123087
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559123097
+ln -s libmy.so.1.0.1 libmy.so
+#1559123113
+gcc -o main2 main2.c -lmy
+#1559123116
+asedg
+#1559123118
+ls
+#1559123143
+rm -rf libmy.so libmy.so.1.0.1 mycomp.o
+#1559123143
+ls
+#1559123149
+rm mycomp.c~
+#1559123150
+ls
+#1559123168
+printenv
+#1559123219
+ls
+#1559123254
+joe ~/.bash_profile
+#1559123287
+gcc -fPIC -c mycomp.c 
+#1559123292
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559123314
+ln -s libmy.so.1.0.1 libmy.so
+#1559123326
+gcc -o main2 main2.c -lmy
+#1559123571
+ls
+#1559123594
+rm -rf libmy.so libmy.so.1.0.1 mycomp.o
+#1559123594
+ls
+#1559124435
+cd hw9/
+#1559124436
+ls
+#1559124443
+printenv
+#1559124446
+ls
+#1559124459
+gcc -fPIC -c mycomp.c 
+#1559124470
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559124492
+mv libmy.so.1.0.1 ~/lib
+#1559124498
+cd ~/lib
+#1559124507
+ln -s libmy.so.1.0.1 libmy.so
+#1559124510
+cd ../hw9/
+#1559124510
+ls
+#1559124536
+gcc -o main2 main2.c -lmy
+#1559124540
+ls
+#1559126060
+cd hw9/
+#1559126061
+ls
+#1559126071
+rm libmy.so*
+#1559126081
+rm *~
+#1559126081
+ls
+#1559126089
+rm mycomp.o
+#1559126090
+ls
+#1559126099
+printenv 
+#1559126106
+ls
+#1559126107
+cd
+#1559126108
+ls
+#1559126112
+cd hw9/
+#1559126118
+LD_LIBRARY_PATH=:/home/class/hwangsh/hw9
+#1559126120
+ls
+#1559126125
+joe main2.c 
+#1559126214
+joe mycomp.c 
+#1559126237
+joe main2.c 
+#1559126247
+ls
+#1559126290
+gcc -fPIC -c mycomp.c
+#1559126306
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559126321
+ln -s libmy.so.1.0.1 libmy.so
+#1559126338
+gcc -o main2 main2.c-lmy
+#1559126352
+gcc -o main2 main2.c -lmy
+#1559126359
+ls
+#1559126374
+rm -f libmy.so* *~ mycomp.o
+#1559126375
+ls
+#1559126383
+rm main2.c 
+#1559126388
+rm mycomp.c 
+#1559126389
+ls
+#1559126426
+cp /home/smpldir/hwfiles/main2.c .
+#1559126435
+cp /home/smpldir/hwfiles/mycomp.c .
+#1559126440
+cat main2.c 
+#1559126463
+joe mycomp.c 
+#1559126487
+joe main2.c 
+#1559126537
+LD_LIBRARY_PATH=:/home/class/hwangsh/hw9
+#1559126551
+gcc -fPIC -c mycomp.c
+#1559126562
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559126570
+ln -s libmy.so.1.0.1 libmy.so
+#1559126584
+gcc -o main2 main2.c -lmy
+#1559130304
+printenv 
+#1559130334
+cd lib/
+#1559130335
+ls
+#1559130341
+cd
+#1559130344
+cd hw9/
+#1559130351
+gcc -o main2 main2.c -lmy
+#1559130444
+ls
+#1559130446
+gcc -o main2 main2.c -lmy
+#1559130624
+cd /etc/
+#1559130626
+ls
+#1559130634
+cd ld.so.conf.d/
+#1559130634
+ls
+#1559130637
+ll
+#1559132924
+cd hw9/
+#1559132938
+joe 2-1.txt
+#1559133031
+joe 2-2.txt 
+#1559133078
+ls
+#1559133082
+rm *~
+#1559133083
+ls
+#1559133085
+ll
+#1559133120
+cd
+#1559133126
+cd ch7/sp1/
+#1559133127
+ls
+#1559133145
+cd ../sp2
+#1559133146
+ls
+#1559133154
+cat pctime.c 
+#1559133160
+gcc pctime.c 
+#1559133162
+./a.out 
+#1559125311
+printenv
+#1559125329
+LD_LIBRARY_PATH=/home/class/hwangsh/lib
+#1559125330
+ls
+#1559125332
+printenv
+#1559125337
+cd lib
+#1559125338
+ls
+#1559125345
+rm -f libmy.so*
+#1559125345
+ls
+#1559125350
+cd
+#1559125352
+cd hw9/
+#1559125352
+ls
+#1559125364
+rm -rf mycomp.o
+#1559125366
+ls
+#1559125375
+cat main.c 
+#1559125381
+cat main2.c 
+#1559125407
+cat mycomp.c 
+#1559125419
+joe mycomp.c 
+#1559125433
+ls
+#1559125456
+history | grep find
+#1559125478
+find / -name gong
+#1559125488
+find / -name gong 2> /dev/null 
+#1559125493
+find / -name gong* 2> /dev/null 
+#1559125520
+ls
+#1559125521
+cd
+#1559125526
+cd ch7/sp1
+#1559125527
+ls
+#1559125532
+cat gongyoo.c
+#1559125543
+cat pshare.c 
+#1559125575
+cd ~/hw9/
+#1559125580
+joe main2.c 
+#1559125640
+joe mycomp.c
+#1559125675
+printenv 
+#1559125693
+LD_LIBRARY_PATH=/home/class/hwangsh/hw9
+#1559125694
+printenv 
+#1559125723
+gcc -fPIC -c mycomp.c
+#1559125755
+gcc .shared .Wl,-soname,libmy.so .o libmy.so.1.0.1 mycomp.o
+#1559125789
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559125803
+ln -s libmy.so.1.0.1 libmy.so
+#1559125823
+gcc -o main2 main2.c -lmy
+#1559125826
+gcc -o main2 main2.c -lmy.so
+#1559125830
+gcc -o main2 main2.c -lmy
+#1559125864
+cd ~/ch7/sp1
+#1559125864
+ls
+#1559125866
+pwd
+#1559125879
+LD_LIBRARY_PATH=/home/class/hwangsh/ch7/sp1
+#1559125884
+printenv 
+#1559125886
+ls
+#1559125902
+gcc -fPIC -c gongyoo.c
+#1559125914
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 gongyoo.o
+#1559125935
+ln -s libmy.so.1.0.1 libmy.so
+#1559125950
+gcc -o pshare pshare.c -lmy
+#1559125957
+ls
+#1559125978
+rm gongyoo.o
+#1559125986
+rm pshare
+#1559125997
+rm libmy.so
+#1559125999
+rm libmy.so.1.0.1 
+#1559126004
+ls
+#1559126013
+cd
+#1559126015
+cd lib/
+#1559126016
+ls
+#1559126024
+mv a.a libmy.a
+#1559126027
+cd
+#1559126031
+cd ch7/sp1
+#1559126035
+cat gongyoo.c
+#1559126044
+cat pshare.c 
+#1559126134
+joe pshare.c 
+#1559126206
+joe gongyoo.c
+#1559129270
+cd ~/hw9/
+#1559129270
+ls
+#1559129278
+rm libmy.so*
+#1559129287
+rm mycomp.o
+#1559129291
+rm *~
+#1559129308
+ls
+#1559129321
+joe main2.c 
+#1559129613
+joe mycomp.c 
+#1559129653
+gcc -c -fPIC mycomp.c
+#1559129702
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559129727
+ln -s libmy.so.1.0.1 libmy.so
+#1559129774
+gcc main2 main2.c -lmy
+#1559129789
+ls
+#1559129798
+printenv
+#1559129808
+LD_LIBRARY_PATH=/home/class/hwangsh/hw9
+#1559129811
+gcc main2 main2.c -lmy
+#1559129825
+gcc main2.c main2 -lmy
+#1559129844
+gcc -o main2 main2.c -lmy
+#1559129949
+joe main2.c
+#1559129955
+gcc -o main2 main2.c -lmy
+#1559129958
+gcc -o main2 main2.c -lmy -L
+#1559129960
+gcc -o main2 main2.c -lmy -L.
+#1559129963
+ls
+#1559129990
+gcc -o main2 main2.c -lmy
+#1559129998
+printenv
+#1559130020
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:.
+#1559130022
+printenv
+#1559130025
+gcc -o main2 main2.c -lmy
+#1559130163
+ldconfig -v
+#1559130180
+less ldconfig -v
+#1559130185
+ldconfig -v | less
+#1559130215
+gcc -o main2 main2.c -lmy
+#1559130331
+cp libmy.so* ~/lib
+#1559130442
+ls
+#1559130831
+printenv 
+#1559130834
+ls
+#1559130837
+gcc -o main2 main2.c -lmy
+#1559130939
+printenv 
+#1559130957
+joe ~/.bash_profile
+#1559131164
+gcc -o main2 main2.c -lmy
+#1559131166
+gcc -o main2 main2.c -lmy -L
+#1559131170
+gcc -o main2 main2.c -lmy -L.
+#1559131174
+./main2 
+#1559131234
+ls
+#1559131270
+cd
+#1559131273
+cd ch7/sp1
+#1559131274
+ls
+#1559131289
+gcc -fPIC -c gongyoo.c
+#1559131323
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 gongyoo.o
+#1559131346
+gcc -o pshare pshare.c -lmy
+#1559131348
+ls
+#1559131357
+printenv 
+#1559131383
+cp ~/hw9/mycomp.o
+#1559131387
+cp ~/hw9/mycomp.o .
+#1559131395
+cp ~/hw9/main2.c .
+#1559131396
+ls
+#1559131412
+gcc -o main2 main2.c -lmy
+#1559131437
+ls
+#1559131456
+rm main2.c mycomp.o 
+#1559131481
+history | grep "ln .s libmy.so.1.0.1 libmy.so"
+#1559131494
+history | grep gong
+#1559131506
+history 
+#1559131519
+history | less
+#1559131820
+idconfig
+#1559131831
+history 
+#1559131884
+history | grep ld
+#1559131895
+ldconfig -v | less
+#1559132058
+ls
+#1559132061
+cd
+#1559132061
+ls
+#1559132064
+cd lib/
+#1559132064
+ls
+#1559132068
+cd
+#1559132070
+cd hw9/
+#1559132079
+gcc -o main2 main2.c -lmy
+#1559132093
+gcc -o main2 main2.c -lmy -L.
+#1559132096
+ls
+#1559132115
+./main2 
+#1559132133
+joe mycomp.c
+#1559132160
+gcc -fPIC -c mycomp.c
+#1559132197
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.2 mycomp.o
+#1559132224
+ls -sf libmy.so.1.0.2 libmy.so
+#1559132227
+./main2 
+#1559132244
+ll
+#1559132265
+ls -sf libmy.so.1.0.2 libmy.so
+#1559132270
+ll
+#1559132291
+ln -sf libmy.so.1.0.2 libmy.so
+#1559132293
+ll
+#1559132295
+./main2 
+#1559132310
+ls
+#1559132322
+rm libmy.so* *~
+#1559132322
+ls
+#1559132330
+rm mycomp.o
+#1559132331
+ls
+#1559132335
+rm main2
+#1559132336
+ls
+#1559132374
+joe main2.c 
+#1559132387
+joe mycomp.c 
+#1559132393
+ls
+#1559132398
+rm *~
+#1559132398
+ls
+#1559132583
+printenv 
+#1559132616
+gcc -fPIC -c mycomp.c 
+#1559132658
+gcc -shared -Wl,-soname,libmy.xo -o libmy.so.1.0.1 mycomp.o
+#1559132680
+ln -s libmy.so.1.0.1 libmy.so
+#1559132701
+gcc -o main2 main2.c -lmy -L.
+#1559132706
+./main2 
+#1559132722
+gcc -o main2 main2.c -lmy
+#1559132725
+gcc -o main2 main2.c -lmy -L.
+#1559132728
+./main2 
+#1559132745
+ls
+#1559132753
+rm -f libmy.so*
+#1559132753
+ls
+#1559132759
+rm mycomp.o
+#1559132760
+ls
+#1559132765
+rm main2
+#1559132766
+ls
+#1559132779
+gcc -fPIC -c mycomp.c 
+#1559132823
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559132842
+ln -s libmy.so.1.0.1 libmy.so
+#1559132856
+gcc -o main2 main2.c -lmy -L.
+#1559132860
+./main2 
+#1559132896
+joe mycomp.c
+#1559132987
+gcc -fPIC -c mycomp.c 
+#1559132998
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.2 mycomp.o
+#1559133009
+ln -sf libmy.so.1.0.2 libmy.so
+#1559133012
+./main2 
+#1559133266
+joe mydate.c
+#1559133467
+ls
+#1559133473
+gcc mydate.c 
+#1559133480
+cat mydate.c 
+#1559133484
+joe mydate.c 
+#1559133493
+gcc mydate.c 
+#1559133495
+./a.out 
+#1559133503
+./a.out aa
+#1559133547
+ls
+#1559133550
+rm a.out 
+#1559133550
+ls
+#1559133551
+ll
+#1559133567
+joe mydate.c
+#1559133757
+gcc -o mydate mydate.c
+#1559133776
+./mydate 
+#1559133784
+./mydate today
+#1559133808
+joe 3.txt
+#1559133918
+ll
+#1559133923
+rm *~
+#1559133923
+ls
+#1559133994
+joe myuname.c
+#1559134538
+gcc -o myuname myuname.c 
+#1559134544
+./myuname 
+#1559134558
+joe myuname.c
+#1559134634
+gcc -o myuname myuname.c 
+#1559134636
+./myuname 
+#1559134645
+uname -a
+#1559134658
+ls
+#1559134669
+joe myuname.c
+#1559134699
+gcc -o myuname myuname.c 
+#1559134712
+./myuname 
+#1559134740
+joe 4.txt
+#1559134754
+ll
+#1559134902
+ls
+#1559136269
+su -ztest
+#1559136273
+su - ztest
+#1559136490
+w

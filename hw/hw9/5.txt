@@ -1,0 +1,42 @@
+[hwangsh@para ~/hw9]_6089
+$ joe userinfo.c
+Processing '/etc/joe/joerc'...Processing '/etc/joe/ftyperc'...done
+done
+^K  I A  userinfo.c (Modified)(c)  int m  Row 20   Col 5   10:49  Ctrl-K H
+for help
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <pwd.h>
+
+int main(void)
+{
+  FILE *fp;
+  char name[30];
+  struct passwd *pw;
+
+  system("date;who | sort | cut -d ' ' -f 1 | uniq > UsersNow");
+  fp=fopen("UsersNow","r");
+  
+  while (fscanf(fp,"%s",name)!=EOF) {
+    pw = getpwnam(name);
+    printf("User %s :\tUID = %d,\tGID = %d,\tHOME = %s\n"
+    , pw->pw_name, pw->pw_uid, pw->pw_gid, pw->pw_dir);
+  }
+  fclose(fp);
+  system("rm -f ./UsersNow");
+}
+
+File userinfo.c saved
+[hwangsh@para ~/hw9]_6090
+$ gcc -o userinfo userinfo.c 
+[hwangsh@para ~/hw9]_6091
+$ ./userinfo 
+Wed May 29 22:49:58 KST 2019
+User hwangsh :  UID = 1187,     GID = 1188,     HOME = /home/class/hwangsh
+[hwangsh@para ~/hw9]_6092
+$ ls
+1-1.txt  3.txt           libmy.so.1.0.2  mycomp.c  mygop.c    myuname.c~
+1-2.txt  4.txt           main.c          mycomp.o  mygop.o    static
+2-1.txt  libmy.so        main2           mydate    myuname    userinfo
+2-2.txt  libmy.so.1.0.1  main2.c         mydate.c  myuname.c  userinfo.c

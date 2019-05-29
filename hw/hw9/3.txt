@@ -1,0 +1,35 @@
+[hwangsh@para ~/hw9]_5994
+$ joe mydate.c
+Processing '/etc/joe/joerc'...Processing '/etc/joe/ftyperc'...done
+done
+^K  I A  mydate.c (Modified)(c)  int mai  Row 13   Col 54   9:42  Ctrl-K H
+for help
+#include <stdio.h>
+#include <time.h>
+
+int main(int argc, char *argv[]){
+  time_t present;
+  char *time_str;
+
+  if(argc==1){
+  time(&present);
+  time_str = ctime(&present);
+  printf("Now is %s\n", time_str);
+  } else{
+    printf("Mydate : Error. No argument needed. \n");
+  }
+  return 0;
+}
+                  
+
+
+File mydate.c saved
+[hwangsh@para ~/hw9]_5995
+$ gcc -o mydate mydate.c
+[hwangsh@para ~/hw9]_5996
+$ ./mydate 
+Now is Wed May 29 21:42:56 2019
+
+[hwangsh@para ~/hw9]_5997
+$ ./mydate today
+Mydate : Error. No argument needed. 
