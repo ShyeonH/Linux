@@ -1,0 +1,2 @@
+Filesystem               Size  Used Avail Use% Mounted on
+/dev/mapper/fedora-root   50G   35G   13G  74% /

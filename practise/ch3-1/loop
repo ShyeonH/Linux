@@ -1,0 +1,9 @@
+# file name : loop
+n=0
+while [ $n -le 10 ] 
+  do
+    echo $n ....
+    date >> tmpout
+    sleep 5
+    let n=n+1
+  done

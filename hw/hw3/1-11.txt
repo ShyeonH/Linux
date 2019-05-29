@@ -1,0 +1,6 @@
+total 20
+-rwxr-xr-x 1 ztest ztest   84 Mar  5 22:18 colors
+-rw-r--r-- 1 ztest ztest  264 Mar  5 22:18 csum.c
+-rwxr-xr-x 1 ztest ztest  196 Mar  5 22:18 ssum
+drwxr-xr-x 2 ztest ztest 4096 Mar 20 11:07 sub
+-rw-r--r-- 1 ztest ztest   26 Mar  5 22:19 welcome

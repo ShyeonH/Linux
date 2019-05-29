@@ -1,0 +1,3 @@
+[hwangsh@para ~/hw7]$_5671:printf "My user name : $USER, UID : $UID, home
+directory : $HOME\n"
+My user name : hwangsh, UID : 1187, home directory : /home/class/hwangsh

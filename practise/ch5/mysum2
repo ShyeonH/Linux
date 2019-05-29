@@ -1,0 +1,8 @@
+# mysum2
+sum=0; i=0;
+while [ $i -le $1 ]
+do
+  let sum=sum+i
+  let i=i+1
+done
+echo The sum from 1 to $1 is $sum.

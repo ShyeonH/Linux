@@ -1,0 +1,3 @@
+[hwangsh@para ~/hw7]$_5685:echo There are `ls /etc | wc -l`
+files/directories in /etc.
+There are 291 files/directories in /etc.

@@ -1,0 +1,30 @@
+diff -urN v1/colors v2/colors
+--- v1/colors	2019-04-03 15:37:27.770099630 +0900
++++ v2/colors	2019-04-03 15:37:27.772099663 +0900
+@@ -1,4 +1,4 @@
+-for color in Red Blue Yellow Green White
++for color in Blue Red Yellow Green White
+   do
+     echo One color is $color.
+     pwd
+diff -urN v1/xsum v2/xsum
+--- v1/xsum	2019-04-03 15:37:27.770099630 +0900
++++ v2/xsum	2019-04-03 15:37:27.772099663 +0900
+@@ -1,14 +1,14 @@
+ # This shell script computes the sum from 1 to n.
+ 
+ echo -n "Enter a number.  "
+-read n
++read m
+ 
+ i=1
+ sum=0
+ 
+-while [ $i -le $n ]
++while [ $i -le $m ]
+   do
+     let sum=sum+i
+     let i=i+1
+   done
+-echo The sum from 1 to $n is $sum.
++echo The sum from 1 to $m is $sum.

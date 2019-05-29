@@ -1,0 +1,17 @@
+root     pts/1        mypc             Tue May 24 14:26 - 23:37  (09:11)    
+root     pts/0        223.195.109.200  Tue May 24 14:10 - 00:50  (10:40)    
+reboot   system boot  3.9.5-301.fc19.x Tue May 24 22:52 - 08:58  (10:06)    
+root     pts/0        223.195.109.200  Tue May 24 22:48 - 13:49  (-8:-58)   
+reboot   system boot  3.9.5-301.fc19.x Tue May 24 22:48 - 13:49  (-8:-58)   
+root     pts/1        223.195.109.200  Tue May 24 22:32 - 13:47  (-8:-44)   
+pspark   pts/0        :0               Tue May 24 22:25 - 13:47  (-8:-37)   
+pspark   :0           :0               Tue May 24 22:24 - 13:47  (-8:-37)   
+(unknown :0           :0               Tue May 24 22:24 - 22:24  (00:00)    
+reboot   system boot  3.9.5-301.fc19.x Tue May 24 22:24 - 13:47  (-8:-36)   
+pspark   pts/0        :0               Tue May 24 10:31 - 13:23  (02:51)    
+pspark   pts/0        :0               Fri May 20 00:25 - 00:28  (00:03)    
+pspark   :0           :0               Fri May 20 00:24 - 13:23 (4+12:59)   
+(unknown :0           :0               Fri May 20 00:23 - 00:24  (00:00)    
+reboot   system boot  3.9.5-301.fc19.x Fri May 20 00:23 - 13:23 (4+13:00)   
+
+wtmp begins Fri May 20 00:23:02 2016

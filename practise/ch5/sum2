@@ -1,0 +1,9 @@
+# sum2
+sum()
+{
+  let sum=$1+$2
+  echo $1 + $2 = $sum
+}
+
+sum 1 2
+sum 10 20

@@ -1,0 +1,4 @@
+[hwangsh@para ~]$_2745:du -sh ~
+du: cannot read directory '/home/class/hwangsh/HwBkup/hw4': Permission
+denied
+1.8M    /home/class/hwangsh

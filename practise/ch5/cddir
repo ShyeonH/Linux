@@ -1,0 +1,6 @@
+# cddir
+if cd $1 2> /dev/null; then
+  pwd
+else
+  echo Cannot move to directory $1.
+fi

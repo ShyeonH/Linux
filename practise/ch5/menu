@@ -1,0 +1,22 @@
+#! /bin/bash
+# menu
+echo Menu test program
+stop=0
+while [ $stop -eq 0 ]
+do
+  cat << ENDOFMENU
+  1 : Print the date.
+  2, 3 : Print the working directory.
+  4 : Exit
+ENDOFMENU
+  echo -n "Your choice? "
+  read reply
+  echo
+  case $reply in
+    "1") date;;
+    "2"|"3") pwd;;
+    "4") stop=1;;
+    *) echo illegal choice;;
+  esac
+  echo
+done

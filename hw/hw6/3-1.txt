@@ -1,0 +1,21 @@
+[hwangsh@para ~/hw6]$_4987:chsh -s /bin/csh
+Changing shell for hwangsh.
+Password: 
+Shell changed.
+[hwangsh@para ~/hw6]$_4988:exit
+logout
+
+[hwangsh@para ~]$ echo $SHELL
+/bin/csh
+[hwangsh@para ~]$ cat /etc/passwd | grep hwangsh
+hwangsh:x:1187:1188::/home/class/hwangsh:/bin/csh      
+[hwangsh@para ~]$ chsh -s /bin/bash
+Changing shell for hwangsh.
+мн?
+Shell changed.
+[hwangsh@para ~]$ exit
+logout
+
+[hwangsh@para ~/hw6]$_4989:echo $SHELL; cat /etc/passwd | grep hwangsh
+/bin/bash
+hwangsh:x:1187:1188::/home/class/hwangsh:/bin/bash

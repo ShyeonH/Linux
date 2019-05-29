@@ -1,0 +1,53 @@
+[hwangsh@para ~/hw7]$_5616:man ls
+LS(1)                             User Commands
+LS(1)
+
+NAME
+       ls - list directory contents
+[hwangsh@para ~/hw7]$_5617:which ls
+alias ls='ls --color=auto'
+        /usr/bin/ls
+[hwangsh@para ~/hw7]$_5618:man alias
+BASH_BUILTINS(1)             General Commands Manual
+BASH_BUILTINS(1)
+
+NAME
+       bash, :, ., [, alias, bg, bind, break, builtin, caller, cd, command,
+comp-
+       gen, complete, compopt, continue, declare,  dirs,  disown,  echo,
+enable,
+       eval,  exec,  exit,  export,  false, fc, fg, getopts, hash, help,
+history,
+       jobs, kill, let, local, logout, mapfile, popd, printf, pushd,  pwd,
+read,
+       readonly,  return,  set, shift, shopt, source, suspend, test, times,
+trap,
+       true, type, typeset, ulimit, umask, unalias, unset, wait -  bash
+built-in
+       commands, see bash(1)
+[hwangsh@para ~/hw7]$_5619:man umask 
+BASH_BUILTINS(1)             General Commands Manual
+BASH_BUILTINS(1)
+
+NAME
+       bash, :, ., [, alias, bg, bind, break, builtin, caller, cd, command,
+comp-
+       gen, complete, compopt, continue, declare,  dirs,  disown,  echo,
+enable,
+       eval,  exec,  exit,  export,  false, fc, fg, getopts, hash, help,
+history,
+       jobs, kill, let, local, logout, mapfile, popd, printf, pushd,  pwd,
+read,
+       readonly,  return,  set, shift, shopt, source, suspend, test, times,
+trap,
+       true, type, typeset, ulimit, umask, unalias, unset, wait -  bash
+built-in
+       commands, see bash(1)
+[hwangsh@para ~/hw7]$_5620:man mkdir
+MKDIR(1)                          User Commands
+MKDIR(1)
+
+NAME
+       mkdir - make directories
+[hwangsh@para ~/hw7]$_5621:which mkdir
+/usr/bin/mkdir

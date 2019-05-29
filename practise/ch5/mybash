@@ -1,0 +1,5 @@
+#!/bin/bash
+# An example of a bash script.
+echo -n The date today is
+date
+

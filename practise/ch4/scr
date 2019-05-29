@@ -1,0 +1,3 @@
+Name=Semico; echo $Name
+echo My PID : $$
+ps -f

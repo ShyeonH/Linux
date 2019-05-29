@@ -1,0 +1,14 @@
+#+1556085536
+int a=3
+#+1556085539
+int a=3 ;
+#+1556085544
+a=3 ;
+#+1556271786
+echo $SHELL
+#+1556271817
+cat /etc/passwd | grep hwangsh
+#+1556271901
+chsh -s /bin/bash
+#+1556271913
+exit

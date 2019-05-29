@@ -1,0 +1,4 @@
+echo Your login record is 
+last | grep $USER
+echo Size of your home directory is `du -sh $HOME`
+

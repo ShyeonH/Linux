@@ -1,0 +1,22 @@
+Wed Apr 24 23:33:20 KST 2019
+ 23:33:20 up 6 days,  9:28,  3 users,  load average: 0.00, 0.01, 0.05
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+choiys   pts/0     22:37    6:32   0.15s  0.15s -bash
+woojh    pts/2     22:29    2:08   0.28s  0.28s -bash
+hwangsh  pts/8     21:17    8.00s  0.83s  0.00s joe script
+Wed Apr 24 23:33:25 KST 2019
+ 23:33:25 up 6 days,  9:28,  3 users,  load average: 0.00, 0.01, 0.05
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+choiys   pts/0     22:37    6:37   0.15s  0.15s -bash
+woojh    pts/2     22:29    2:13   0.28s  0.28s -bash
+hwangsh  pts/8     21:17    5.00s  0.83s  0.83s -bash
+Wed Apr 24 23:34:25 KST 2019
+ 23:34:25 up 6 days,  9:29,  2 users,  load average: 0.00, 0.01, 0.05
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+choiys   pts/0     22:37    7:37   0.15s  0.15s -bash
+hwangsh  pts/8     21:17    1.00s  0.83s  0.00s joe script
+ 23:36:25 up 6 days,  9:31,  3 users,  load average: 0.00, 0.01, 0.05
+USER     TTY        LOGIN@   IDLE   JCPU   PCPU WHAT
+choiys   pts/0     22:37    1:37   0.15s  0.15s -bash
+woojh    pts/1     23:35    1.00s  0.08s  0.08s -bash
+hwangsh  pts/8     21:17   17.00s  0.84s  0.84s -bash

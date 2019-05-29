@@ -1,0 +1,3 @@
+echo My user name is $USER.
+echo My home directory is $HOME.
+echo The name of the server is $HOSTNAME.

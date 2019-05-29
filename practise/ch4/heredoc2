@@ -1,0 +1,17 @@
+echo Here document test program
+stop=0
+while [ $stop -eq 0 ]
+do
+  cat << ENDOFMENU
+  This computes the sum of two + numbers.
+  To stop, enter 2 zeros.
+  Enter two numbers 
+ENDOFMENU
+  read a b
+  ((c=a+b))
+  if [ $c -eq 0 ]; then
+    stop=1
+  else
+    printf "The sum is %d.\n\n" $c
+  fi
+done

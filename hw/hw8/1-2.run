@@ -1,0 +1,24 @@
+#! /bin/bash
+# menu
+echo Menu test program
+stop=0
+while [ $stop -eq 0 ]
+do
+  cat << END
+  d : Print the date.
+  p : Print the working directory.
+  l : print the file list.
+  x : Exit
+END
+  echo -n "Your choice? "
+  read reply
+  echo
+  case $reply in
+    "d") date;;
+    "p") pwd;;
+    "l") ls;;
+    "x") stop=1;;
+    *) echo illegal choice;;
+  esac
+  echo
+done

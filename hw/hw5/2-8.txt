@@ -1,0 +1,4 @@
+[hwangsh@para ~/hw5]$_2814:cp /home/smpldir/hwfiles/mixed.orig ./
+[hwangsh@para ~/hw5]$_2815:cp /home/smpldir/hwfiles/2-8.patch ./
+[hwangsh@para ~/hw5]$_2816:patch -p0 < 2-8.patch 
+patching file mixed.orig

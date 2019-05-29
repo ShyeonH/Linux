@@ -1,0 +1,8 @@
+[hwangsh@para ~/hw7]$_5825:A=Hello
+[hwangsh@para ~/hw7]$_5826:B=dear
+[hwangsh@para ~/hw7]$_5827:export B
+[hwangsh@para ~/hw7]$_5828:bash
+Hello, Suwonhwangsh
+[hwangsh@para ~/hw7]$_5524:echo A=$A, B=$B
+A=, B=dear
+[hwangsh@para ~/hw7]$_5525:exit

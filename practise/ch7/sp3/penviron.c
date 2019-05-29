@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <unistd.h>
+
+extern char **environ;
+
+int main(void)
+{
+   int i;
+
+   if (environ != NULL)
+      for (i=0; environ[i] != NULL; i++)
+         printf("%s\n", environ[i]);
+
+   return 0;
+}

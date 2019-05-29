@@ -1,0 +1,39 @@
+
+
+
+
+     < Default (multiple host threads can use ::cudaSetDevice() with device simultaneously) >
+  (27) Multiprocessors x ( 8) CUDA Cores/MP:     216 CUDA Cores
+  Alignment requirement for Surfaces:            Yes
+  CUDA Capability Major/Minor version number:    1.3
+  CUDA Driver Version / Runtime Version          4.0 / 4.0
+  Compute Mode:
+  Concurrent copy and execution:                 Yes with 1 copy engine(s)
+  Concurrent kernel execution:                   No
+  Device PCI Bus ID / PCI location ID:           1 / 0
+  Device has ECC support enabled:                No
+  Device is using TCC driver mode:               No
+  Device supports Unified Addressing (UVA):      No
+  GPU Clock Speed:                               1.24 GHz
+  Integrated GPU sharing Host Memory:            No
+  Max Layered Texture Size (dim) x layers        1D=(8192) x 512, 2D=(8192,8192) x 512
+  Max Texture Dimension Size (x,y,z)             1D=(8192), 2D=(65536,32768), 3D=(2048,2048,2048)
+  Maximum memory pitch:                          2147483647 bytes
+  Maximum number of threads per block:           512
+  Maximum sizes of each dimension of a block:    512 x 512 x 64
+  Maximum sizes of each dimension of a grid:     65535 x 65535 x 1
+  Memory Bus Width:                              448-bit
+  Memory Clock rate:                             1015.00 Mhz
+  Run time limit on kernels:                     No
+  Support host page-locked memory mapping:       Yes
+  Texture alignment:                             256 bytes
+  Total amount of constant memory:               65536 bytes
+  Total amount of global memory:                 895 MBytes (938803200 bytes)
+  Total amount of shared memory per block:       16384 bytes
+  Total number of registers available per block: 16384
+  Warp size:                                     32
+ CUDA Device Query (Runtime API) version (CUDART static linking)
+Device 0: "GeForce GTX 260"
+Found 1 CUDA Capable device(s)
+deviceQuery Starting...
+deviceQuery, CUDA Driver = CUDART, CUDA Driver Version = 4.0, CUDA Runtime Version = 4.0, NumDevs = 1, Device = GeForce GTX 260

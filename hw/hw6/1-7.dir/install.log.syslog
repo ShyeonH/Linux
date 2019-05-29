@@ -1,0 +1,194 @@
+Oct 11 07:28:10 sysimage groupadd[1152]: group added to /etc/group: name=dbus, GID=81
+Oct 11 07:28:10 sysimage groupadd[1152]: group added to /etc/gshadow: name=dbus
+Oct 11 07:28:10 sysimage groupadd[1152]: new group: name=dbus, GID=81
+Oct 11 07:28:10 sysimage useradd[1157]: new user: name=dbus, UID=81, GID=81, home=/, shell=/sbin/nologin
+Oct 11 07:28:28 sysimage groupadd[1244]: group added to /etc/group: name=utmp, GID=22
+Oct 11 07:28:28 sysimage groupadd[1244]: group added to /etc/gshadow: name=utmp
+Oct 11 07:28:28 sysimage groupadd[1244]: new group: name=utmp, GID=22
+Oct 11 07:28:28 sysimage groupadd[1248]: group added to /etc/group: name=utempter, GID=35
+Oct 11 07:28:28 sysimage groupadd[1248]: group added to /etc/gshadow: name=utempter
+Oct 11 07:28:28 sysimage groupadd[1248]: new group: name=utempter, GID=35
+Oct 11 07:28:31 sysimage groupadd[1273]: group added to /etc/group: name=usbmuxd, GID=113
+Oct 11 07:28:31 sysimage groupadd[1273]: group added to /etc/gshadow: name=usbmuxd
+Oct 11 07:28:31 sysimage groupadd[1273]: new group: name=usbmuxd, GID=113
+Oct 11 07:28:31 sysimage useradd[1280]: new user: name=usbmuxd, UID=113, GID=113, home=/, shell=/sbin/nologin
+Oct 11 07:29:11 sysimage groupadd[1424]: group added to /etc/group: name=oprofile, GID=16
+Oct 11 07:29:11 sysimage groupadd[1424]: group added to /etc/gshadow: name=oprofile
+Oct 11 07:29:11 sysimage groupadd[1424]: new group: name=oprofile, GID=16
+Oct 11 07:29:11 sysimage useradd[1429]: new user: name=oprofile, UID=16, GID=16, home=/home/oprofile, shell=/sbin/nologin
+Oct 11 07:29:16 sysimage groupadd[1464]: group added to /etc/group: name=rpc, GID=32
+Oct 11 07:29:16 sysimage groupadd[1464]: group added to /etc/gshadow: name=rpc
+Oct 11 07:29:16 sysimage groupadd[1464]: new group: name=rpc, GID=32
+Oct 11 07:29:16 sysimage useradd[1468]: new user: name=rpc, UID=32, GID=32, home=/var/lib/rpcbind, shell=/sbin/nologin
+Oct 11 07:29:17 sysimage useradd[1477]: new group: name=rpcuser, GID=499
+Oct 11 07:29:17 sysimage useradd[1477]: new user: name=rpcuser, UID=29, GID=499, home=/var/lib/nfs, shell=/sbin/nologin
+Oct 11 07:29:17 sysimage groupadd[1485]: group added to /etc/group: name=nfsnobody, GID=4294967294
+Oct 11 07:29:17 sysimage groupadd[1485]: group added to /etc/gshadow: name=nfsnobody
+Oct 11 07:29:17 sysimage groupadd[1485]: new group: name=nfsnobody, GID=4294967294
+Oct 11 07:29:17 sysimage useradd[1492]: new user: name=nfsnobody, UID=4294967294, GID=4294967294, home=/var/lib/nfs, shell=/sbin/nologin
+Oct 11 07:29:24 sysimage groupadd[1523]: group added to /etc/group: name=avahi-autoipd, GID=498
+Oct 11 07:29:24 sysimage groupadd[1523]: group added to /etc/gshadow: name=avahi-autoipd
+Oct 11 07:29:24 sysimage groupadd[1523]: new group: name=avahi-autoipd, GID=498
+Oct 11 07:29:24 sysimage useradd[1528]: new user: name=avahi-autoipd, UID=499, GID=498, home=/var/lib/avahi-autoipd, shell=/sbin/nologin
+Oct 11 07:29:26 sysimage groupadd[1538]: group added to /etc/group: name=named, GID=25
+Oct 11 07:29:26 sysimage groupadd[1538]: group added to /etc/gshadow: name=named
+Oct 11 07:29:26 sysimage groupadd[1538]: new group: name=named, GID=25
+Oct 11 07:29:26 sysimage useradd[1542]: new user: name=named, UID=25, GID=25, home=/var/named, shell=/sbin/nologin
+Oct 11 07:29:47 sysimage useradd[1580]: new group: name=nscd, GID=497
+Oct 11 07:29:47 sysimage useradd[1580]: new user: name=nscd, UID=28, GID=497, home=/, shell=/sbin/nologin
+Oct 11 07:29:53 sysimage groupadd[1613]: group added to /etc/group: name=jackuser, GID=496
+Oct 11 07:29:53 sysimage groupadd[1613]: group added to /etc/gshadow: name=jackuser
+Oct 11 07:29:53 sysimage groupadd[1613]: new group: name=jackuser, GID=496
+Oct 11 07:30:07 sysimage groupadd[1649]: group added to /etc/group: name=floppy, GID=19
+Oct 11 07:30:07 sysimage groupadd[1649]: group added to /etc/gshadow: name=floppy
+Oct 11 07:30:07 sysimage groupadd[1649]: new group: name=floppy, GID=19
+Oct 11 07:30:07 sysimage useradd[1654]: new group: name=vcsa, GID=495
+Oct 11 07:30:07 sysimage useradd[1654]: new user: name=vcsa, UID=69, GID=495, home=/dev, shell=/sbin/nologin
+Oct 11 07:30:08 sysimage groupadd[1664]: group added to /etc/group: name=rtkit, GID=494
+Oct 11 07:30:08 sysimage groupadd[1664]: group added to /etc/gshadow: name=rtkit
+Oct 11 07:30:08 sysimage groupadd[1664]: new group: name=rtkit, GID=494
+Oct 11 07:30:08 sysimage useradd[1669]: new user: name=rtkit, UID=498, GID=494, home=/proc, shell=/sbin/nologin
+Oct 11 07:30:10 sysimage groupadd[1685]: group added to /etc/group: name=abrt, GID=493
+Oct 11 07:30:11 sysimage groupadd[1685]: group added to /etc/gshadow: name=abrt
+Oct 11 07:30:11 sysimage groupadd[1685]: new group: name=abrt, GID=493
+Oct 11 07:30:11 sysimage useradd[1690]: new user: name=abrt, UID=497, GID=493, home=/etc/abrt, shell=/sbin/nologin
+Oct 11 07:30:53 sysimage groupadd[1990]: group added to /etc/group: name=ctapiusers, GID=492
+Oct 11 07:30:53 sysimage groupadd[1990]: group added to /etc/gshadow: name=ctapiusers
+Oct 11 07:30:53 sysimage groupadd[1990]: new group: name=ctapiusers, GID=492
+Oct 11 07:31:16 sysimage groupadd[2232]: group added to /etc/group: name=mock, GID=491
+Oct 11 07:31:16 sysimage groupadd[2232]: group added to /etc/gshadow: name=mock
+Oct 11 07:31:16 sysimage groupadd[2232]: new group: name=mock, GID=491
+Oct 11 07:31:41 sysimage groupadd[2247]: group added to /etc/group: name=desktop_admin_r, GID=490
+Oct 11 07:31:41 sysimage groupadd[2247]: group added to /etc/gshadow: name=desktop_admin_r
+Oct 11 07:31:41 sysimage groupadd[2247]: new group: name=desktop_admin_r, GID=490
+Oct 11 07:31:41 sysimage groupadd[2251]: group added to /etc/group: name=desktop_user_r, GID=489
+Oct 11 07:31:41 sysimage groupadd[2251]: group added to /etc/gshadow: name=desktop_user_r
+Oct 11 07:31:41 sysimage groupadd[2251]: new group: name=desktop_user_r, GID=489
+Oct 11 07:33:01 sysimage groupadd[2368]: group added to /etc/group: name=cdrom, GID=11
+Oct 11 07:33:01 sysimage groupadd[2368]: group added to /etc/gshadow: name=cdrom
+Oct 11 07:33:01 sysimage groupadd[2368]: new group: name=cdrom, GID=11
+Oct 11 07:33:01 sysimage groupadd[2374]: group added to /etc/group: name=tape, GID=33
+Oct 11 07:33:01 sysimage groupadd[2374]: group added to /etc/gshadow: name=tape
+Oct 11 07:33:01 sysimage groupadd[2374]: new group: name=tape, GID=33
+Oct 11 07:33:01 sysimage groupadd[2379]: group added to /etc/group: name=dialout, GID=18
+Oct 11 07:33:01 sysimage groupadd[2379]: group added to /etc/gshadow: name=dialout
+Oct 11 07:33:01 sysimage groupadd[2379]: new group: name=dialout, GID=18
+Oct 11 07:33:02 sysimage groupadd[2392]: group added to /etc/group: name=avahi, GID=488
+Oct 11 07:33:02 sysimage groupadd[2392]: group added to /etc/gshadow: name=avahi
+Oct 11 07:33:02 sysimage groupadd[2392]: new group: name=avahi, GID=488
+Oct 11 07:33:02 sysimage useradd[2397]: new user: name=avahi, UID=496, GID=488, home=/var/run/avahi-daemon, shell=/sbin/nologin
+Oct 11 07:33:35 sysimage groupadd[2511]: group added to /etc/group: name=saslauth, GID=487
+Oct 11 07:33:35 sysimage groupadd[2511]: group added to /etc/gshadow: name=saslauth
+Oct 11 07:33:35 sysimage groupadd[2511]: new group: name=saslauth, GID=487
+Oct 11 07:33:35 sysimage useradd[2516]: new user: name=saslauth, UID=495, GID=487, home=/var/empty/saslauth, shell=/sbin/nologin
+Oct 11 07:33:43 sysimage useradd[3355]: new group: name=mailnull, GID=486
+Oct 11 07:33:43 sysimage useradd[3355]: new user: name=mailnull, UID=47, GID=486, home=/var/spool/mqueue, shell=/sbin/nologin
+Oct 11 07:33:44 sysimage useradd[3360]: new group: name=smmsp, GID=485
+Oct 11 07:33:44 sysimage useradd[3360]: new user: name=smmsp, UID=51, GID=485, home=/var/spool/mqueue, shell=/sbin/nologin
+Oct 11 07:33:44 sysimage sendmail[3377]: alias database /etc/aliases rebuilt by root
+Oct 11 07:33:44 sysimage sendmail[3377]: /etc/aliases: 76 aliases, longest 10 bytes, 765 bytes total
+Oct 11 07:33:58 sysimage useradd[3433]: new group: name=haldaemon, GID=484
+Oct 11 07:33:58 sysimage useradd[3433]: new user: name=haldaemon, UID=68, GID=484, home=/, shell=/sbin/nologin
+Oct 11 07:34:01 sysimage useradd[3450]: new group: name=apache, GID=483
+Oct 11 07:34:01 sysimage useradd[3450]: new user: name=apache, UID=48, GID=483, home=/var/www, shell=/sbin/nologin
+Oct 11 07:34:39 sysimage groupadd[3575]: group added to /etc/group: name=openvpn, GID=482
+Oct 11 07:34:39 sysimage groupadd[3575]: group added to /etc/gshadow: name=openvpn
+Oct 11 07:34:39 sysimage groupadd[3575]: new group: name=openvpn, GID=482
+Oct 11 07:34:39 sysimage useradd[3580]: new user: name=openvpn, UID=494, GID=482, home=/etc/openvpn, shell=/sbin/nologin
+Oct 11 07:34:48 sysimage useradd[3653]: new group: name=mysql, GID=481
+Oct 11 07:34:48 sysimage useradd[3653]: new user: name=mysql, UID=27, GID=481, home=/var/lib/mysql, shell=/bin/bash
+Oct 11 07:34:53 sysimage groupadd[3669]: group added to /etc/group: name=ntp, GID=38
+Oct 11 07:34:53 sysimage groupadd[3669]: group added to /etc/gshadow: name=ntp
+Oct 11 07:34:53 sysimage groupadd[3669]: new group: name=ntp, GID=38
+Oct 11 07:34:53 sysimage useradd[3673]: new user: name=ntp, UID=38, GID=38, home=/etc/ntp, shell=/sbin/nologin
+Oct 11 07:34:55 sysimage groupadd[3691]: group added to /etc/group: name=kvm, GID=36
+Oct 11 07:34:55 sysimage groupadd[3691]: group added to /etc/gshadow: name=kvm
+Oct 11 07:34:55 sysimage groupadd[3691]: new group: name=kvm, GID=36
+Oct 11 07:34:55 sysimage groupadd[3696]: group added to /etc/group: name=qemu, GID=107
+Oct 11 07:34:55 sysimage groupadd[3696]: group added to /etc/gshadow: name=qemu
+Oct 11 07:34:55 sysimage groupadd[3696]: new group: name=qemu, GID=107
+Oct 11 07:34:55 sysimage useradd[3701]: new user: name=qemu, UID=107, GID=107, home=/, shell=/sbin/nologin
+Oct 11 07:34:55 sysimage useradd[3701]: add 'qemu' to group 'kvm'
+Oct 11 07:34:55 sysimage useradd[3701]: add 'qemu' to shadow group 'kvm'
+Oct 11 07:34:57 sysimage groupadd[3726]: group added to /etc/group: name=nm-openconnect, GID=480
+Oct 11 07:34:57 sysimage groupadd[3726]: group added to /etc/gshadow: name=nm-openconnect
+Oct 11 07:34:57 sysimage groupadd[3726]: new group: name=nm-openconnect, GID=480
+Oct 11 07:34:57 sysimage useradd[3730]: new user: name=nm-openconnect, UID=493, GID=480, home=/, shell=/sbin/nologin
+Oct 11 07:35:05 sysimage useradd[3818]: new group: name=sshd, GID=479
+Oct 11 07:35:05 sysimage useradd[3818]: new user: name=sshd, UID=74, GID=479, home=/var/empty/sshd, shell=/sbin/nologin
+Oct 11 07:35:09 sysimage groupadd[3836]: group added to /etc/group: name=postdrop, GID=90
+Oct 11 07:35:09 sysimage groupadd[3836]: group added to /etc/gshadow: name=postdrop
+Oct 11 07:35:09 sysimage groupadd[3836]: new group: name=postdrop, GID=90
+Oct 11 07:35:09 sysimage groupadd[3840]: group added to /etc/group: name=postfix, GID=89
+Oct 11 07:35:09 sysimage groupadd[3840]: group added to /etc/gshadow: name=postfix
+Oct 11 07:35:09 sysimage groupadd[3840]: new group: name=postfix, GID=89
+Oct 11 07:35:09 sysimage useradd[3845]: new user: name=postfix, UID=89, GID=89, home=/var/spool/postfix, shell=/sbin/nologin
+Oct 11 07:35:09 sysimage useradd[3845]: add 'postfix' to group 'mail'
+Oct 11 07:35:09 sysimage useradd[3845]: add 'postfix' to shadow group 'mail'
+Oct 11 07:35:25 sysimage groupadd[4352]: group added to /etc/group: name=dovecot, GID=478
+Oct 11 07:35:25 sysimage groupadd[4352]: group added to /etc/gshadow: name=dovecot
+Oct 11 07:35:25 sysimage groupadd[4352]: new group: name=dovecot, GID=478
+Oct 11 07:35:25 sysimage useradd[4357]: new user: name=dovecot, UID=492, GID=478, home=/usr/libexec/dovecot, shell=/sbin/nologin
+Oct 11 07:35:28 sysimage groupadd[4379]: group added to /etc/group: name=exim, GID=93
+Oct 11 07:35:28 sysimage groupadd[4379]: group added to /etc/gshadow: name=exim
+Oct 11 07:35:28 sysimage groupadd[4379]: new group: name=exim, GID=93
+Oct 11 07:35:28 sysimage useradd[4383]: new user: name=exim, UID=93, GID=93, home=/var/spool/exim, shell=/sbin/nologin
+Oct 11 07:35:28 sysimage useradd[4383]: add 'exim' to group 'mail'
+Oct 11 07:35:28 sysimage useradd[4383]: add 'exim' to shadow group 'mail'
+Oct 11 07:35:32 sysimage groupadd[4405]: group added to /etc/group: name=news, GID=13
+Oct 11 07:35:32 sysimage groupadd[4405]: group added to /etc/gshadow: name=news
+Oct 11 07:35:32 sysimage groupadd[4405]: new group: name=news, GID=13
+Oct 11 07:35:32 sysimage useradd[4410]: new user: name=news, UID=9, GID=13, home=/etc/news, shell=/sbin/nologin
+Oct 11 07:35:33 sysimage su: pam_unix(su:session): session opened for user news by (uid=0)
+Oct 11 07:35:33 sysimage su: pam_unix(su:session): session closed for user news
+Oct 11 07:35:51 sysimage groupadd[4445]: group added to /etc/group: name=tcpdump, GID=72
+Oct 11 07:35:51 sysimage groupadd[4445]: group added to /etc/gshadow: name=tcpdump
+Oct 11 07:35:51 sysimage groupadd[4445]: new group: name=tcpdump, GID=72
+Oct 11 07:35:51 sysimage useradd[4449]: new user: name=tcpdump, UID=72, GID=72, home=/, shell=/sbin/nologin
+Oct 11 07:35:53 sysimage groupadd[4460]: group added to /etc/group: name=screen, GID=84
+Oct 11 07:35:53 sysimage groupadd[4460]: group added to /etc/gshadow: name=screen
+Oct 11 07:35:53 sysimage groupadd[4460]: new group: name=screen, GID=84
+Oct 11 07:35:54 sysimage groupadd[4473]: group added to /etc/group: name=ccache, GID=477
+Oct 11 07:35:54 sysimage groupadd[4473]: group added to /etc/gshadow: name=ccache
+Oct 11 07:35:54 sysimage groupadd[4473]: new group: name=ccache, GID=477
+Oct 11 07:36:00 sysimage groupadd[4499]: group added to /etc/group: name=slocate, GID=21
+Oct 11 07:36:00 sysimage groupadd[4499]: group added to /etc/gshadow: name=slocate
+Oct 11 07:36:00 sysimage groupadd[4499]: new group: name=slocate, GID=21
+Oct 11 07:37:24 sysimage groupadd[5056]: group added to /etc/group: name=hsqldb, GID=96
+Oct 11 07:37:24 sysimage groupadd[5056]: group added to /etc/gshadow: name=hsqldb
+Oct 11 07:37:24 sysimage groupadd[5056]: new group: name=hsqldb, GID=96
+Oct 11 07:37:24 sysimage useradd[5061]: new user: name=hsqldb, UID=96, GID=96, home=/var/lib/hsqldb, shell=/sbin/nologin
+Oct 11 07:38:18 sysimage groupadd[5364]: group added to /etc/group: name=smolt, GID=476
+Oct 11 07:38:18 sysimage groupadd[5364]: group added to /etc/gshadow: name=smolt
+Oct 11 07:38:18 sysimage groupadd[5364]: new group: name=smolt, GID=476
+Oct 11 07:38:18 sysimage useradd[5368]: new user: name=smolt, UID=491, GID=476, home=/usr/share/smolt, shell=/sbin/nologin
+Oct 11 07:38:36 sysimage groupadd[5729]: group added to /etc/group: name=jetty, GID=475
+Oct 11 07:38:37 sysimage groupadd[5729]: group added to /etc/gshadow: name=jetty
+Oct 11 07:38:37 sysimage groupadd[5729]: new group: name=jetty, GID=475
+Oct 11 07:38:37 sysimage useradd[5733]: new user: name=jetty, UID=490, GID=475, home=/usr/share/jetty, shell=/bin/sh
+Oct 11 07:40:16 sysimage useradd[6040]: new group: name=backuppc, GID=474
+Oct 11 07:40:16 sysimage useradd[6040]: new user: name=backuppc, UID=489, GID=474, home=/var/lib/BackupPC, shell=/sbin/nologin
+Oct 11 07:40:35 sysimage usermod[6064]: add 'apache' to group 'backuppc'
+Oct 11 07:40:35 sysimage usermod[6064]: add 'apache' to shadow group 'backuppc'
+Oct 11 07:41:06 sysimage groupadd[6086]: group added to /etc/group: name=torrent, GID=473
+Oct 11 07:41:06 sysimage groupadd[6086]: group added to /etc/gshadow: name=torrent
+Oct 11 07:41:06 sysimage groupadd[6086]: new group: name=torrent, GID=473
+Oct 11 07:41:06 sysimage useradd[6091]: new user: name=torrent, UID=488, GID=473, home=/var/lib/bittorrent, shell=/sbin/nologin
+Oct 11 07:43:58 sysimage groupadd[6270]: group added to /etc/group: name=pulse, GID=472
+Oct 11 07:43:58 sysimage groupadd[6270]: group added to /etc/gshadow: name=pulse
+Oct 11 07:43:58 sysimage groupadd[6270]: new group: name=pulse, GID=472
+Oct 11 07:43:58 sysimage useradd[6276]: new user: name=pulse, UID=487, GID=472, home=/var/run/pulse, shell=/sbin/nologin
+Oct 11 07:43:58 sysimage groupadd[6281]: group added to /etc/group: name=pulse-access, GID=471
+Oct 11 07:43:58 sysimage groupadd[6281]: group added to /etc/gshadow: name=pulse-access
+Oct 11 07:43:58 sysimage groupadd[6281]: new group: name=pulse-access, GID=471
+Oct 11 07:44:06 sysimage groupadd[6317]: group added to /etc/group: name=stapdev, GID=470
+Oct 11 07:44:06 sysimage groupadd[6317]: group added to /etc/gshadow: name=stapdev
+Oct 11 07:44:06 sysimage groupadd[6317]: new group: name=stapdev, GID=470
+Oct 11 07:44:06 sysimage groupadd[6322]: group added to /etc/group: name=stapusr, GID=469
+Oct 11 07:44:06 sysimage groupadd[6322]: group added to /etc/gshadow: name=stapusr
+Oct 11 07:44:06 sysimage groupadd[6322]: new group: name=stapusr, GID=469
+Oct 11 07:44:06 sysimage groupadd[6328]: group added to /etc/group: name=stap-server, GID=155
+Oct 11 07:44:06 sysimage groupadd[6328]: group added to /etc/gshadow: name=stap-server
+Oct 11 07:44:06 sysimage groupadd[6328]: new group: name=stap-server, GID=155
+Oct 11 07:46:58 sysimage useradd[6509]: new group: name=gdm, GID=468
+Oct 11 07:46:58 sysimage useradd[6509]: new user: name=gdm, UID=42, GID=468, home=/var/lib/gdm, shell=/sbin/nologin

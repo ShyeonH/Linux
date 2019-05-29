@@ -1,0 +1,11 @@
+[hwangsh@para ~/hw6]$_5004:umask
+0022
+[hwangsh@para ~/hw6]$_5005:umask 0055
+[hwangsh@para ~/hw6]$_5006:touch 2-1-file.txt
+[hwangsh@para ~/hw6]$_5007:mkdir 2-1-dir
+[hwangsh@para ~/hw6]$_5008:ls -l | grep 2-1
+drwx-w--w-  2 hwangsh hwangsh    4096 Apr 26 01:53 2-1-dir
+-rw--w--w-  1 hwangsh hwangsh       0 Apr 26 01:52 2-1-file.txt
+[hwangsh@para ~/hw6]$_5009:umask 0022
+[hwangsh@para ~/hw6]$_5010:umask     
+0022

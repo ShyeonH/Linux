@@ -1,0 +1,7 @@
+# countline : Count the number of lines of all files.
+for name in *
+do
+  if [ ! -d $name ]; then
+    echo $name : `wc -l $name | cut -d " " -f 1`
+  fi
+done

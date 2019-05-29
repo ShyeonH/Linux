@@ -1,0 +1,1 @@
+/home/smpldir/hwfiles/devQry1.txt /home/smpldir/hwfiles/devQry2.txt differ: char 201, line 8

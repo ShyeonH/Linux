@@ -1,0 +1,8 @@
+[hwangsh@para ~/hw7]$_5748:ps -ef | grep /sbin/auditd
+root       402     1  0 Apr18 ?        00:00:39 /sbin/auditd -n
+hwangsh  13782 11774  0 20:59 pts/0    00:00:00 grep --color=auto
+/sbin/auditd
+[hwangsh@para ~/hw7]$_5749:ps -ef | grep 402         
+root       402     1  0 Apr18 ?        00:00:39 /sbin/auditd -n
+root       407   402  0 Apr18 ?        00:00:25 /sbin/audispd
+hwangsh  13784 11774  0 20:59 pts/0    00:00:00 grep --color=auto 402

@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <pwd.h>
+
+int main(void)
+{
+   struct passwd *pw;
+   struct passwd ppw;
+   
+   pw = getpwuid(getuid());
+   printf("Name = %s, UID = %d, GID = %d, HOME = %s, SHELL = %s\n",
+          pw->pw_name, pw->pw_uid, pw->pw_gid, pw->pw_dir, pw->pw_shell);
+   pw = getpwnam("root");
+   printf("Name = %s, UID = %d, GID = %d, HOME = %s, SHELL = %s\n",
+          pw->pw_name, pw->pw_uid, pw->pw_gid, pw->pw_dir, pw->pw_shell);
+
+ppw = getpwnam("root");
+   printf("Name = %s, UID = %d, GID = %d, HOME = %s, SHELL = %s\n",
+             ppw.pw_name, ppw.pw_uid, ppw.pw_gid, ppw.pw_dir, ppw.pw_shell);
+             
+
+   return 0;
+}

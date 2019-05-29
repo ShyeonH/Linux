@@ -1,0 +1,18 @@
+# .bashrc
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+	. /etc/bashrc
+fi
+
+# User specific aliases and functions
+alias u='cd ..'
+alias md='mkdir -p'
+alias rf='rm -rf'
+alias gh='cd ~'
+alias cpd='cp -r'
+alias c="LANG=C; ps -f; echo $LANG"
+alias eng="LANG=en_US.UTF8; ps -f; echo $LANG"
+alias kor="LANG=ko_KR.eucKR; ps -f; echo $LANG" 
+
+echo Hello, $USER

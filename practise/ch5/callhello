@@ -1,0 +1,5 @@
+s is a shell script calling hello.exe
+./hello
+echo Say `./hello` to others.
+echo Bye.
+

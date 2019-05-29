@@ -1,0 +1,6 @@
+[hwangsh@para ~/hw5]$_2767:grep -rwl memory /home/smpldir/ch3-2/*
+/home/smpldir/ch3-2/big.data
+/home/smpldir/ch3-2/data
+/home/smpldir/ch3-2/data2
+/home/smpldir/ch3-2/data3
+/home/smpldir/ch3-2/mixed.txt

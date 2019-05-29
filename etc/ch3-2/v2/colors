@@ -1,0 +1,5 @@
+for color in Blue Red Yellow Green White
+  do
+    echo One color is $color.
+    pwd
+  done

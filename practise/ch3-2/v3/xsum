@@ -1,0 +1,14 @@
+# This shell script computes the sum from 1 to m.
+
+echo -n "Enter a number.  "
+read m
+
+i=1
+sum=0
+
+while [ $i -le $m ]
+  do
+    let sum=sum+i
+    let i+=1
+  done
+echo The sum from 1 to $m is $sum.

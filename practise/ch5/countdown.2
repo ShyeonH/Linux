@@ -1,0 +1,35 @@
+# CountDown
+# How to use : countdown 5  (hours)
+
+if [ -z $1 ]; then
+  echo "       ex   # countdown 3 (in hours)"
+  exit 1
+fi
+
+hr=$1
+
+until [ $hr -eq 0 ]; do
+    echo $hr hour\(s\) left.
+
+    if [ $hr -eq 1 ]; then
+      mi=60
+      until [ $mi -eq 0 ]; do
+          let mi=mi-10
+          sleep 6
+          echo $mi minute\(s\) left.
+
+          if [ $mi -eq 10 ]; then
+            until [ $mi -eq 0 ]; do
+                sleep 1
+                let mi=mi-1
+                echo $mi minute\(s\) left. 
+              done
+          fi
+
+        done
+    else
+      sleep 36
+    fi
+
+    let hr=hr-1
+  done

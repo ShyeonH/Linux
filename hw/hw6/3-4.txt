@@ -1,0 +1,2 @@
+[hwangsh@para ~/hw6]$_5032:ll\
+Enter the rest : 

@@ -1,0 +1,28 @@
+#!/bin/bash
+# ChkFile
+
+if [ -z $1 ]; then
+    echo "    Usage   # ChkFile  filename"
+    exit 1
+fi
+
+NALJA=`date  +%F-%R`
+OUTFILE=~/ChkFile.$NALJA
+
+CLASSDIR=/home/smpldir/smplclass
+cd $CLASSDIR 
+
+for class in A B
+  do
+    cd  $class	                  # to subdirectory A or B
+    for name in *	          # * means each user's directory
+      do
+      	echo $name
+      		read xyz
+      	less $name/$1
+        echo --------- $name \( $class \)>> $OUTFILE
+        echo `cat $name/$1 | wc -l` lines  >> $OUTFILE
+      done	
+    cd  $CLASSDIR
+  done
+

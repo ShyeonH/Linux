@@ -1,0 +1,3 @@
+Student number : 15050067
+Name : Hwang Seok Hyeon
+My home directory : /home/class/hwangsh

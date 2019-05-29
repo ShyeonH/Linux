@@ -1,0 +1,15 @@
+[hwangsh@para ~/hw6]$_5074:ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh   8528  8527  0 18:45 pts/0    00:00:00 -bash
+hwangsh  10842  8528  0 19:47 pts/0    00:00:00 ps -f
+[hwangsh@para ~/hw6]$_5075:./3-5.script 
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh   8528  8527  0 18:45 pts/0    00:00:00 -bash
+hwangsh  10843  8528  0 19:47 pts/0    00:00:00 -bash
+hwangsh  10844 10843  0 19:47 pts/0    00:00:00 ps -f
+My PID id 10843.
+[hwangsh@para ~/hw6]$_5076:source 3-5.script
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh   8528  8527  0 18:45 pts/0    00:00:00 -bash
+hwangsh  10847  8528  0 19:47 pts/0    00:00:00 ps -f
+My PID id 8528.

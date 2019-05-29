@@ -1,0 +1,2 @@
+[hwangsh@para ~/hw5]$_2722:which gcc
+/usr/lib64/ccache/gcc

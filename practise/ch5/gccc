@@ -1,0 +1,7 @@
+# gccc
+if `gcc -o $1 $1.c 2> /dev/null`
+then
+  ./$1
+else
+  echo Compilation failed.
+fi

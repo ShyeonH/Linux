@@ -1,0 +1,20 @@
+[hwangsh@para ~/hw8]$_4375:vi gccm
+gcc -o $1 $1.c -lm 2> /dev/null
+ls -l $1
+~
+"gccm" 2L, 41C written
+[hwangsh@para ~/hw8]$_4375:chmod +x gccm 
+[hwangsh@para ~/hw8]$_4376:./gccm sine   
+-rwxr-xr-x 1 hwangsh hwangsh 8601 May 16 12:17 sine
+[hwangsh@para ~/hw8]$_4377:./sine 
+sin( 0 deg) = 0.000000
+sin(10 deg) = 0.173648
+sin(20 deg) = 0.342020
+sin(30 deg) = 0.500000
+sin(40 deg) = 0.642788
+sin(50 deg) = 0.766044
+sin(60 deg) = 0.866025
+sin(70 deg) = 0.939693
+sin(80 deg) = 0.984808
+sin(90 deg) = 1.000000
+

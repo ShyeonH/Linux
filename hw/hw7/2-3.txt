@@ -1,0 +1,2 @@
+[hwangsh@para ~/hw7]$_5648:ps -ef | tee 2-3.process | wc -l
+111

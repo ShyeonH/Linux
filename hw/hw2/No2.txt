@@ -1,0 +1,13 @@
+2-1) /home/class/hwangsh
+2-2) UID:1187, GID:1188,  home directory:/home/class/hwangsh
+2-3) CA  ca-trust  java  nssdb  rpm-gpg  rsyslog  tls
+2-4) ../../../etc/pki
+2-5) ../../home/class/hwangsh
+2-6) reboot, shutdown -r now
+2-7) ¸í·É: ls -a, files: .              .bash_logout   .ccache   CmdHistory  csum.c  newfile  who.out
+..             .bash_profile  .lesshst  colors      hw1     ssum
+.bash_history  .bashrc        .mozilla  csum        hw2     welcome
+2-8) date 030405672012
+2-9) [hwangsh@para ~]$ 1 PS1="hwangsh >"
+hwangsh >
+2-10) cd ~kdhong

@@ -1,0 +1,3 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh  31757 31756  0 01:33 pts/0    00:00:00 -bash
+hwangsh  32597 31757  0 01:37 pts/0    00:00:00 ps -f

@@ -1,0 +1,2 @@
+0 15 * * *	echo 3 pm >> cron.message
+0 0 1 1 *	echo Happy new year >> cron.message

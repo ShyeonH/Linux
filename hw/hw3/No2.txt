@@ -1,0 +1,17 @@
+2-1) /home/class/hwangsh
+2-2) ../home/class/hwangsh
+2-3) .bash_history
+.bash_logout
+.bash_profile
+.bashrc
+2-4) mv .ssh ssh
+2-5) file 허가권 : user rwx, group r-x, other r-x
+소유자의 UID와 GID : root, root
+file 크기 29688 bytes
+file 생성 날짜 2013. 05. 3.
+2-6) /etc/ppp/ip-up.ipv6to4, 6426 bytes, 2013. 05. 31.
+2-7)/etc/sysconfig: directory
+/etc/motd:      ISO-8859 text
+/dev/sg0:       character special
+/dev/sda:       block special
+2-8) mkdir -p ./uvw/xyz

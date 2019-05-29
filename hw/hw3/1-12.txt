@@ -1,0 +1,5 @@
+/home/class/ztest/colors:  ASCII text
+/home/class/ztest/csum.c:  C source, ASCII text
+/home/class/ztest/ssum:    ASCII text
+/home/class/ztest/sub:     directory
+/home/class/ztest/welcome: ASCII text

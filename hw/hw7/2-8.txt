@@ -1,0 +1,19 @@
+[hwangsh@para ~/hw7]$_5753:sleep 1000 &
+[1] 13796
+[hwangsh@para ~/hw7]$_5754:fg
+sleep 1000
+^Z
+[1]+  Stopped                 sleep 1000
+[hwangsh@para ~/hw7]$_5755:bg
+[1]+ sleep 1000 &
+[hwangsh@para ~/hw7]$_5756:ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh  11774 11773  0 19:45 pts/0    00:00:00 -bash
+hwangsh  13796 11774  0 21:00 pts/0    00:00:00 sleep 1000
+hwangsh  13798 11774  0 21:00 pts/0    00:00:00 ps -f
+[hwangsh@para ~/hw7]$_5757:kill -9 13796
+[hwangsh@para ~/hw7]$_5758:ps -f
+UID        PID  PPID  C STIME TTY          TIME CMD
+hwangsh  11774 11773  0 19:45 pts/0    00:00:00 -bash
+hwangsh  13825 11774  0 21:01 pts/0    00:00:00 ps -f
+[1]+  Killed                  sleep 1000

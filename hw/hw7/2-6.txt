@@ -1,0 +1,4 @@
+[hwangsh@para ~/hw7]$_5704:(date; pwd;) > 2-6.out
+[hwangsh@para ~/hw7]$_5705:cat 2-6.out 
+Sat May  4 20:43:10 KST 2019
+/home/class/hwangsh/hw7

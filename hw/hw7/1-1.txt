@@ -1,0 +1,13 @@
+root         5     2  0 Apr18 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Apr18 ?        00:00:00 [kworker/u:0H]
+root        16     2  0 Apr18 ?        00:00:00 [kworker/1:0H]
+root        48     2  0 Apr18 ?        00:00:00 [kworker/u:3]
+root        49     2  0 Apr18 ?        00:00:00 [kworker/u:4]
+root       190     2  0 Apr18 ?        00:00:01 [kworker/0:1H]
+root       191     2  0 Apr18 ?        00:00:01 [kworker/1:1H]
+root      2229     2  0 10:48 ?        00:00:00 [kworker/1:1]
+root      2440     2  0 10:53 ?        00:00:00 [kworker/1:2]
+root      4081     2  0 11:38 ?        00:00:00 [kworker/0:2]
+hwangsh   5956  5747  0 13:29 pts/0    00:00:00 grep --color=auto kworker
+root      7347     2  0 May03 ?        00:00:01 [kworker/0:0]
+root     14409     2  0 May03 ?        00:00:06 [kworker/1:0]

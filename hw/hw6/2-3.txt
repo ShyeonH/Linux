@@ -1,0 +1,4 @@
+[hwangsh@para ~/hw6]$_4961:sleep 10000 &
+[1] 513
+[hwangsh@para ~/hw6]$_4962:jobs
+[1]+  Running                 sleep 10000 &

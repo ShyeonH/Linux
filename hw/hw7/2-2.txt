@@ -1,0 +1,3 @@
+[hwangsh@para ~/hw7]$_5629:find /home/smpldir/ch5 -name d????
+/home/smpldir/ch5/doit2
+/home/smpldir/ch5/doit3

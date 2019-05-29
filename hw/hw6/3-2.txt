@@ -1,0 +1,2 @@
+[hwangsh@para /etc/sysconfig]$_5004:PS1="< \u@\h \d \t \w > $ "
+< hwangsh@para Fri Apr 26 19:04:55 /etc/sysconfig > $ 

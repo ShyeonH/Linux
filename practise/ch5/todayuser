@@ -1,0 +1,3 @@
+# todayuser : Finds users who logged in today.
+str=`date | cut -d " " -f 2,3,4`
+last | grep "$str " | sort | cut -d " " -f 1 | uniq

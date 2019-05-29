@@ -1,0 +1,6 @@
+[hwangsh@para ~/hw6]$_4977:at 10:05 May 01
+at> ls .l ~/HwBkup/hw6 > 2-4.result
+at> <EOT>
+job 776 at Wed May  1 10:05:00 2019
+[hwangsh@para ~/hw6]$_4977:at -l
+776 Wed May  1 10:05:00 2019 a hwangsh

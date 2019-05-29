@@ -1,0 +1,6 @@
+[hwangsh@para ~/hw5]$_2719:ps -ef | grep hwangsh
+root      8893   894  0 22:41 ?        00:00:00 sshd: hwangsh [priv]
+hwangsh   8895  8893  0 22:41 ?        00:00:00 sshd: hwangsh@pts/0 
+hwangsh   8896  8895  0 22:41 pts/0    00:00:00 -bash
+hwangsh   9307  8896  0 22:52 pts/0    00:00:00 ps -ef
+hwangsh   9308  8896  0 22:52 pts/0    00:00:00 grep --color=auto hwangsh

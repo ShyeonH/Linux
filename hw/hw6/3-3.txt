@@ -1,0 +1,2 @@
+echo See you tomorrow, $USER.
+date

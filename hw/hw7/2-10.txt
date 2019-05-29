@@ -1,0 +1,15 @@
+[hwangsh@para ~/hw7]$_5808:sleep 1000 &
+[1] 14034
+[hwangsh@para ~/hw7]$_5809:sleep 2000 &
+[2] 14035
+[hwangsh@para ~/hw7]$_5810:sleep 3000 &
+[3] 14043
+[hwangsh@para ~/hw7]$_5811:ps -f | grep sleep
+hwangsh  14034 11774  0 21:13 pts/0    00:00:00 sleep 1000
+hwangsh  14035 11774  0 21:14 pts/0    00:00:00 sleep 2000
+hwangsh  14043 11774  0 21:14 pts/0    00:00:00 sleep 3000
+hwangsh  14045 11774  0 21:14 pts/0    00:00:00 grep --color=auto sleep
+[hwangsh@para ~/hw7]$_5812:killall sleep
+[1]   Terminated              sleep 1000
+[2]-  Terminated              sleep 2000
+[3]+  Terminated              sleep 3000

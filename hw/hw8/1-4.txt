@@ -1,0 +1,2 @@
+Current date and time : Thu May 16 12:11:12 KST 2019
+User name : hwangsh, UID : 1187, home directory : /home/class/hwangsh

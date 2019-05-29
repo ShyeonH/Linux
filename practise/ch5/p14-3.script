@@ -1,0 +1,4 @@
+printf "Today\'s date is %s\n" "`date`"
+printf "My home directory is %s\n" $HOME
+printf "The number of users %d\n" `who | wc -l`
+
