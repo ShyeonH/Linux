@@ -1,105 +1,3 @@
-tar cf bb.tar ch3-2
-#1554358435
-ll
-#1554358451
-tar rvf ch3-2.tar bb.tar 
-#1554358575
-ll
-#1554358605
-tar cvfz cc.tar.gz ch3-2
-#1554358608
-ll
-#1554358630
-tar cvfz dd.tar ch3-2
-#1554358631
-ll
-#1554358708
-ra ch3-2
-#1554358709
-ll
-#1554358718
-tar xvfz cc.tar.gz 
-#1554358721
-ll
-#1554358737
-ra ch3-2
-#1554358738
-ll
-#1554358764
-tar xvf dd.tar
-#1554358769
-ll
-#1554636522
-pwd
-#1554636523
-ls
-#1554636526
-cd hw5
-#1554636528
-ls
-#1554636557
-last
-#1554636613
-hotory 20
-#1554636618
-history 20
-#1554636639
-tail -n 20 hitory
-#1554636642
-tail -n 20 history
-#1554637233
-ls
-#1554639033
-cd hw5
-#1554639040
-pwd
-#1554639049
-ls
-#1554639054
-joe 2-1.txt 
-#1554639114
-joe 2-2.txt 
-#1554638816
-ps -ef
-#1554638826
-ps -ef | grep hwangsh
-#1554638835
-cd hw5
-#1554638837
-pwd
-#1554638838
-ls
-#1554638848
-ps -ef | grep hwangsh > 2-1.txt
-#1554638852
-cat 2-1.txt 
-#1554638947
-find gcc
-#1554638967
-which gcc
-#1554639109
-which gcc > 2-2.txt
-#1554639173
-cat 2-1.txt | tr 'a-z' 'A-Z'
-#1554639241
-man tr
-#1554639269
-tr 2-1.txt 'a-z' 'A-Z'
-#1554639279
-tr --help
-#1554639359
-tr 'a-z' 'A-Z' 2-1.txt
-#1554639363
-cat 2-1.txt
-#1554642179
-pwd
-#1554642184
-cd hw5
-#1554642185
-pwd
-#1554642191
-cat 2-1.txt
-#1554642257
 cat 2-2.txt
 #1554642299
 history | grep tr
@@ -12148,3 +12046,1889 @@ su -ztest
 su - ztest
 #1559136490
 w
+#1559133830
+ls
+#1559133837
+joe 1.txt
+#1559133889
+ls
+#1559133892
+rm 1.txt 
+#1559133893
+ls
+#1559133954
+uname -a
+#1559133999
+cd
+#1559134002
+cd ch7/
+#1559134004
+sp1
+#1559134004
+ll
+#1559134009
+tree
+#1559134043
+cd sp3/
+#1559134043
+ls
+#1559134051
+cat *.c
+#1559134062
+cat *.c | grep name
+#1559134080
+ls
+#1559134085
+cat ppwd.c
+#1559134100
+gcc ppwd.c
+#1559134105
+joe ppwd.c
+#1559134120
+gcc ppwd.c
+#1559134121
+./a.out 
+#1559134145
+ls
+#1559134167
+cat psysinfo.c 
+#1559134175
+gcc psysinfo.c 
+#1559134177
+./a.out 
+#1559134307
+uname -a
+#1559134719
+ls
+#1559134922
+joe /home/smpldir/hwfiles/users.c 
+#1559135018
+ls
+#1559135034
+cat puser.c 
+#1559135065
+gcc puser.c 
+#1559135067
+./a.out 
+#1559135086
+cd
+#1559135087
+ls
+#1559135109
+cp /home/smpldir/hwfiles/users.c .
+#1559135113
+gcc users.c 
+#1559135114
+./a.out 
+#1559135322
+cat users.c 
+#1559135364
+/home/smpldir/hwfiles/userinfo 
+#1559135380
+cat /home/smpldir/hwfiles/userinfo 
+#1559135386
+/home/smpldir/hwfiles/userinfo 
+#1559135479
+ls
+#1559135484
+joe users.c 
+#1559135818
+./a.out 
+#1559135829
+joe users.c 
+#1559135946
+gcc users.c
+#1559135952
+joe users.c 
+#1559135967
+gcc users.c
+#1559135973
+joe users.c 
+#1559136078
+gcc users.c
+#1559136135
+joe users.c 
+#1559136170
+gcc users.c
+#1559136173
+./a.out 
+#1559136184
+joe users.c 
+#1559136200
+gcc users.c
+#1559136203
+./a.out 
+#1559136221
+joe users.c 
+#1559136250
+gcc users.c
+#1559136252
+./a.out 
+#1559136287
+w
+#1559136336
+who
+#1559136792
+gcc users.c
+#1559136796
+joe users.c 
+#1559136802
+gcc users.c
+#1559136804
+./a.out 
+#1559136867
+joe users.c 
+#1559136898
+who
+#1559136913
+gcc users.c
+#1559136915
+joe users.c 
+#1559137174
+gcc users.c
+#1559137175
+./a.out 
+#1559137187
+who
+#1559137227
+./a.out 
+#1559137260
+who
+#1559137261
+./a.out 
+#1559137279
+ls
+#1559137284
+joe users.c 
+#1559137363
+gcc users.c
+#1559137365
+./a.out 
+#1559137377
+joe users.c 
+#1559137423
+gcc users.c
+#1559137424
+./a.out 
+#1559137437
+joe users.c 
+#1559137474
+gcc users.c
+#1559137476
+./a.out 
+#1559137477
+ls
+#1559137544
+joe users.c 
+#1559137745
+/home/smpldir/hwfiles/userinfo 
+#1559137835
+who
+#1559137942
+ls
+#1559137943
+cd
+#1559137944
+ls
+#1559137950
+rm a.out 
+#1559137954
+rm users.c*
+#1559137955
+ls
+#1559137964
+./p14-4.script 
+#1559137976
+./p14-3.script 
+#1559137983
+w
+#1559137986
+who
+#1559137988
+ls
+#1559137991
+ll
+#1559137994
+ls
+#1559138023
+cd ch7/sp1/
+#1559138025
+ls
+#1559138032
+cd ../sp4
+#1559138033
+ls
+#1559138050
+compile pdup
+#1559138058
+printenv 
+#1559138162
+mylast 
+#1559138189
+p14-4.script 
+#1559138193
+ls
+#1559138202
+compile pdup
+#1559138204
+ls
+#1559138223
+cd
+#1559138225
+cd git_linux/
+#1559138226
+ls
+#1559138233
+cd hw/
+#1559138233
+ls
+#1559138255
+cd
+#1559138256
+cd git_linux/
+#1559138260
+git log
+#1559138268
+git add hw
+#1559138271
+git status 
+#1559138286
+git commit -m v2
+#1559138289
+git log
+#1559138294
+git status 
+#1559138311
+git reset d4364078d8e51e410d6dada6890bda7ee30674a9
+#1559138315
+git log
+#1559138320
+git status 
+#1559138322
+ls
+#1559138325
+cd hw/
+#1559138326
+ls
+#1559138339
+cd ..
+#1559138340
+ls
+#1559138342
+git log
+#1559138345
+git add *
+#1559138348
+git status 
+#1559138359
+git commit -m v2
+#1559138365
+git status 
+#1559138370
+git log
+#1559138378
+git push 
+#1559138414
+git tag
+#1559138418
+git tag -v
+#1559138421
+git log
+#1559138449
+git tag 1.1.0 35e2b3f47d59adc05fce15f31dc94256c28f5be2
+#1559138452
+git log
+#1559138458
+git log --decorate
+#1559138471
+git push --tags 
+#1559138496
+ls
+#1559137506
+ls
+#1559137512
+cd hw9/
+#1559137513
+ls
+#1559137541
+joe userinfo.c
+#1559137795
+gcc -o userinfo userinfo.c 
+#1559137798
+./userinfo 
+#1559137813
+ls
+#1559137888
+joe 5.txt
+#1559137918
+ls
+#1559137922
+rm *~
+#1559137923
+ls
+#1559138088
+cd
+#1559138094
+joe .bash_profile
+#1559138152
+ls
+#1559138155
+cd bin/
+#1559138155
+ls
+#1559138158
+cd
+#1559138165
+ls
+#1559138174
+mv compile bin
+#1559138183
+mv p14-* bin/
+#1559138210
+ls
+#1559138248
+cp -rf hw9 git_linux/hw
+#1559138252
+ls
+#1559138331
+cp -rf hw9 git_linux/hw
+#1559138723
+cd hw9/
+#1559138724
+ls
+#1559138733
+./main2 
+#1559138740
+./mydate 
+#1559138802
+git log
+#1559138806
+cd
+#1559138811
+cd git_linux/
+#1559138812
+ls
+#1559138824
+git log --branches --decorate --graph --oneline 
+#1559138830
+ls
+#1559138831
+cd
+#1559138832
+ls
+#1559138845
+./hw9/userinfo 
+#1559155212
+ls
+#1559155230
+md hw10
+#1559155233
+ls
+#1559155263
+exit
+#1559176042
+ls
+#1559176051
+cd hw10/
+#1559176053
+pwd
+#1559176054
+ls
+#1559176061
+joe 1
+#1559181855
+cd /home/smpldir/hwfiles
+#1559181856
+ls
+#1559181876
+cp mycmp.test ~/hw10
+#1559181891
+cp data* ~/hw10
+#1559181902
+cp testrun ~/hw10
+#1559177996
+ls
+#1559178001
+cd hw10
+#1559178003
+ls
+#1559178038
+joe mycmp
+#1559180000
+gcc mycmp 
+#1559180006
+ls
+#1559180012
+mv mycmp mycmp.c
+#1559180013
+ls
+#1559180017
+gcc mycmp.c 
+#1559180041
+joe mycmp.c 
+#1559180064
+gcc mycmp.c 
+#1559180075
+joe mycmp.c 
+#1559180091
+gcc mycmp.c 
+#1559180101
+joe mycmp.c 
+#1559180648
+gcc mycmp.c 
+#1559180667
+joe mycmp.c 
+#1559180682
+gcc mycmp.c 
+#1559180686
+joe mycmp.c 
+#1559180692
+gcc mycmp.c 
+#1559180701
+joe mycmp.c 
+#1559180740
+gcc mycmp.c 
+#1559180749
+joe mycmp.c 
+#1559181114
+gcc mycmp.c 
+#1559181116
+joe mycmp.c 
+#1559181132
+gcc mycmp.c 
+#1559181134
+joe mycmp.c 
+#1559181138
+gcc mycmp.c 
+#1559181140
+joe mycmp.c 
+#1559181147
+gcc mycmp.c 
+#1559181172
+joe mycmp.c 
+#1559181761
+gcc mycmp.c 
+#1559181796
+joe mycmp.c 
+#1559181803
+gcc mycmp.c 
+#1559181807
+./a.out 
+#1559181905
+ls
+#1559181911
+cat mycmp.test 
+#1559181915
+ls
+#1559181920
+ll
+#1559181936
+./mycmp.test 
+#1559181940
+./a.out 
+#1559181950
+./a.out data1 data2
+#1559181966
+./mycmp.test data1 data2
+#1559181978
+./mycmp.test data1 data3
+#1559181982
+./mycmp.test data1 data4
+#1559181989
+./mycmp.test data2 data4
+#1559181991
+./mycmp.test data2 data3
+#1559181993
+./mycmp.test data2 data2
+#1559181999
+./a.out data1 data1
+#1559182006
+joe mycmp.c 
+#1559182075
+gcc mycmp.c
+#1559182082
+./a.out data1 data1
+#1559182083
+./a.out data1 data2
+#1559182097
+joe mycmp.c 
+#1559182109
+gcc mycmp.c
+#1559182111
+lsl
+#1559182112
+ls
+#1559182117
+joe mycmp.c 
+#1559183389
+gcc mycmp.c
+#1559183403
+joe mycmp.c 
+#1559183418
+gcc mycmp.c
+#1559183442
+joe mycmp.c 
+#1559183462
+gcc mycmp.c
+#1559183516
+joe mycmp.c 
+#1559183548
+gcc mycmp.c
+#1559183559
+joe mycmp.c 
+#1559183587
+gcc mycmp.c
+#1559183594
+./a.out data1 data2
+#1559183601
+./a.out data1 data1
+#1559183606
+./a.out data1 data3
+#1559183632
+ll
+#1559183658
+joe mycmp.c 
+#1559183726
+gcc mycmp.c
+#1559183729
+./a.out data1 data3
+#1559183732
+./a.out data1 data1
+#1559183750
+./a.out data1 data2
+#1559183761
+./a.out mycmp.test testrun 
+#1559183771
+ll
+#1559183797
+./a.out data1 data4
+#1559183799
+ll
+#1559183813
+./a.out data1 data4
+#1559183833
+./a.out data4 data1
+#1559183847
+cat data*
+#1559183851
+cat data1
+#1559192669
+ls
+#1559192673
+cd hw10/
+#1559192674
+ls
+#1559192688
+joe mycmp.c
+#1559193010
+gcc mycmp.c
+#1559193013
+joe mycmp.c
+#1559193027
+gcc mycmp.c
+#1559193032
+joe mycmp.c
+#1559193045
+gcc mycmp.c
+#1559193052
+ls
+#1559193067
+cp -f /home/smpldir/hwfiles/data*
+#1559193068
+ll
+#1559193081
+ll /home/smpldir/hwfiles/
+#1559193085
+ls
+#1559193091
+rm data*
+#1559193092
+ls
+#1559193100
+rm *~
+#1559193101
+ls
+#1559193109
+rm mycmp.test 
+#1559193112
+rm testrun 
+#1559193113
+ls
+#1559193114
+ll
+#1559193120
+cp -f /home/smpldir/hwfiles/data*
+#1559193121
+ll 
+#1559193126
+cp -f /home/smpldir/hwfiles/data* .
+#1559193128
+ll
+#1559193139
+./a.out data1 data1
+#1559193146
+ll
+#1559193154
+joe mycmp.c 
+#1559193424
+gcc mycmp.c
+#1559193426
+ll
+#1559193432
+./a.out data2 data2
+#1559193438
+ll
+#1559193446
+joe mycmp.c
+#1559193838
+./a.out data2 data2
+#1559193919
+cat data2
+#1559193929
+joe mycmp.c
+#1559194043
+gcc mycmp.c
+#1559194046
+joe mycmp.c
+#1559194054
+gcc mycmp.c
+#1559194058
+ll
+#1559194068
+./a.out data2 data2
+#1559194114
+cat data2
+#1559194541
+joe mycmp.c
+#1559194728
+gcc mycmp.c
+#1559194732
+joe mycmp.c
+#1559194740
+gcc mycmp.c
+#1559194749
+./a.out data2 data2
+#1559194883
+ll
+#1559200423
+cd hw10/
+#1559200429
+joe mycmp.c
+#1559200441
+vi mycmp.c
+#1559195567
+ls
+#1559195729
+ll
+#1559196056
+ls
+#1559196159
+ll
+#1559196546
+ls
+#1559196551
+ll
+#1559196572
+cd /home/smpldir/hwfiles/
+#1559196580
+./myll
+#1559196593
+./myll myll
+#1559197142
+cd
+#1559197146
+cd ch7/sp4
+#1559197147
+ls
+#1559197628
+cd
+#1559197631
+cd hw10
+#1559197631
+ls
+#1559197636
+joe mycmp.c
+#1559197724
+gcc mycmp.c
+#1559197754
+joe mycmp.c
+#1559197771
+gcc mycmp.c
+#1559197795
+joe mycmp.c
+#1559197805
+gcc mycmp.c
+#1559197839
+joe mycmp.c
+#1559199211
+gcc mycmp.c
+#1559199215
+joe mycmp.c
+#1559199223
+./a.out data2 data2
+#1559199231
+ls
+#1559199241
+joe mycmp.c
+#1559199268
+gcc mycmp.c
+#1559199274
+./a.out data2 data2
+#1559199282
+joe mycmp.c
+#1559199323
+gcc mycmp.c
+#1559199325
+./a.out data2 data2
+#1559199336
+joe mycmp.c
+#1559199381
+gcc mycmp.c
+#1559199384
+./a.out data2 data1
+#1559199388
+./a.out data2 data2
+#1559199390
+./a.out data2 data3
+#1559199393
+./a.out data2 data4
+#1559199399
+./a.out data2 data3
+#1559199412
+cat data2
+#1559199415
+cat data3
+#1559199433
+joe mycmp.c
+#1559199490
+gcc mycmp.c
+#1559199496
+./a.out data2 data2
+#1559199499
+./a.out data2 data3
+#1559199507
+./a.out data2 data4
+#1559199515
+ll
+#1559199529
+joe mycmp.c
+#1559199708
+gcc mycmp.c
+#1559199744
+joe mycmp.c
+#1559199869
+gcc mycmp.c
+#1559199876
+./a.out data2 data2
+#1559199885
+./a.out data2 data3
+#1559199897
+./a.out data2 data2
+#1559199918
+./a.out data2 data4
+#1559199931
+joe mycmp.c
+#1559199939
+gcc mycmp.c
+#1559199947
+./a.out data2 data2
+#1559199949
+./a.out data2 data3
+#1559199953
+./a.out data2 data4
+#1559199960
+cat data4
+#1559199975
+joe mycmp.c
+#1559200769
+cat mycmp.c
+#1559200775
+gcc mycmp.c
+#1559201102
+vi mycmp.c
+#1559201126
+gcc mycmp.c
+#1559201130
+vi mycmp.c
+#1559201151
+gcc mycmp.c
+#1559201158
+./a.out data2 data2
+#1559201162
+./a.out data2 data3
+#1559201168
+./a.out data2 data4
+#1559201197
+./a.out data2 a.out 
+#1559201206
+./a.out data2 mycmp.c
+#1559201212
+vi mycmp.c
+#1559201405
+gcc mycmp.c
+#1559201414
+ll
+#1559201420
+rm data*
+#1559201421
+ll
+#1559201428
+rm *~
+#1559201429
+ll
+#1559201444
+cp /home/smpldir/hwfiles/data*
+#1559201447
+cp /home/smpldir/hwfiles/data* .
+#1559201448
+ll
+#1559201459
+cp /home/smpldir/hwfiles/mycmp.test .
+#1559201464
+cp /home/smpldir/hwfiles/testrun .
+#1559201465
+ll
+#1559201473
+./a.out data1 data1
+#1559201479
+./a.out data1 data2
+#1559201485
+./a.out data1 data4
+#1559201492
+./a.out data1 testrun 
+#1559201559
+mv mycmp.test mt
+#1559201560
+ll
+#1559201565
+vi mycmp.c 
+#1559202574
+gcc mycmp.c 
+#1559202581
+./a.out data1 data2
+#1559202619
+./a.out data1 data1
+#1559202631
+vi mycmp.c 
+#1559202637
+joe mycmp.c 
+#1559202665
+./a.out mt data1
+#1559202685
+cat mt
+#1559202691
+./a.out mt data1
+#1559202701
+joe mycmp.c 
+#1559202740
+gcc mycmp.c
+#1559202745
+./a.out mt data1
+#1559202890
+joe mycmp.c 
+#1559202936
+gcc mycmp.c
+#1559202942
+./a.out data1 data2
+#1559202961
+joe mycmp.c 
+#1559203024
+gcc mycmp.c
+#1559203028
+./a.out data1 data2
+#1559203043
+cat data
+#1559203044
+cat data1
+#1559203159
+joe mycmp.c 
+#1559203210
+gcc mycmp.c
+#1559203214
+./a.out data1 data2
+#1559203228
+./a.out data1 data1
+#1559203236
+./a.out data1 data3
+#1559203238
+./a.out data1 data2
+#1559203240
+./a.out data1 data4
+#1559203249
+./a.out data1 data1
+#1559203286
+joe mycmp.c 
+#1559203387
+gcc mycmp.c
+#1559203389
+./a.out data1 data1
+#1559203392
+./a.out data1 data2
+#1559203406
+joe mycmp.c 
+#1559203432
+gcc mycmp.c
+#1559203435
+./a.out data1 data1
+#1559203445
+./a.out data1 data2
+#1559203476
+joe mycmp.c 
+#1559204551
+gcc mycmp.c
+#1559204554
+./a.out data1 data2
+#1559204557
+./a.out data1 data1
+#1559204561
+./a.out data1 data2
+#1559204562
+./a.out data1 data3
+#1559205755
+cd hw10/
+#1559205756
+ls
+#1559205759
+./a.out data1 data3
+#1559205776
+joe mycmp.c
+#1559205792
+gcc mycmp.c
+#1559205799
+./a.out data1 data1
+#1559205805
+./a.out data1 data2
+#1559205816
+cat data1
+#1559205818
+cat data2
+#1559205843
+./a.out data1 data3
+#1559205846
+cat data3
+#1559205852
+./a.out data1 data4
+#1559205857
+./a.out data1 mt
+#1559205913
+./a.out mt testrun 
+#1559205955
+./mt data1 data1
+#1559205956
+./mt data1 data2
+#1559205958
+./mt data1 data3
+#1559205964
+./a.out data1 data3
+#1559205974
+./mt data1 data3
+#1559205984
+ll
+#1559205995
+ll -
+#1559205998
+ll -h
+#1559206077
+cmp data1 data3
+#1559206086
+cat data1
+#1559206092
+cat data3
+#1559206136
+./mt data1 data3
+#1559206139
+./a.out data1 data3
+#1559206141
+./mt data1 data3
+#1559210957
+cd hw10/
+#1559210975
+./mt data1 data1
+#1559210978
+./mt data1 data2
+#1559210987
+./mt data1 data3
+#1559210994
+./mt data1 data4
+#1559211069
+./mt data1 data1
+#1559211074
+./mt data1 data2
+#1559211076
+./mt data1 data3
+#1559211081
+./mt data1 data4
+#1559211095
+./mt data1 testrun 
+#1559211124
+./mt testrun mt
+#1559211395
+cmp testrun mt
+#1559211408
+diff testrun mt
+#1559211418
+diff3 testrun mt
+#1559211423
+cmp testrun mt
+#1559211504
+cmp -l testrun mt
+#1559211646
+cmp \testrun mt
+#1559211782
+cmp -l testrun mt | less
+#1559211803
+cmp testrun mt
+#1559213114
+cd hw10/
+#1559213121
+./mt data1 data1
+#1559213128
+./mt data1 data2
+#1559213134
+./mt data1 data3
+#1559213138
+./mt data1 data4
+#1559213153
+./mt data1 testrun 
+#1559213226
+./mt data1 mt
+#1559213281
+./mt testrun mt
+#1559214093
+cd hw10/
+#1559214107
+./mt data1 data1
+#1559214289
+./a.out data1 data2
+#1559214295
+./a.out data1 data4
+#1559214298
+./a.out data4 data4
+#1559214303
+ll
+#1559208123
+ls
+#1559208127
+cd hw10/
+#1559208184
+ls
+#1559208191
+joe mycmp.c
+#1559208255
+cat data1
+#1559208258
+cat data3
+#1559208272
+./mt data1 data3
+#1559208282
+./a.out data1 data3
+#1559208315
+./mt data1 data3
+#1559208318
+./mt data1 data1
+#1559208319
+./mt data1 data2
+#1559208322
+./mt data1 data3
+#1559208335
+./mt mt testrun 
+#1559208344
+cmp data1 data3
+#1559208359
+ll
+#1559208508
+cat data1
+#1559208512
+cat data3
+#1559208572
+cat mycmp.c
+#1559208770
+./mt data1 data3
+#1559208776
+./a.out data1 data3
+#1559208781
+joe mycmp.c
+#1559208800
+gcc mycmp.c
+#1559208804
+./a.out data1 data3
+#1559208810
+joe mycmp.c
+#1559208850
+gcc mycmp.c
+#1559208852
+./a.out data1 data3
+#1559208862
+./a.out data1 data1
+#1559208874
+./a.out data3 data1
+#1559208877
+./a.out data3 data3
+#1559208882
+./a.out data3 data4
+#1559208884
+./a.out data4 data4
+#1559208895
+joe mycmp.c
+#1559208918
+gcc mycmp.c
+#1559208928
+./a.out data1 data1
+#1559208943
+./a.out data1 data3
+#1559208944
+./a.out data1 data4
+#1559208962
+./a.out data4 data4
+#1559208974
+joe mycmp.c
+#1559209393
+gcc mycmp.c
+#1559209396
+ls
+#1559209405
+./a.out data1 data1
+#1559209419
+./a.out data1 data2
+#1559209425
+./a.out data1 data3
+#1559209429
+joe mycmp.c
+#1559209627
+gcc mycmp.c
+#1559209628
+ll
+#1559209642
+./mt data1
+#1559209645
+./mt data1 data2
+#1559209650
+./a.out data1 data2
+#1559209665
+joe mycmp.c
+#1559209674
+gcc mycmp.c
+#1559209681
+./a.out data1 data1
+#1559209920
+joe mycmp.c
+#1559210339
+gcc mycmp.c
+#1559210343
+./a.out data1 data3
+#1559210360
+./a.out data1 data1
+#1559210364
+./a.out data1 data2
+#1559210371
+./mt data1 data1
+#1559210372
+./mt data1 data2
+#1559210376
+./mt data1 data3
+#1559210836
+joe mycmp.c
+#1559210890
+gcc mycmp.c
+#1559210895
+./a.out data1 data1
+#1559210904
+joe mycmp.c
+#1559210915
+gcc mycmp.c
+#1559210916
+./a.out data1 data1
+#1559210939
+./mt data1 data1
+#1559210974
+./a.out data1 data1
+#1559210981
+./a.out data1 data2
+#1559210988
+./a.out data1 data3
+#1559210995
+./a.out data1 data4
+#1559211007
+joe mycmp.c
+#1559211048
+gcc mycmp.c
+#1559211062
+./a.out data1 data4
+#1559211067
+./a.out data1 data1
+#1559211073
+./a.out data1 data2
+#1559211078
+./a.out data1 data3
+#1559211079
+./a.out data1 data4
+#1559211091
+./a.out data1 testrun 
+#1559211109
+./a.out testrun mt
+#1559211215
+cmp testrun mt
+#1559211222
+./a.out testrun mt
+#1559211241
+joe mycmp.c
+#1559211283
+gcc mycmp.c
+#1559211291
+joe mycmp.c
+#1559211682
+gcc mycmp.c
+#1559211686
+joe mycmp.c
+#1559211692
+gcc mycmp.c
+#1559211697
+./a.out testrun mt
+#1559211702
+./a.out mt testrun 
+#1559211728
+joe mycmp.c
+#1559211864
+gcc mycmp.c
+#1559211867
+./a.out mt testrun 
+#1559211916
+joe mycmp.c
+#1559212234
+gcc mycmp.c
+#1559212240
+./a.out mt testrun 
+#1559212257
+joe mycmp.c
+#1559212321
+gcc mycmp.c
+#1559212325
+joe mycmp.c
+#1559212340
+gcc mycmp.c
+#1559212343
+./a.out mt testrun 
+#1559212369
+joe mycmp.c
+#1559212784
+gcc mycmp.c
+#1559212785
+./a.out mt testrun 
+#1559212811
+joe mycmp.c
+#1559212867
+gcc mycmp.c
+#1559212869
+./a.out mt testrun 
+#1559212886
+./a.out data1 data1
+#1559212892
+./a.out data1 data3
+#1559212896
+joe mycmp.c
+#1559212958
+gcc mycmp.c
+#1559212961
+./a.out data1 data1
+#1559212968
+./a.out data1 data2
+#1559212969
+./a.out data1 data3
+#1559212974
+./a.out mt testrun 
+#1559212985
+./a.out testrun mt
+#1559212993
+joe mycmp.c
+#1559213102
+gcc mycmp.c
+#1559213126
+./a.out data1 data1
+#1559213130
+./a.out data1 data2
+#1559213131
+./a.out data1 data3
+#1559213140
+./a.out data1 data4
+#1559213150
+./a.out data1 testrun 
+#1559213230
+./a.out data1 mt
+#1559213254
+joe mycmp.c
+#1559213263
+gcc mycmp.c
+#1559213265
+./a.out data1 mt
+#1559213270
+./a.out data1 testrun 
+#1559213275
+./a.out testrun mt
+#1559213287
+joe mycmp.c
+#1559214082
+gcc mycmp.c
+#1559214113
+./a.out data1 data1
+#1559214123
+./a.out data1 data3
+#1559214131
+joe mycmp.c
+#1559214500
+gcc mycmp.c
+#1559214503
+./a.out data1 data3
+#1559214506
+./a.out data1 data1
+#1559214515
+joe mycmp.c
+#1559214654
+gcc mycmp.c
+#1559214663
+joe mycmp.c
+#1559214671
+gcc mycmp.c
+#1559214682
+joe mycmp.c
+#1559214694
+gcc mycmp.c
+#1559214696
+joe mycmp.c
+#1559214887
+gcc mycmp.c
+#1559214896
+joe mycmp.c
+#1559214902
+gcc mycmp.c
+#1559214909
+./a.out data1 data1
+#1559214918
+./a.out data1 data2
+#1559214919
+./a.out data1 data3
+#1559214921
+./a.out data1 data4
+#1559214924
+./a.out data1 testrun 
+#1559214927
+joe mycmp.c
+#1559214982
+gcc mycmp.c
+#1559214983
+./a.out data1 testrun 
+#1559214990
+./a.out data1 data1
+#1559215007
+joe mycmp.c
+#1559215021
+gcc mycmp.c
+#1559215024
+./a.out data1 data1
+#1559215025
+./a.out data1 data2
+#1559215026
+./a.out data1 data3
+#1559215028
+./a.out data1 data4
+#1559215036
+./a.out data1 testrun 
+#1559215052
+./mt data1 testrun 
+#1559215059
+./mt mt testrun 
+#1559215069
+./a.out mt testrun 
+#1559215074
+joe mycmp.c
+#1559215205
+gcc mycmp.c
+#1559215208
+./a.out mt testrun 
+#1559220573
+cd hw10/
+#1559220574
+ls
+#1559220575
+ll
+#1559220587
+vi myll.c
+#1559221356
+ll
+#1559221657
+ll /home
+#1559221668
+ll /home/
+#1559221675
+ll /home/smpldir
+#1559221747
+cd
+#1559221748
+ll
+#1559221791
+ls
+#1559221794
+cd /
+#1559221796
+ls
+#1559221797
+ll
+#1559221807
+cd var/
+#1559221808
+ll
+#1559221811
+cd ..
+#1559221816
+cd etc/
+#1559221817
+ll
+#1559221846
+cd ..
+#1559221847
+ls
+#1559221854
+cd dev/
+#1559221855
+ls
+#1559221856
+ll
+#1559221908
+cd ..
+#1559221909
+ll
+#1559221921
+cd
+#1559221922
+ll
+#1559221923
+ls
+#1559221931
+cd ch7/
+#1559221932
+ls
+#1559221934
+cd sp1
+#1559221935
+ls
+#1559221943
+ln a.out a
+#1559221945
+ll
+#1559222455
+ll -a
+#1559222940
+cd
+#1559222943
+cd hw9
+#1559222944
+ls
+#1559222958
+cat userinfo.c
+#1559222973
+who
+#1559222975
+w
+#1559222978
+whoami
+#1559223146
+cat
+#1559223149
+whoami
+#1559223214
+cd
+#1559223216
+cd hw10/
+#1559223220
+vi myll.c
+#1559218146
+cd hw10/
+#1559218148
+ls
+#1559218162
+./a.out data1 data2
+#1559218174
+./a.out data1 data3
+#1559218176
+./a.out data1 data4
+#1559218184
+./a.out data1 data2
+#1559218200
+./a.out a.out testrun 
+#1559218207
+ll
+#1559218233
+./a.out data1 data1
+#1559218237
+joe mycmp.c
+#1559218271
+./a.out a.out testrun 
+#1559218300
+./a.out data1 data1
+#1559218302
+./a.out data1 data2
+#1559218303
+./a.out data1 data3
+#1559218305
+./a.out data1 data4
+#1559218311
+./a.out data1 testrun 
+#1559218347
+./a.out testrun mt 
+#1559218368
+joe mycmp.c
+#1559219541
+gcc mycmp.c
+#1559219547
+./a.out mt testrun 
+#1559219557
+ll
+#1559219567
+./a.out mt a.out 
+#1559219772
+joe mycmp.c
+#1559219788
+gcc mycmp.c
+#1559219795
+./a.out data1 data1
+#1559219798
+./a.out data1 data2
+#1559219800
+./a.out data1 data3
+#1559219804
+./a.out data1 data4
+#1559219807
+./a.out data1 testrun 
+#1559219815
+./a.out a.out testrun 
+#1559219827
+joe mycmp.c
+#1559219887
+gcc mycmp.c
+#1559219894
+./a.out data1 data2
+#1559219896
+./a.out data1 data3
+#1559219898
+./a.out data1 data4
+#1559219901
+./a.out data1 mt
+#1559219905
+./a.out a.out mt
+#1559219913
+./a.out a.out testrun 
+#1559219921
+cmp a.out mt
+#1559219942
+ll
+#1559219943
+ls
+#1559219950
+rm -f data*
+#1559219962
+ll
+#1559219987
+rm mt
+#1559220033
+ls
+#1559220039
+rm mycmp.c~
+#1559220040
+ll
+#1559220043
+rm testrun 
+#1559220045
+ls
+#1559220047
+rm a.out 
+#1559220048
+ls
+#1559220085
+cp -rf /home/smpldir/hwfiles/mycmp.test 
+#1559220087
+cp -rf /home/smpldir/hwfiles/mycmp.test .
+#1559220088
+ll
+#1559220100
+cp -rf /home/smpldir/hwfiles/data* .
+#1559220102
+ll
+#1559220109
+cp -rf /home/smpldir/hwfiles/testrun .
+#1559220110
+ll
+#1559220112
+ls
+#1559220265
+gcc -o mycmp mycmp.c
+#1559220267
+ll
+#1559220283
+./mycmp data1 data2
+#1559220290
+./mycmp.test data1 data2
+#1559220294
+./mycmp.test data1 data3
+#1559220298
+./mycmp data1 data3
+#1559220305
+./mycmp data1 data4
+#1559220311
+./mycmp.test data1 data4
+#1559220327
+./mycmp.test mycmp.test testrun 
+#1559220332
+./mycmp mycmp.test testrun 
+#1559220339
+./mycmp mycmp.test 
+#1559220346
+./mycmp
+#1559220350
+./mycmp mycmp.test testrua
+#1559220354
+./mycmp mycmp.tesa testrua
+#1559220358
+ls
+#1559220380
+cd
+#1559220381
+ll
+#1559220382
+ls
+#1559220393
+md test
+#1559220394
+ls
+#1559220396
+cd test/
+#1559220398
+ls
+#1559220436
+cd
+#1559220438
+ls -l
+#1559220448
+rm -rf test/
+#1559220448
+ls
+#1559220453
+cd hw10/
+#1559220454
+ls
+#1559220455
+ll
+#1559220455
+l
+#1559220456
+l;
+#1559220458
+ls -a
+#1559220540
+ls
+#1559220546
+joe myll
+#1559220551
+joe myll.c
+#1559220612
+joe myll.c 
+#1559221259
+ll
+#1559221319
+joe myll.c 
+#1559221954
+cd
+#1559221956
+cd ch7/
+#1559221958
+cd sp1
+#1559221959
+ls
+#1559221960
+ll
+#1559221966
+rm a
+#1559221967
+ll
+#1559222021
+cd
+#1559222024
+cd hw10/
+#1559222025
+ls
+#1559222030
+joe myll.c
+#1559223014
+ls
+#1559223019
+gcc myll.c
+#1559223032
+joe myll.c
+#1559223055
+gcc myll.c
+#1559223058
+joe myll.c
+#1559223072
+gcc myll.c
+#1559223075
+./a.out 
+#1559223081
+./a.out data1
+#1559223173
+joe myll.c
+#1559223254
+vi myll.c
+#1559223354
+gcc myll.c
+#1559223359
+./a.out data1
+#1559223367
+ll data1
+#1559223392
+joe myll.c
+#1559223491
+gcc myll.c
+#1559223493
+./a.out data1
+#1559223496
+ll data1
+#1559223522
+joe myll.c
+#1559223779
+gcc myll.c
+#1559223781
+./a.out data1
+#1559223784
+ll data1
+#1559223802
+joe myll.c
+#1559223808
+gcc myll.c
+#1559223810
+./a.out data1
+#1559223811
+ll data1
+#1559223822
+ll
+#1559230018
+ls
+#1559230021
+cd hw10/
+#1559230023
+ls
+#1559230027
+joe myll.c
+#1559232480
+ls
+#1559232501
+cp /home/smpldir/hwfiles/myll.test .
+#1559232509
+./myll.test .
+#1559232524
+./myll.test a.out 
+#1559233004
+ls
+#1559233092
+joe myll.
+#1559233097
+joe myll.c
+#1559233232
+gcc myll.c
+#1559233239
+joe myll.c
+#1559233272
+gcc myll.c
+#1559233273
+joe myll.c
+#1559233282
+gcc myll.c
+#1559233284
+joe myll.c
+#1559234641
+gcc myll.
+#1559234643
+gcc myll.c
+#1559234657
+joe myll.c
+#1559234736
+gcc myll.c
+#1559234749
+./myll.test a.out 
+#1559234757
+./a.out a.out 
+#1559234805
+joe myll.c
+#1559234867
+gcc myll.c
+#1559234868
+./a.out a.out 
+#1559234879
+./myll.test a.out 
+#1559234887
+joe myll.c
+#1559234905
+gcc myll.c
+#1559234926
+joe myll.c
+#1559235231
+man ctime
+#1559235259
+kor
+#1559235261
+man ctime
+#1559235264
+c
+#1559235562
+joe myll.c
+#1559235731
+gcc myll.c
+#1559235735
+./a.out a.out 
+#1559235769
+./myll.test a.out 
+#1559235779
+joe myll.c
+#1559235786
+gcc myll.c
+#1559235789
+./myll.test a.out 
+#1559235791
+./a.out a.out 
+#1559235815
+joe myll.c
+#1559235825
+gcc myll.c
+#1559235827
+./a.out a.out 
+#1559235845
+./myll.test a.out 
+#1559236068
+joe myll.c
+#1559236325
+gcc myll.c
+#1559236338
+joe myll.c
+#1559236432
+gcc myll.c
+#1559236437
+./a.out a.out 
+#1559236455
+./myll.test a.out 
+#1559236462
+./a.out a.out 
+#1559236484
+joe myll.c
+#1559236567
+gcc myll.c
+#1559236570
+joe myll.c
+#1559236611
+gcc myll.c
+#1559236614
+joe myll.c
+#1559236663
+gcc myll.c
+#1559236680
+joe myll.c
+#1559236685
+gcc myll.c
+#1559236690
+./a.out a.out 
