@@ -1,265 +1,3 @@
-cat 2-2.txt
-#1554642299
-history | grep tr
-#1554642315
-cat 2-1.txt
-#1554642334
-tr 'a-z' 'A-Z' 2-1.txt
-#1554642639
-pwd
-#1554642639
-ls
-#1554642695
-u
-#1554642697
-ll
-#1554642709
-cd ch3-2/
-#1554642711
-ll
-#1554642730
-tr 'a-z' 'A-Z' big.data 
-#1554642751
-cd ~/hw5
-#1554642752
-pwd
-#1554642752
-ls
-#1554642769
-cat 2-1.txt 'a-z' 'A-Z'
-#1554642812
-cat 2-1.txt | tr 'a-z' 'A-Z'
-#1554642837
-cat 2-1.txt | tr 'a-z' 'A-Z' > 2-3.txt
-#1554642841
-cat 2-3.txt 
-#1554642856
-joe 2-3.txt 
-#1554642894
-last
-#1554642931
-last | grep Aprl 3 | sort | uniq
-#1554642934
-last | grep Aprl 3 | sort
-#1554642939
-last | grep Aprl 3
-#1554642944
-last | grep "Aprl 3"
-#1554642949
-last | grep Aprl
-#1554642955
-last
-#1554643075
-last | grep Apr 3
-#1554643078
-last | grep Apr
-#1554643089
-last | grep Apr|3
-#1554643092
-last | grep Apr[A
-#1554643113
-last | grep Apr   3
-#1554643124
-last | grep Apr 3
-#1554643130
-last | grep "Apr 3"
-#1554643135
-last | grep Apr 3
-#1554643139
-last | grep Apr
-#1554643151
-last | grep 3 Apr
-#1554643294
-last | grep Apr = grep 3
-#1554643301
-last | grep Apr = grep Mon
-#1554643313
-last | grep Apr = grep Mon last
-#1554643319
-last | grep Apr
-#1554643335
-last | grep Apr 3
-#1554643338
-last | grep Apr3
-#1554643340
-last | grep Apr
-#1554643442
-last | grep Apr | grep 3
-#1554643470
-last | grep Apr | grep -w 3
-#1554643605
-last | grep 'Apr  3'
-#1554643612
-last | grep 'Apr  3' | sort
-#1554643621
-last | grep 'Apr  3' | sort | uniq
-#1554643653
-last | grep 'Apr  3' | sort | uniq -c
-#1554643753
-last | sort | grep 'Apr  3'
-#1554643762
-last | sort | uniq | grep 'Apr  3'
-#1554644485
-cat /home/smpldir/hwfiles/testrun 
-#1554644506
-VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT1021;2cVT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102LANG=C
-#1554644522
-cat /home/smpldir/hwfiles/testrun 
-#1554644538
-VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT1021;2cVT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102VT102cd /home/smpldir/hwfiles/
-#1554644540
-ll
-#1554644559
-pwd
-#1554644573
-cd /home/smpldir/hwfiles/
-#1554644575
-pwd
-#1554644575
-ls
-#1554644585
-./ testrun 
-#1554644590
-./testrun 
-#1554644617
-last
-#1554644674
-last | cut 'Apr  3'
-#1554644683
-last | cut 'Apr  3' -1
-#1554644711
-last | cut 'Apr  3' -f 1
-#1554644713
-last | cut 'Apr  3'
-#1554644737
-last | cut -f 'Apr  3' 1
-#1554644741
-last | cut -f 1 'Apr  3'
-#1554644785
-last | grep 'Apr  3'
-#1554644792
-last | grep 'Apr  3' | cut ""
-#1554644795
-last | grep 'Apr  3' | cut "" -1
-#1554644798
-last | grep 'Apr  3' | cut "" -f 1
-#1554644800
-last | grep 'Apr  3' | cut "" -f ,1
-#1554644802
-last | grep 'Apr  3' | cut "" -f 
-#1554644811
-history |grep cut
-#1554644835
-last | grep 'Apr  3' | cut -d " "1 
-#1554644837
-last | grep 'Apr  3' | cut -d " " 1
-#1554644841
-last | grep 'Apr  3' | cut -d " " -f \1
-#1554644845
-last | grep 'Apr  3' | cut -d " " -f 1
-#1554644849
-last | grep 'Apr  3' | cut -d " " -f 1 | uniq
-#1554644852
-last | grep 'Apr  3' | cut -d " " -f 1 | uniq 0-d
-#1554644853
-last | grep 'Apr  3' | cut -d " " -f 1 | uniq -d
-#1554644857
-last | grep 'Apr  3' | cut -d " " -f 1 | uniq -c
-#1554644879
-last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq -c
-#1554644887
-last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554644934
-/home/smpldir/hwfiles/testrun 
-#1554644937
-last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554644968
-cd ~/hw5
-#1554644969
-ls
-#1554644973
-last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554644979
-last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq > 2-3.txt
-#1554644985
-cat
-#1554644988
-ll
-#1554644998
-cat 2-1.txt~
-#1554645000
-cat 2-1.txt
-#1554645006
-ra 2-1.txt~
-#1554645007
-ll
-#1554645014
-ra 2-2.txt~
-#1554645015
-ll
-#1554645022
-cat 2-3.txt
-#1554645035
-cat 2-1.txt | tr 'a-z' 'A-Z' > 2-3.txt
-#1554645038
-cat 2-3.txt
-#1554645059
-joe 2-3.txt
-#1554645081
-cat 2-1.txt | tr 'a-z' 'A-Z' > 2-3.txtll
-#1554645082
-ll
-#1554645093
-ra 2-3.txtll 
-#1554645101
-ra 2-*
-#1554645102
-ll
-#1554645159
-ps -ef | grep hwangsh
-#1554645175
-joe 2-1.txt
-#1554645185
-ll
-#1554645206
-which gcc
-#1554645216
-joe 2-2.txt
-#1554645229
-cat 2-1.txt 
-#1554645232
-cat 2-2.txt 
-#1554645303
-cat 2-1.txt | tr 'a-z' 'A-Z'
-#1554645316
-joe 2-3.txt
-#1554645323
-cat 2-3.txt 
-#1554645335
-cat 2-1.txt | tr 'a-z' 'A-Z'
-#1554645365
- last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554645416
-joe 2-4.txt
-#1554645437
-ra 2-4.txt 
-#1554645441
- last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554645454
-ll
-#1554645463
-joe 2-4.txt[hwangsh@para ~/hw5]$_2733: last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554645501
- last | grep 'Apr  3' | cut -d " " -f 1 | sort | uniq
-#1554645510
-cd hw5
-#1554645512
-ll
-#1554645517
-joe 2-4.txt
-#1554645527
-cat 2-4.txt 
-#1554645583
 du ~
 #1554645587
 df ~
@@ -13932,3 +13670,265 @@ joe myll.c
 gcc myll.c
 #1559236690
 ./a.out a.out 
+#1559237307
+cd hw10/
+#1559237308
+ls
+#1559237363
+joe myll.c
+#1559237597
+gcc myll.c
+#1559237607
+joe myll.c
+#1559237614
+gcc myll.c
+#1559237619
+./a.out a.out 
+#1559237643
+joe myll.c
+#1559237762
+gcc myll.c
+#1559237764
+./a.out a.out 
+#1559237779
+./myll.test a.out 
+#1559238172
+ls
+#1559238179
+joe myll.
+#1559238182
+joe myll.c
+#1559238222
+gcc myll.c
+#1559238226
+./a.out a.out 
+#1559238228
+./myll.test a.out 
+#1559238233
+joe myll.c
+#1559238447
+man strftime
+#1559238455
+joe myll.c
+#1559239496
+gcc myll.c
+#1559239500
+./a.out a.out 
+#1559239503
+joe myll.c
+#1559239515
+gcc myll.c
+#1559239516
+./a.out a.out 
+#1559239549
+joe myll.c
+#1559239599
+gcc myll.c
+#1559239600
+./a.out a.out 
+#1559239649
+joe myll.c
+#1559239669
+./a.out a.out 
+#1559239671
+gcc myll.c
+#1559239675
+./a.out a.out 
+#1559239689
+joe myll.c
+#1559239868
+gcc myll.c
+#1559239879
+joe myll.c
+#1559239901
+gcc myll.c
+#1559239905
+./a.out a.out 
+#1559239926
+./myll.test a.out 
+#1559239944
+./myll.test data1
+#1559239949
+./a.out data1
+#1559239953
+joe myll.c
+#1559240057
+gcc myll.c
+#1559240081
+joe myll.c
+#1559240093
+gcc myll.c
+#1559240123
+joe myll.c
+#1559240381
+gcc myll.c
+#1559240384
+./a.out a.out 
+#1559240398
+./myll.test a.out 
+#1559240408
+joe myll.c
+#1559240676
+gcc myll.c
+#1559240683
+./a.out  testrun 
+#1559240690
+./myll.test  testrun 
+#1559240712
+joe myll.c
+#1559240759
+gcc myll.c
+#1559240761
+./myll.test  testrun 
+#1559240764
+./a.out  testrun 
+#1559240813
+./a.out  data1
+#1559240825
+ls
+#1559241094
+rm *~
+#1559241095
+ll
+#1559241119
+rm myll.test 
+#1559241120
+ls
+#1559241123
+rm a.out 
+#1559241126
+ll
+#1559241128
+ls
+#1559241157
+gcc -o myll myll.c 
+#1559241160
+ll
+#1559241172
+./myll mycmp.test 
+#1559241188
+./myll data1
+#1559241194
+cd
+#1559241203
+ls ./git_linux/hw/
+#1559241207
+ls
+#1559241233
+cp -rf hw10 ./git_linux/hw
+#1559241238
+cd git_linux/hw/
+#1559241239
+ls
+#1559241240
+ll
+#1559241256
+eixt
+#1559241260
+exit
+#1559241267
+cd git_linux/
+#1559241269
+ll
+#1559241273
+cd etc/
+#1559241274
+ll
+#1559241281
+cd BackUp/
+#1559241281
+ll
+#1559241284
+cd
+#1559241286
+cd git_linux/
+#1559241290
+git status 
+#1559241297
+git add *
+#1559241300
+git status 
+#1559241311
+git log
+#1559241324
+git commit -m v3
+#1559241328
+git log
+#1559241339
+git log -v
+#1559241346
+git log --decorate
+#1559241366
+git tag 1.1.1 27a645d6a01e0fa972dc4b616995fbec59658bf2
+#1559241367
+git log --decorate
+#1559241374
+git push --tags 
+#1559241447
+git log
+#1559241460
+git add hw/hw10
+#1559241464
+git status 
+#1559241480
+git commit -m v4
+#1559241493
+git push 
+#1559241536
+cd
+#1559304904
+ls
+#1559304906
+cd
+#1559304911
+cd git_linux/
+#1559304915
+ls
+#1559304925
+git log
+#1559304978
+exit
+#1559383454
+kor
+#1559383475
+cat /etc/motd
+#1559383487
+ls
+#1559383489
+ll
+#1559383493
+c
+#1559383494
+ll
+#1559383502
+ls
+#1559383520
+cd git_linux
+#1559383522
+ls
+#1559383545
+git log --decorate
+#1559383610
+ls
+#1559383613
+git log
+#1559383625
+ll
+#1559383628
+cd
+#1559383651
+ssh seok@223.195.109.78
+#1559383668
+ll
+#1559383671
+cd
+#1559383675
+cd hw10
+#1559383676
+ls
+#1559383678
+ll
+#1559383684
+cat myll
+#1559383694
+cat myll.c
