@@ -109,7 +109,7 @@ int main(int argc, char *argv[])
   printf("\t%s", argv[1]);
   
   //The ID of the user performing the program
-  pw = getpwuid(getuid()); 
+  pw = getpwuid(getuid());
   printf("\t==> by %s\n", pw->pw_name);
   
   return 0;

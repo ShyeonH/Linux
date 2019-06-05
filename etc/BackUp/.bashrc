@@ -11,6 +11,7 @@ alias md='mkdir -p'
 alias rf='rm -rf'
 alias gh='cd ~'
 alias cpd='cp -r'
+alias back='cd $OLDPWD'
 alias c="LANG=C; echo Succeeded in changing the language to C."
 alias eng="LANG=en_US.UTF8; echo Succeeded in changing the language to English."
 alias kor="LANG=ko_KR.eucKR; echo Succeeded in changing the language to Korean." 

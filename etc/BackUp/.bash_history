@@ -1,739 +1,3 @@
-du ~
-#1554645587
-df ~
-#1554645618
-du -sh ~
-#1554645627
-cd
-#1554645632
-du -sh ~
-#1554645641
-cd hw5
-#1554645642
-ll
-#1554645654
-cat DEADJOE 
-#1554645659
-ll
-#1554645662
-ra DEADJOE 
-#1554645663
-ll
-#1554645674
-joe 2-5.txt
-#1554645681
-cat 2-5.txt 
-#1554645782
-locate /home/smpldir/ch3-2
-#1554645843
-find /home/smpldir/ch3-2
-#1554645849
-find /home/smpldir/ch3-2 memory
-#1554645856
-find memory
-#1554646112
-history | grep memory
-#1554646149
-find /home/smpldir/ch3-2 memory
-#1554646158
-find /home/smpldir/ch3-2
-#1554646160
-find /home/smpldir/ch3-2 memory
-#1554646306
-grep -r memory /home/smpldir/ch3-2
-#1554646354
-grep -wl memory /home/smpldir/ch3-2
-#1554646358
-grep -l memory /home/smpldir/ch3-2
-#1554646385
-grep -l memory /home/smpldir/ch3-2/*
-#1554646389
-grep -wl memory /home/smpldir/ch3-2/*
-#1554646400
-grep -rwl memory /home/smpldir/ch3-2/*
-#1554646428
-joe 2-6.txt
-#1554646654
-cat 2-6.txt 
-#1554646708
-u
-#1554646709
-;;
-#1554646710
-ll
-#1554646732
-cd hw5
-#1554646733
-pwd
-#1554646734
-ll
-#1554646815
-tar cvf ~/HwBkup HwBkup.tar
-#1554646818
-ll
-#1554646835
-tar cvf ~/HwBkup/ HwBkup.tar
-#1554646842
-history tar
-#1554646850
-history | grep tar
-#1554647002
-tar cvft HwBkup.tar ~/HwBkup
-#1554647004
-ll
-#1554647015
-tar cvf HwBkup.tar ~/HwBkup
-#1554647020
-ll
-#1554647281
-cat HwBkup.tar 
-#1554647302
-ll
-#1554647306
-ra HwBkup.tar 
-#1554647310
-tar cvf HwBkup.tar ~/HwBkup
-#1554647326
-[hwangsh@para ~/hw5]$_2788:tar cvf HwBkup.tar ~/HwBkup
-#1554647326
-tar: Removing leading `/' from member names
-/home/class/hwangsh/HwBkup/
-tar: /home/class/hwangsh/HwBkup/hw4: Cannot open: Permission denied
-/home/class/hwangsh/HwBkup/hw1/
-/home/class/hwangsh/HwBkup/hw1/mysum
-/home/class/hwangsh/HwBkup/hw1/mysum.out
-/home/class/hwangsh/HwBkup/hw1/myinfo.txt
-/home/class/hwangsh/HwBkup/hw1/runme.out
-/home/class/hwangsh/HwBkup/hw1/runme
-/home/class/hwangsh/HwBkup/hw1/mysum.c
-/home/class/hwangsh/HwBkup/hw2/
-/home/class/hwangsh/HwBkup/hw2/1-3.help
-/home/class/hwangsh/HwBkup/hw2/1-6.txt
-/home/class/hwangsh/HwBkup/hw2/1-1.txt
-/home/class/hwangsh/HwBkup/hw2/No2.txt
-/home/class/hwangsh/HwBkup/hw2/1-4.txt
-/home/class/hwangsh/HwBkup/hw2/1-2.txt
-/home/class/hwangsh/HwBkup/hw3/
-/home/class/hwangsh/HwBkup/hw3/1-12.txt
-/home/class/hwangsh/HwBkup/hw3/1-9.txt
-/home/class/hwangsh/HwBkup/hw3/1-6.txt
-#1554647342
-ll
-#1554647362
-ra HwBkup.tar 
-#1554647363
-ll
-#1554647371
-tar cvf HwBkup.tar ~/HwBkup
-#1554647398
-joe 2-7.txt
-#1554647448
-cat 2-7.txt 
-#1554647800
-cp /home/smpldir/hwfiles/mixed.orig ./
-#1554647821
-cp /home/smpldir/hwfiles/2-8.patch ./
-#1554647830
-ll
-#1554647839
-ra 2-8.patch 
-#1554647844
-ra mixed.orig 
-#1554647860
-cp /home/smpldir/hwfiles/mixed.orig ./
-#1554647876
-cp /home/smpldir/hwfiles/2-8.patch ./
-#1554648010
-patch -p0 2-8.patch 
-#1554648030
-ll
-#1554648072
-ra 2-8.patch 
-#1554648075
-ra mixed.orig 
-#1554648082
-cp /home/smpldir/hwfiles/mixed.orig ./
-#1554648089
-cp /home/smpldir/hwfiles/2-8.patch ./
-#1554648100
-patch -p < 2-8.patch 
-#1554648110
-ra mixed.orig 
-#1554648114
-ra 2-8.patch 
-#1554648115
-ll
-#1554648123
-cp /home/smpldir/hwfiles/mixed.orig ./
-#1554648125
-cp /home/smpldir/hwfiles/2-8.patch ./
-#1554648135
-patch -p0 < 2-8.patch 
-#1554648166
-joe 2-8.txt
-#1554648171
-ll
-#1554648230
-cat 2-1.txt 
-#1554648275
-ll
-#1554647980
-history |grep pa
-#1554879925
-exit
-#1554879902
-bash
-#1554879929
-exit
-#1554879900
-bash
-#1554879931
-exit
-#1554880052
-logout
-#1554880061
-exit
-#1554874338
-cd hw5
-#1554874339
-lsl
-#1554874340
-ls
-#1554874341
-pwd
-#1554874342
-ll
-#1554874350
-cat 2-1.txt 
-#1554874353
-cat 2-4.txt 
-#1554874360
-cd
-#1554874688
-pwd
-#1554874690
-ls
-#1554874690
-ll
-#1554874716
-cd /storage/
-#1554874717
-ll
-#1554874722
-cd LinuxISO/
-#1554874723
-ll
-#1554874741
-cd fedora-19
-#1554874743
-ll
-#1554874752
-cd Fedora-19
-#1554874753
-ll
-#1554874938
-cd
-#1554874939
-ll
-#1554874943
-cd HwBkup/
-#1554874944
-ll
-#1554874947
-cd hw4
-#1554874948
-ll
-#1554874953
-cd hw4
-#1554874954
-ll
-#1554874964
-cd hw4
-#1554874994
-chmod 755 hw4
-#1554874996
-ll
-#1554875001
-cd
-#1554875002
-ll
-#1554875008
-md test
-#1554875009
-ll
-#1554875012
-cd test/
-#1554875013
-ll
-#1554875024
-u
-#1554875026
-ll
-#1554875035
-chmod 700 test/
-#1554875036
-ll
-#1554875041
-cd test/
-#1554875062
-ll
-#1554875063
-pwd
-#1554875121
-tail -n 5/storage/deviceQuery
-#1554875129
-tail -n 5/storage/deviceQuery.txt
-#1554875150
-tail -n 5 /storage/deviceQuery.txt 
-#1554875172
-tail -n 5 /storage/deviceQuery.txt  > 1-2.txt
-#1554875173
-ll
-#1554875229
-history 20 > 1-3.txt
-#1554875230
-ll
-#1554875243
-joe 1-4.script
-#1554875258
-ll
-#1554875261
-cat 1-4.script 
-#1554875279
-chmod +x 1-4.script 
-#1554875280
-ll
-#1554875286
-./1-4.script 
-#1554875310
-./1-4.script > 1-6.txt
-#1554875311
-ll
-#1554875356
-last
-#1554875359
-w
-#1554875363
-who
-#1554875371
-who > 1-7.txt
-#1554875374
-cat 1-7.txt 
-#1554875379
-alias
-#1554875394
-alias > 1-8.txt
-#1554875394
-ll
-#1554875419
-cp ./1-8.txt 1-9.txt
-#1554875420
-ll
-#1554875424
-joe 1-9.txt 
-#1554875458
-cat 1-9.txt
-#1554875515
-alias
-#1554875522
-alias rmff="rm -f"
-#1554875525
-alias
-#1554875562
-joe ~/.bashrc 
-#1554875636
-pwd
-#1554875637
-ll
-#1554875644
-cat 1-9.txt~
-#1554875652
-ra 1-9.txt~
-#1554875652
-ll
-#1554875673
-diff /storage/deviceQuery.txt  /storage/devQ.txt 
-#1554875695
-diff /storage/deviceQuery.txt  /storage/devQ.txt >1-11.txt
-#1554875697
-ll
-#1554875724
-find /etc -name hereItIs > /dev/null
-#1554875737
-history | grep find
-#1554875762
-find /etc -name hereItIs 2> /dev/null
-#1554875796
-find /etc -name HereItIs 2> /dev/null
-#1554875833
-find /etc -name HereItIs 2> /dev/null > 1-12.txt
-#1554875834
-ll
-#1554875839
-cat 1-12.txt 
-#1554875894
-which cp
-#1554875901
-which cp > 1-13.txt
-#1554875903
-ll
-#1554875963
-cat /storage/deviceQuery.txt | grep Device
-#1554875978
-cat /storage/deviceQuery.txt | grep-wc Device
-#1554875984
-cat /storage/deviceQuery.txt | grep -wc Device
-#1554876003
-cat /storage/deviceQuery.txt | grep Device | wc -l
-#1554876024
-su - ztest
-#1554876076
-ll
-#1554876077
-pwd
-#1554876147
-ssh 223.195.109.201
-#1554876776
-pwd
-#1554876777
-ll
-#1554876799
-ra ./*
-#1554876801
-ll
-#1554876802
-u
-#1554876803
-ll
-#1554876808
-cd test/
-#1554877000
-ll
-#1554877003
-pwd
-#1554877004
-u
-#1554877005
-ll
-#1554877033
-history |grep mysys
-#1554877072
-ll
-#1554877079
-cat mysys/
-#1554877080
-ll
-#1554877082
-pwd
-#1554877091
-./mysys
-#1554877093
-ll
-#1554877099
-cd mysys
-#1554877101
-pwd
-#1554877102
-ll
-#1554877105
-cd
-#1554877107
-pwd
-#1554877111
-cd test
-#1554877112
-ll
-#1554877113
-pwd
-#1554877139
-ll ..
-#1554877172
-ln -s ../ch3-2/1-1.txt  run
-#1554877174
-ll
-#1554877189
-cat run
-#1554877214
-ll
-#1554877224
-ls
-#1554877241
-./run
-#1554877243
-ll
-#1554877252
-cat 1-1.txt
-#1554877274
-joe run 
-#1554877280
-ll ..
-#1554877298
-ln -s ~/hello run2
-#1554877299
-ll
-#1554877304
-./run2 
-#1554877310
-./hello
-#1554877389
-u
-#1554877390
-ll
-#1554877407
-ln -s ./myrun run
-#1554877408
-ll
-#1554877488
-tar cvf dd.tar zz.tar
-#1554877490
-ll
-#1554877504
-tar cvf dd.tar zz
-#1554877505
-ll
-#1554877524
-tar cvf zz.tar ./dd.tar 
-#1554877525
-ll
-#1554877532
-ln zz.tar zzz
-#1554877533
-ll
-#1554877714
-cd /etc/sysconfig/network-scripts/
-#1554877714
-ls
-#1554877722
-cd
-#1554877724
-ll
-#1554877748
-ln -s /etc/sysconfig/network-scripts/
-#1554877749
-ll
-#1554877861
-mv network-scripts/ mynet
-#1554877862
-ll
-#1554877868
-ra network-scripts/
-#1554877870
-ll
-#1554877878
-ra network-scripts/
-#1554877884
-ll
-#1554877888
-rm network-scripts/
-#1554877890
-ll
-#1554877895
-rd network-scripts/
-#1554877896
-ll
-#1554877906
-cd network-scripts/
-#1554877907
-ll
-#1554877911
-cd
-#1554877912
-ll
-#1554877919
-ra network-scripts/
-#1554877921
-ll
-#1554878315
-rm -f network-scripts
-#1554878316
-ll
-#1554878352
-ln -s /etc/sysconfig/network-scripts
-#1554878354
-ll
-#1554878361
-rm -f network-scripts
-#1554878371
-ln -s /etc/sysconfig/network-scripts mynet
-#1554878372
-ll
-#1554878386
-ln zzz yyy
-#1554878387
-ll
-#1554878426
-ln /storage/deviceQuery.txt uuu
-#1554878511
-ll
-#1554878649
-md s
-#1554878651
-ll
-#1554878687
-ln *.tar s
-#1554878688
-ll
-#1554878691
-ll s
-#1554878717
-ll bkup/
-#1554878837
-pwd
-#1554878843
-man ln
-#1554878962
-ll
-#1554878965
-ll s
-#1554878968
-ra s
-#1554878969
-ll
-#1554878989
-ra run 
-#1554878990
-ll
-#1554879001
-umask
-#1554879128
-ra zzz, zz.tar 
-#1554879129
-ll
-#1554879135
-ra zzz
-#1554879135
-ll
-#1554879139
-ra yyy
-#1554879146
-ra test/
-#1554879147
-ll
-#1554879213
-umask 777
-#1554879217
-umask
-#1554879230
-touch aaa
-#1554879230
-ll
-#1554879239
-cat aaa
-#1554879241
-ll
-#1554879248
-md yz
-#1554879256
-ll
-#1554879261
-ll yz
-#1554879283
-umask 077
-#1554879290
-touch abcd
-#1554879291
-ll
-#1554879295
-ll abcd
-#1554879316
-md uvw
-#1554879318
-ll uvw
-#1554879321
-ll
-#1554879399
-umask 022
-#1554879402
-umask 
-#1554879453
-ra yz
-#1554879462
-ra abcd 
-#1554879464
-ra aaa
-#1554879465
-ll
-#1554879483
-ra uvw
-#1554879484
-ll
-#1554879593
-md Clean
-#1554879593
-ll
-#1554879611
-mv ch3-1 ./Clean
-#1554879613
-ll
-#1554879617
-ll Clean/
-#1554879629
-echo
-#1554879654
-echo i am $USER
-#1554879660
-a=3
-#1554879662
-b=4
-#1554879667
-c=a+b
-#1554879675
-c
-#1554879697
-echo c
-#1554879720
-echo $c
-#1554879769
-echo $HOME
-#1554879779
-echo $HOSTNAME
-#1554879802
-xyz="Go Home"
-#1554879806
-echo $xyz
-#1554879828
-echo is print
-#1554879851
-echo hello
-#1554879854
-echo -n hello
-#1554879872
-bash
-#1554879949
-csh
-#1554880046
-bash
-#1554880152
-ll
-#1554880164
-cat welcome 
-#1554880169
-tac welcome 
-#1554880180
-rev welcome 
-#1554880193
-rev tac welcome 
-#1554880204
-cal
-#1554880215
-cal 2099
-#1554880221
-cal 4 3100
-#1554880307
-joe numbers
-#1554880332
-cat numbers | paste -s -d"+" | bc
-#1554880399
-hostname
-#1554880403
-uname
-#1554880410
-uname -a
-#1554880430
-env
-#1554880518
-print env
-#1554880524
 printenv
 #1554880529
 printenv HOME
@@ -13932,3 +13196,759 @@ ll
 cat myll
 #1559383694
 cat myll.c
+#1559384577
+ls
+#1559384580
+ll
+#1559384591
+ssh 223.195.109.78
+#1559384635
+ls
+#1559384643
+cd hw10/
+#1559384644
+ls
+#1559384652
+vi myll.c
+#1559384665
+joe myll.c
+#1559384681
+ls
+#1559384690
+cat mycmp.c
+#1559384700
+printenv
+#1559384718
+kor
+#1559384723
+printenv
+#1559384728
+c
+#1559384732
+exit
+#1559384874
+ls
+#1559384880
+cd git_linux/
+#1559384882
+ls
+#1559384886
+git status
+#1559384903
+git add etc
+#1559384915
+git status 
+#1559384929
+git add etc/
+#1559384936
+git status 
+#1559384958
+git add etc/BackUp
+#1559385036
+git commit -m v3.1
+#1559385043
+git push
+#1559385052
+git log
+#1559385058
+exit
+#1559396513
+ls
+#1559396515
+ll
+#1559396520
+cd git_linux/
+#1559396522
+ll
+#1559396526
+tree
+#1559396544
+git status
+#1559396568
+git log --branch --decorate
+#1559396598
+git log --branches --decorate
+#1559396621
+git add etc/BackUp
+#1559396629
+git status 
+#1559396660
+git log --branches --decorate --graph 
+#1559396680
+cd
+#1559396681
+ls
+#1559396687
+cd hw10
+#1559396688
+ls
+#1559396695
+cd myll.c
+#1559396697
+ls
+#1559396703
+cat myll.c
+#1559396746
+ll
+#1559396752
+exit
+#1559472231
+ls
+#1559472242
+mozilA
+#1559472245
+ls
+#1559472255
+which mozila
+#1559472272
+ssh 223.195.109.78
+#1559472281
+exit
+#1559664017
+ls
+#1559664022
+cd hw9
+#1559664023
+ls
+#1559664029
+cat 2-1.txt 
+#1559664047
+cat 2-2.txt 
+#1559664117
+cat 2-1.txt 
+#1559664120
+clear
+#1559664121
+cat 2-1.txt 
+#1559664141
+gcc -o main2 main2.c -lmy
+#1559664155
+gcc -fPIC -c mycomp.c
+#1559664162
+ gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559664165
+ls
+#1559664184
+ln -s libmy.so.1.0.1 libmy.so ../lib
+#1559664190
+ln -s libmy.so.1.0.1 libmy.so
+#1559664205
+ls
+#1559664230
+cp libmy.so.1.0.1 ../lib
+#1559664241
+cd ../lib/
+#1559664242
+ls
+#1559664246
+ln -s libmy.so.1.0.1 libmy.so
+#1559664259
+ls
+#1559664263
+ll
+#1559664271
+ln -sf libmy.so.1.0.1 libmy.so
+#1559664272
+ll
+#1559664276
+cd ../hw
+#1559664279
+cd ../hw9
+#1559664282
+cat 2-1.txt 
+#1559664289
+printenv
+#1559664297
+ls
+#1559664299
+cat 2-1.txt 
+#1559664311
+ gcc -o main2 main2.c -lmy
+#1559664381
+history
+#1559664404
+history | grep ib
+#1559664439
+history | grep id
+#1559664452
+idconfig
+#1559664478
+history | grep lb
+#1559664482
+history | grep ld
+#1559664493
+ldconfig
+#1559664497
+ldconfig -v
+#1559664510
+ldconfig -v | grep libmy
+#1559664524
+ldconfig -v
+#1559664536
+ldconfig -v | less
+#1559664743
+cd /lib
+#1559664745
+ls
+#1559664757
+rm libmy.so
+#1559664765
+rm -f libmy.so
+#1559664767
+ll
+#1559664779
+llcd
+#1559664780
+cd
+#1559664780
+ls
+#1559664916
+history | grep libmy.so
+#1559664958
+history | less
+#1559665021
+ls
+#1559665021
+cd
+#1559665027
+cd hw9
+#1559665028
+ls
+#1559665057
+cd
+#1559665076
+cd git_linux/practise/ch7/sp1
+#1559665076
+ls
+#1559665081
+cat gongyoo.
+#1559665083
+cat gongyoo.c
+#1559665149
+cd
+#1559665152
+cd hw9
+#1559665159
+cat 2-1.txt 
+#1559665179
+gcc -c -fPIC mycomp.c
+#1559665209
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.2 mycomp.o
+#1559665211
+ll
+#1559665249
+rm -f libmy.so.2
+#1559665250
+ll
+#1559665257
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1 mycomp.o
+#1559665258
+ll
+#1559665308
+ln -sf libmy.so.1 libmy.so
+#1559665310
+ll
+#1559665331
+cat 2-1.txt 
+#1559665341
+gcc -o main2 main2.c -lmy
+#1559665351
+ll
+#1559665361
+cat main2.c 
+#1559665389
+joe main2.c 
+#1559665411
+cat main2.c 
+#1559665461
+cat mycomp.c
+#1559665550
+cat 2-1.txt 
+#1559665720
+ls
+#1559665738
+cp -f mycomp.c ~/test
+#1559665744
+cp -f main2.c ~/test
+#1559665879
+printenv 
+#1559666214
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:pwd 
+#1559666278
+cd $OLDPWD
+#1559666287
+cd git_linux/
+#1559666294
+cd ../hw10/
+#1559666296
+cd $OLDPWD
+#1559666304
+back
+#1559666305
+cd
+#1559666318
+joe .bashrc
+#1559666343
+printenv 
+#1559666483
+cd git_linux/practise/ch7/sp1
+#1559666484
+ls
+#1559666502
+cat pshare.c 
+#1559666518
+cat gongyoo.c
+#1559666538
+cp gongyoo.c ~/test/
+#1559666544
+cp pshare.c ~/test/
+#1559666735
+joe gongyoo.c
+#1559667611
+cd ~/test/
+#1559667615
+printenv 
+#1559667636
+ll
+#1559667640
+./auto
+#1559667646
+ll
+#1559667652
+rm -rf libcmp.so 
+#1559667654
+ll
+#1559667664
+rm -f *~
+#1559667665
+ll
+#1559667679
+./auto mycomp main2
+#1559667687
+ll
+#1559667699
+rm libcmp.so*
+#1559667700
+ll
+#1559667705
+rm mycomp.o
+#1559669255
+ls
+#1559669258
+cd test/
+#1559669259
+ll
+#1559669268
+cat auto
+#1559669298
+./auto mycomp main2
+#1559669311
+printenv 
+#1559669326
+joe auto
+#1559669348
+LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PWD
+#1559669350
+printenv 
+#1559669357
+./auto mycomp main2
+#1559669376
+printenv 
+#1559669378
+ll
+#1559669387
+rm -f libmy.so* *~ *.o
+#1559669387
+ll
+#1559669389
+printenv 
+#1559669393
+./auto mycomp main2
+#1559669445
+ls
+#1559669449
+rm -f libmy.so* *~ *.o
+#1559669450
+ll
+#1559669455
+joe auto 
+#1559669490
+ls
+#1559669491
+ll
+#1559669495
+rm -f libmy.so* *~ *.o
+#1559669496
+ll
+#1559669500
+exit
+#1559667726
+cd test/
+#1559667729
+printenv 
+#1559667740
+cd
+#1559667746
+joe .bash_profile
+#1559668259
+ls
+#1559668281
+ldconfig -v
+#1559668300
+ldconfig -v | grep libcmp
+#1559668317
+ldconfig -v | grep lib
+#1559668328
+ldconfig -v | grep my
+#1559668331
+ldconfig -v | grep cmp
+#1559668334
+ldconfig -v | grep myl
+#1559668343
+ls
+#1559668345
+cd test/
+#1559668346
+ls
+#1559668352
+joe auto 
+#1559668406
+ll
+#1559668426
+./auto mycomp main2
+#1559668435
+ll
+#1559668444
+rm libmy.so*
+#1559668445
+ll
+#1559668451
+rm *.o
+#1559668451
+ll
+#1559668458
+joe main2.c 
+#1559668482
+./auto mycomp main2
+#1559668491
+joe main2.c
+#1559668498
+joe mycomp.c
+#1559668514
+joe main2.c
+#1559668523
+ll
+#1559668527
+rm libmy.so*
+#1559668528
+ll
+#1559668531
+rm *~
+#1559668532
+ll
+#1559668536
+rm *.o
+#1559668537
+ll
+#1559668543
+./auto mycomp main2
+#1559668557
+joe main2.c 
+#1559668573
+joe mycomp.c
+#1559668611
+joe main2.c 
+#1559668680
+ldconfig 
+#1559668784
+ll
+#1559668791
+rm libmy.so*
+#1559668792
+ll
+#1559668795
+rm *~
+#1559668799
+rm *.o
+#1559668800
+ll
+#1559668803
+joe auto 
+#1559668818
+./auto mycomp main2
+#1559668899
+ls
+#1559668900
+ll
+#1559668911
+rm libmy.so* *~ *.o
+#1559668911
+ll
+#1559668914
+joe auto 
+#1559668922
+joe main2.c 
+#1559668966
+./auto mycomp main2
+#1559668982
+rm libmy.so* *~ *.o
+#1559668986
+joe main2.c 
+#1559668993
+rm libmy.so* *~ *.o
+#1559668996
+./auto mycomp main2
+#1559669002
+rm libmy.so* *~ *.o
+#1559669005
+joe mycomp.c 
+#1559669028
+./auto mycomp main2
+#1559669089
+rm libmy.so* *~ *.o
+#1559669097
+joe mycomp.c 
+#1559669107
+joe main2.c 
+#1559669124
+mv main2.c main.c
+#1559669129
+./auto mycomp main
+#1559669144
+rm libmy.so* *~ *.o
+#1559669151
+mv main.c main2.c 
+#1559669151
+ls
+#1559669152
+ll
+#1559669172
+./auto gongyoo pshare
+#1559669179
+rm libmy.so* *~ *.o
+#1559669185
+joe auto 
+#1559669194
+ls
+#1559669196
+printenv 
+#1559669206
+ls
+#1559669515
+vi auto 
+#1559670976
+ls
+#1559712702
+cd test/
+#1559712703
+ls
+#1559712705
+cat auto 
+#1559712710
+printenv 
+#1559712716
+ls
+#1559712728
+./auto mycomp main2
+#1559712729
+ls
+#1559712730
+ll
+#1559712732
+printenv 
+#1559712741
+cat auto 
+#1559712755
+LD_LIBRARY_PATH=$PWD
+#1559712757
+printenv 
+#1559712765
+ls
+#1559712772
+rm libmy.so* *.o
+#1559712773
+ll
+#1559712782
+vim auto 
+#1559712786
+vi auto 
+#1559712840
+cat auto 
+#1559712842
+ll
+#1559712845
+printenv 
+#1559712848
+cd
+#1559712856
+joe .bash_profile
+#1559712886
+ls
+#1559712916
+cd lib/
+#1559712916
+ls
+#1559712930
+rm libmy.so*
+#1559712930
+ls
+#1559713544
+cd test/
+#1559713548
+joe auto 
+#1559714040
+cd
+#1559714049
+vi .bash_profile
+#1559714123
+joe .bash_profile
+#1559717721
+ls
+#1559717723
+cd lib/
+#1559717723
+ll
+#1559717727
+vi auto 
+#1559717886
+env
+#1559716603
+env
+#1559716611
+cd hw9
+#1559716612
+ls
+#1559716623
+cd
+#1559716625
+cd test/
+#1559716631
+./auto mycomp main2
+#1559716636
+ls
+#1559716637
+l
+#1559716638
+ll
+#1559716644
+rm libmy.so* *.o
+#1559716646
+ll
+#1559716653
+vi auto 
+#1559717195
+ls
+#1559717201
+cd
+#1559717203
+cd lib/
+#1559717204
+ls
+#1559717205
+ll
+#1559717215
+cp ../test/*
+#1559717215
+ll
+#1559717227
+cp ../test/* .
+#1559717228
+ll
+#1559717239
+./auto mycomp main2
+#1559717241
+ls
+#1559717242
+ll
+#1559717250
+rm libmy.so* *.o
+#1559717318
+ll
+#1559717329
+./auto gongyoo pshare
+#1559717332
+./pshare 
+#1559717334
+ll
+#1559717339
+./pshare 
+#1559717362
+joe auto 
+#1559717410
+ls
+#1559717417
+rm -f libmy.so*
+#1559717428
+./auto gongyoo pshare
+#1559717430
+ll
+#1559717433
+./pshare 
+#1559717453
+joe auto
+#1559717563
+ll
+#1559717567
+rm libmy.so*
+#1559717568
+ll
+#1559717586
+rm pshare
+#1559717587
+ls
+#1559717607
+./auto gongyoo pshare
+#1559717626
+ll
+#1559717630
+rm libmy.so
+#1559717630
+ll
+#1559717638
+rm *~ *.o
+#1559717639
+ll
+#1559717641
+rm pshare
+#1559717642
+ll
+#1559717659
+rm libmy.so.1.0.1 
+#1559717662
+ll
+#1559717667
+joe auto 
+#1559717730
+ls
+#1559717731
+ll
+#1559717741
+gcc -fPIC -c gongyoo.c 
+#1559717757
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 gongyoo.o
+#1559717768
+ln -s libmy.so.1.0.1 libmy.so
+#1559717783
+gcc -o pshare pshare.c -lmy
+#1559717785
+./pshare 
+#1559717794
+env
+#1559717849
+ls
+#1559717850
+ll
+#1559717854
+rm libmy.so*
+#1559717857
+rm pshare
+#1559717863
+rm *.o
+#1559717863
+ll
+#1559717864
+cd 
+#1559717865
+ls
+#1559717872
+joe .bash_profile
