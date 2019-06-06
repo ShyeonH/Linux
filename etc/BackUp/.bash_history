@@ -1,619 +1,3 @@
-printenv
-#1554880529
-printenv HOME
-#1554954322
-pwd
-#1554954323
-ll
-#1554954334
-md test
-#1554954337
-;;
-#1554954340
-cd test
-#1554954341
-ll
-#1554954530
-cp /storage/devQ.txt
-#1554954535
-cp /storage/devQ.txt .
-#1554954540
-ll
-#1554954553
-gzip devQ.txt 
-#1554954554
-ll
-#1554954566
-cp /storage/devQ.txt .
-#1554954572
-xz devQ.txt 
-#1554954573
-ll
-#1554954577
-cp /storage/devQ.txt .
-#1554954587
-bzip2 devQ.txt 
-#1554954588
-ll
-#1554954601
-pwd
-#1554956288
-exit
-#1555483396
-ps -f
-#1555483445
-exit
-#1555484647
-history 
-#1555484736
-ll
-#1555484750
-ls
-#1555484807
- sleep 100 &
-#1555484814
- sleep 200 &
-#1555484825
- sleep 300 &
-#1555484829
-ps -f
-#1555484852
-jobs
-#1555484915
-ps -f
-#1555484931
-kill -19 11634 11728
-#1555484936
-ps -f
-#1555484942
-jobs
-#1555484992
-kill 11634
-#1555484997
-kill -9 11634
-#1555485001
-ps -f
-#1555485150
-sleep 1000
-#1555485159
-bg 4
-#1555485165
-ps -f
-#1555485176
-jobs
-#1555485186
-fg
-#1555485191
-jobs
-#1555508889
-PATH=
-#1555508895
-ls
-#1555509088
-opwd
-#1555509089
-pwd
-#1555509089
-ls
-#1555509094
-cd ch3-2/
-#1555509095
-ll
-#1555509096
-ls
-#1555509101
-ll
-#1555510379
-export LANG=C
-#1555510395
-pwd
-#1555510397
-ll
-#1555510399
-ls
-#1555510451
-cat /etc/motd
-#1555510493
-cat /etc/
-#1555510498
-ls
-#1555510501
-pwd
-#1555510502
-ls
-#1555510508
-rd LinuxISO/
-#1555510510
-rd LinuxISO
-#1555510515
-ra LinuxISO
-#1555510517
-ll
-#1555510518
-ls
-#1555510525
-ra bb.tar 
-#1555510528
-ra dd.tar 
-#1555510544
-ra ch3-2.tar 
-#1555510554
-ll test
-#1555510559
-ra test
-#1555510563
-ll
-#1555510564
-ls
-#1555510576
-rm cc.tar.gz 
-#1555510577
-ll
-#1555510578
-ls
-#1555510589
-ra VirtualBox-5.1.22-115126-Win.exe 
-#1555510590
-ll
-#1555510591
-ls
-#1555510598
-cat cp.man 
-#1555510599
-ll
-#1555510601
-ls
-#1555510608
-rm -rf cp.man 
-#1555510610
-ls
-#1555510613
-ll
-#1555510647
-ls bkup/
-#1555510659
-cat bkup/myfile
-#1555510665
-cat bkup/myfile.txt 
-#1555510676
-ra bkup/myfile
-#1555510678
-ra bkup/myfile.txt 
-#1555510685
-rd bkup/
-#1555510685
-ls
-#1555510696
-cat me.txt 
-#1555510701
-cat who.out 
-#1555510705
-ll
-#1555510723
-cat welcome 
-#1555510730
-ra welcome 
-#1555510734
-ra who.out 
-#1555510742
-cat numbers 
-#1555510748
-ra numbers \
-#1555510751
-ls
-#1555510752
-ll
-#1555510755
-ra numbers
-#1555510757
-ll
-#1555510777
-ll Clean/
-#1555510783
-ll Clean/ch3-1/
-#1555510801
-ra Clean/ch3-1/bb 
-#1555510804
-ra Clean/ch3-1/loop
-#1555510808
-ra Clean/ch3-1/loop2
-#1555510810
-ra Clean/ch3-1/loop3 
-#1555510813
-ra Clean/ch3-1/numfile 
-#1555510817
-ra Clean/ch3-1/old.dat 
-#1555510820
-ra Clean/ch3-1/vimrc 
-#1555510823
-ra Clean/ch3-1
-#1555510826
-ra Clean
-#1555510827
-ll
-#1555510828
-ls
-#1555510836
-ra me.txt 
-#1555510853
-./csum
-#1555510860
-./ssum
-#1555510869
-ra ssum 
-#1555510875
-ra me
-#1555510878
-ls
-#1555510878
-ll
-#1555510899
-cat newfile 
-#1555510904
-ra newfile 
-#1555510906
-ll
-#1555510911
-cat out 
-#1555510917
-joe out 
-#1555510921
-ll
-#1555510924
-ra out 
-#1555510925
-ll
-#1555510930
-cat ls.txt 
-#1555510933
-ra ls.txt 
-#1555510934
-ll
-#1555510948
-./hello 
-#1555510957
-joe hello
-#1555510961
-ll
-#1555510965
-./hello 
-#1555510975
-ra hello
-#1555510976
-ll
-#1555510982
-./nalja 
-#1555511004
-./ mynet/
-#1555511012
-./mynet/
-#1555511013
-./mynet
-#1555511019
-cat mynet/
-#1555511025
-cd mynet/
-#1555511027
-ll
-#1555511028
-ls
-#1555511032
-u
-#1555511033
-ls
-#1555511034
-ll
-#1555511035
-pwd
-#1555511051
-cat hello.txt 
-#1555511058
-cat linux.txt 
-#1555511064
-joe hello.txt 
-#1555511067
-ra hello.txt 
-#1555511068
-ll
-#1555511072
-ra linux.txt 
-#1555511073
-ll
-#1555511083
-joe csum
-#1555511088
-ll
-#1555511092
-joe csum.c 
-#1555511105
-ll
-#1555511112
-./myrun 
-#1555511119
-joe myrun 
-#1555511127
-./myrun 
-#1555511148
-ll
-#1555511168
-ra myrun 
-#1555511169
-ll
-#1555511170
-ls
-#1555511186
-ll mysecret/
-#1555511192
-ra mysecret/
-#1555511196
-ll
-#1555511208
-./colors 
-#1555511218
-joe colors 
-#1555511239
-ll
-#1555511249
-mv colors colors_for
-#1555511251
-ll
-#1555511262
-mv csum csum
-#1555511266
-mv csum csum_c
-#1555511266
-ll
-#1555511273
-joe nalja 
-#1555511276
-ll
-#1555511286
-mv nalja nalja_linux
-#1555511591
-ls
-#1555511622
-cat .bashrc
-#1555511636
-joe .bashrc
-#1555511726
-rc
-#1555511730
-man rc
-#1555511732
-joe .bashrc
-#1555511743
-ll
-#1555511744
-ls
-#1555511768
-md HwangshEtc
-#1555511769
-ll
-#1555511770
-ls
-#1555511783
-mv colors_for HwangshEtc
-#1555511793
-mv csum.c HwangshEtc
-#1555511796
-mv csum_c HwangshEtc
-#1555511802
-mv nalja_linux HwangshEtc
-#1555511804
-ll
-#1555511804
-ls
-#1555511809
-tree
-#1555511812
-tree ~
-#1555511826
-tree /home/class/
-#1555511830
-tree /home/class/hwangsh/
-#1555511841
-hometree
-#1555511845
-man tree
-#1555511879
-tree /home/class/hwangsh/
-#1555511909
-ll
-#1555511912
-ls
-#1555513536
-ll
-#1555513545
-cd ch3-2/
-#1555513546
-ll
-#1555513559
-less twoline.txt 
-#1555513580
-less twoline.txt/`
-#1555513584
-less twoline.txt/1
-#1555513594
-less twoline.txt
-#1555513676
-tail .f log.file
-#1555513790
-cd ~
-#1555513797
-home
-#1555513804
-joe .bashrc
-#1555513845
-ls
-#1555513851
-md test/12
-#1555513852
-ll
-#1555513862
-md -p test/12
-#1555513863
-ll
-#1555513869
-ll test/
-#1555513873
-ra test/
-#1555513881
-rc test
-#1555513883
-ll
-#1555513895
-logout
-#1555513907
-md test/123
-#1555513908
-ll
-#1555513912
-rc test/
-#1555513919
-joe .bashrc
-#1555513950
-now
-#1555513957
-where
-#1555513966
-whereiam
-#1555514005
-joe .bashrc
-#1555514030
-aa
-#1555514038
-logout
-#1555514046
-aa
-#1555514057
-joe .bashrc
-#1555514159
-ni
-#1555514163
-logout
-#1555514182
-ni
-#1555514185
-gh
-#1555514188
-u
-#1555514189
-gh
-#1555514190
-u
-#1555514193
-ni
-#1555514200
-gh
-#1555514386
-joe .bashrc
-#1555514546
-man rm
-#1555514553
-joe .bashrc
-#1555514885
-who | wc -l
-#1555515026
-joe .bash_profile
-#1555515761
-su -ztest
-#1555515767
-su -zztest
-#1555515770
-su -test
-#1555515773
-su - test
-#1555515775
-su - ztest
-#1555516405
-whereis color_for
-#1555516413
-whereis find
-#1555516460
-locate passwd
-#1555516475
-locate color_for
-#1555516478
-locate color
-#1555516490
-locate 1-1
-#1555516501
-less locate 1-1
-#1555516507
-less | locate 1-1
-#1555516532
-locate 1-1.txt
-#1555516546
-find 1-1.txt
-#1555516564
-find / 1-1.txt
-#1555516582
-find /home/class/ 1-1.txt
-#1555516595
-find /home/class/ 1-1.txt 2> dev/null
-#1555516606
-find /home 1-1.txt 2> dev/null
-#1555516612
-find / 1-1.txt 2> dev/null
-#1555516616
-find / 1-1 2> dev/null
-#1555516629
-find /home/class/ 1-1.txt 2> /dev/null
-#1555516646
-find /home/class/ color_for 2> /dev/null
-#1555516658
-find /home/class/ color 2> /dev/null
-#1555516674
-find /home/class/ *.script 2> /dev/null
-#1555516684
-find /
-#1555516749
-find /home/class/ -name 1-1.txt 2> /dev/null
-#1555517093
-history | grep cut
-#1555517260
-history | grep diff
-#1555517479
-history | grep patch
-#1555517711
-ni
-#1555517720
-cd HwangshEtc/
-#1555517727
-ni
-#1555517753
-xz colors_for 
-#1555517754
-ll
-#1555517768
-./colors_for.xz 
-#1555517786
-unxz colors_for.xz 
-#1555517786
-ll
-#1555520184
-uname
-#1555520189
-uname -a
-#1555520230
-printenv
-#1555520235
-env
-#1555565954
-ps -f
-#1555565965
-sleep 1000 &
-#1555565967
-sleep 2000 &
-#1555565970
-sleep 3000 &
-#1555565972
-ps -f
-#1555565976
-kill 5081
-#1555565977
-ps -f
-#1555566002
 kill -19 5085 5088
 #1555566028
 pwd
@@ -13952,3 +13336,613 @@ cd
 ls
 #1559717872
 joe .bash_profile
+#1559718008
+env
+#1559718011
+ls
+#1559718014
+cd lib/
+#1559718014
+ll
+#1559718025
+./auto mycomp main2
+#1559718038
+ll
+#1559718043
+rm libmy.so*
+#1559718051
+./auto gongyoo pshare
+#1559718062
+ll
+#1559718071
+rm libmy.so* pshare *.o
+#1559718072
+ll
+#1559719164
+who
+#1559719169
+who -?
+#1559719174
+who --help
+#1559719180
+who --a
+#1559719205
+ls /etc/passwd
+#1559719212
+cat  /etc/passwd
+#1559719220
+who
+#1559719250
+last
+#1559719257
+last | grep hwangsh
+#1559719596
+ls
+#1559719599
+cd hw9
+#1559719600
+ls
+#1559719608
+cat 1-1.txt 
+#1559719615
+cat 2-1.txt 
+#1559719620
+joe 2-1.txt 
+#1559719628
+ll
+#1559719631
+cat 2-1.txt
+#1559719679
+ls
+#1559719682
+cd 
+#1559719683
+ls
+#1559719685
+env
+#1559719697
+cd  hw10/
+#1559719697
+ls
+#1559719699
+ll
+#1559720071
+ls
+#1559720073
+cd
+#1559720073
+l;s
+#1559720075
+ls
+#1559720115
+cp -rf hw9 ~/git_linux/hw
+#1559720121
+cp -rf hw10 ~/git_linux/hw
+#1559720122
+ls
+#1559720125
+cd git_linux/hw/
+#1559720126
+ll
+#1559720137
+cd hw9
+#1559720138
+ll
+#1559720152
+cd
+#1559720152
+ll
+#1559720162
+cd git_linux/
+#1559720163
+ls
+#1559720181
+git add hw/hw10/
+#1559720184
+git add hw/hw9/
+#1559720187
+git status 
+#1559720199
+git add etc/BackUp
+#1559720202
+ls
+#1559720204
+ll
+#1559720209
+git status 
+#1559720251
+git log
+#1559720262
+git commit -m v3.2
+#1559720271
+git push 
+#1559721265
+ls
+#1559721267
+cd test
+#1559721268
+ls
+#1559721273
+cat auto 
+#1559721302
+ll
+#1559721312
+./auto mycomp main2
+#1559721339
+ll
+#1559721344
+rm libmy.so*
+#1559721345
+ll
+#1559721361
+./auto gongyoo pshare
+#1559721363
+./pshare 
+#1559721368
+cat main2.c 
+#1559721384
+cat pshare
+#1559721388
+clae
+#1559721390
+clear
+#1559721393
+cat pshare.c 
+#1559721412
+cat main2.c 
+#1559721427
+ll
+#1559721431
+rm libmy.so*
+#1559721543
+ll
+#1559721552
+./auto mycomp main2
+#1559721600
+cat pshare.c
+#1559721604
+cat gongyoo.c
+#1559721619
+cat main2.c 
+#1559721622
+cat mycomp.c
+#1559721655
+cat auto 
+#1559721985
+echo &LD_LIBRARY_PATH
+#1559721996
+echo $LD_LIBRARY_PATH
+#1559722008
+pwd
+#1559722029
+ll
+#1559722034
+cat auto\
+#1559722049
+rm mycomp.o
+#1559722058
+rm lib*
+#1559722058
+ll
+#1559722079
+gcc -fPIC -c mycomp.c 
+#1559722079
+ll
+#1559722117
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.0 mycomp.o
+#1559722118
+ll
+#1559722142
+ln -s libmy.so.1.0.0 libmy.so
+#1559722143
+ll
+#1559722168
+gcc -o main2 main2.c -lmy
+#1559722198
+mv libmy.so libcom.so
+#1559722199
+ll
+#1559722210
+rm libcom.so 
+#1559722211
+ll
+#1559722221
+mv libmy.so.1.0.0 libcom.so.1.0.0
+#1559722247
+ll
+#1559722256
+ln -s libcom.so.1.0.0 libcom.so
+#1559722256
+ll
+#1559722273
+gcc -o main2 main2.c -lcom
+#1559722287
+gcc -o main2 main2.c -lco
+#1559722310
+echo $LD_LIBRARY_PATH
+#1559722338
+ll
+#1559722347
+mv libcom.so* ~/lib/
+#1559722348
+ll
+#1559722352
+gcc -o main2 main2.c -lcom
+#1559722358
+cd ~/lib
+#1559722359
+ll
+#1559722407
+mv libcom.so libmy.so
+#1559722419
+mv libcom.so.1.0.0 libmy.so.1.0.0
+#1559722420
+ll
+#1559722425
+rm libmy.so
+#1559722431
+ll
+#1559722441
+ln -s libmy.so.1.0.0 libmy.so
+#1559722441
+ll
+#1559722444
+cd ..
+#1559722444
+ll
+#1559722447
+cd text
+#1559722447
+ll
+#1559722449
+cd text
+#1559722450
+cd test
+#1559722451
+ll
+#1559722458
+gcc -o main2 main2.c -lmy
+#1559722466
+cat main2.c 
+#1559722492
+cat mycomp.
+#1559722493
+cat mycomp.c
+#1559722648
+ldconfig'
+\
+
+
+
+
+
+#1559722653
+ldconfig
+#1559722665
+cd /
+#1559722666
+ll
+#1559722669
+cd usr
+#1559722669
+l
+#1559722670
+ll
+#1559722672
+cd lib
+#1559722672
+ll
+#1559722739
+cd
+#1559722739
+ll
+#1559722808
+histroy
+#1559722813
+history
+#1559722830
+echo $LD_LIBRARY_PATH
+#1559722900
+$LD_LIBRARY_PATH=$HOME/test
+#1559722917
+LD_LIBRARY_PATH=$HOME/test
+#1559722921
+echo $LD_LIBRARY_PATH
+#1559722924
+cd test
+#1559722924
+ll
+#1559722936
+cd ..
+#1559722936
+l
+#1559722937
+ll
+#1559722938
+cd lib
+#1559722939
+ll
+#1559722943
+mv libmy.* ~/test
+#1559722944
+ll
+#1559722947
+cd ~/test
+#1559722948
+kll
+#1559722949
+ll
+#1559722961
+gcc -o main2 main2.c -lmy
+#1559722972
+ll
+#1559722989
+mv libmy.so.1.0.0 libmm.so.1.0.0
+#1559722990
+ll
+#1559722995
+rm libmy.so 
+#1559723002
+ln -s libmm.so
+#1559723003
+ll
+#1559723009
+rm libmm.so
+#1559723009
+ll
+#1559723019
+mv libmm.so.1.0.0 libmy.so.1.0.0
+#1559723019
+ll
+#1559723035
+ln -s libmy.so.1.0.0 libmm.so
+#1559723035
+ll
+#1559723041
+gcc -o main2 main2.c -lmm
+#1559723182
+ssh yong@223.195.109.38
+#1559723241
+ll
+#1559723263
+ls
+#1559723264
+cd 
+#1559723265
+cd
+#1559723265
+ls
+#1559723269
+cd hw9
+#1559723270
+ls
+#1559723314
+cd
+#1559723381
+ls
+#1559723384
+cd hw9
+#1559723385
+ls
+#1559723400
+cat 2-1.txt
+#1559723421
+cat 2-2.txt
+#1559723427
+ll
+#1559723432
+rm *~
+#1559723433
+ll
+#1559723524
+cat 3.txt 
+#1559723538
+cat 4.txt 
+#1559723546
+ll
+#1559723550
+rm libmy.so*
+#1559723551
+ls
+#1559723555
+cat main2.c 
+#1559723562
+cat mycomp.c
+#1559723571
+rm mycomp.o
+#1559723616
+env
+#1559723636
+cd
+#1559723638
+cd tes
+#1559723639
+cd test/
+#1559723641
+cat auto 
+#1559723602
+ls
+#1559723604
+cd test/
+#1559723605
+ls
+#1559723612
+cat auto 
+#1559723621
+env
+#1559723645
+cd
+#1559723649
+cd hw9/
+#1559723650
+ls
+#1559723651
+ll
+#1559723677
+gcc -fPIC -c mycomp.c 
+#1559723678
+ll
+#1559723703
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559723715
+ln -s libmy.so.1.0.1 libmy.so
+#1559723750
+ll
+#1559723755
+rm libmy.so*
+#1559723756
+ll
+#1559723782
+rm mycomp.o
+#1559723782
+ll
+#1559723798
+env
+#1559723817
+echo $LD_LIBRARY_PATH
+#1559723843
+cat ~/.bash_profile
+#1559723876
+joe ~/.bash_profile
+#1559723997
+cd ~/test/
+#1559723999
+cat auto 
+#1559724004
+vi auto 
+#1559724169
+cd
+#1559724171
+cd lib
+#1559724172
+ls
+#1559724187
+cd
+#1559724189
+cd hw9
+#1559724190
+ls
+#1559724196
+cat 1-1.txt 
+#1559724245
+ll
+#1559724288
+cat 1-1.txt 
+#1559724299
+gcc -c mygop.c
+#1559724325
+ar rv libmy.a mygop.o
+#1559724335
+cd ~/lib/
+#1559724336
+ls
+#1559724340
+rm *
+#1559724343
+cd
+#1559724345
+cd hw9
+#1559724353
+mv libmy.a ~/lib
+#1559724359
+ls ~/lib
+#1559724363
+cat 1-2.txt 
+#1559724377
+gcc -o static main.c -L/home/class/hwangsh/lib/ -lmy
+#1559724381
+./static 
+#1559724463
+cd
+#1559724464
+cd lib/
+#1559724465
+ls
+#1559724494
+mv libmy.a libmyasd.a
+#1559723951
+env
+#1559723964
+cd hw9
+#1559723966
+ls
+#1559723970
+clear
+#1559723978
+echo $LD_LIBRARY_PATH
+#1559723984
+clear
+#1559723985
+pwd
+#1559723987
+echo $LD_LIBRARY_PATH
+#1559724025
+gcc -fPIC -c mycomp.c 
+#1559724079
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1559724097
+ll ./libmy.so.1.0.1 
+#1559724124
+ln -s libmy.so.1.0.1 libmy.so
+#1559724131
+ll ./libmy.so*
+#1559724159
+gcc -o main2 main2.c -lmy
+#1559724409
+mv libmy.so* ~/lib
+#1559724412
+ll ./libmy.so*
+#1559724426
+ll ~/lib/libmy.so*
+#1559724446
+gcc -o main2 main2.c -lmy
+#1559724740
+ls
+#1559724743
+cat 2-1.txt 
+#1559724750
+joe 2-1.txt 
+#1559724759
+cat 2-2.txt 
+#1559724964
+cd
+#1559724965
+cd lib/
+#1559724966
+ls
+#1559724979
+mv libmyasd.a libmy.a
+#1559724980
+ll
+#1559724993
+mv libmy.so* ~/hw9
+#1559724996
+cd ~/hw9
+#1559724997
+ll
+#1559725043
+man nm
+#1559725051
+ls
+#1559725071
+nm -D libmy.so
+#1559725089
+sudo ldconfig -n .
+#1559725133
+gcc -o main2 main2.c -lmy
+#1559725154
+ls
+#1559725163
+ll
+#1559725746
+ls
+#1559725806
+mv libmy.so libmycomp.so
+#1559725807
+ls
+#1559725868
+cp libmycomp.so /usr/local/lib
+#1559725966
+cat /etc/ld.so.conf
+#1559725979
+ll /etc/ld.so.conf

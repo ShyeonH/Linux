@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
   struct passwd *pw;
   struct group *gr;
   char strftimeBuf[100];
-  
+  int i;
+
   if(argc!=2) {
     printf("Usage : pstat filename\n");
     exit(1);
@@ -37,7 +38,7 @@ int main(int argc, char *argv[])
      putchar('b');
   else if (S_ISFIFO(fsb.st_mode))
      putchar('p');
-     
+   
   //user  
   if (fsb.st_mode & S_IRUSR)
     putchar('r');
@@ -88,29 +89,29 @@ int main(int argc, char *argv[])
 
     
   //hardlink  
-  printf("\t%d", fsb.st_nlink);
+  printf(" %d", fsb.st_nlink);
   
   //uid name
   pw = getpwuid(fsb.st_uid);
-  printf("\t%s", pw->pw_name);
+  printf(" %s", pw->pw_name);
   
   //gid name
   gr=getgrgid(fsb.st_gid);
-  printf("\t%s", gr->gr_name);
+  printf(" %s", gr->gr_name);
   
   //file size
-  printf("\t%d", fsb.st_size);
+  printf(" %d", fsb.st_size);
   
   //time - man strftime or https://www.ibm.com/support/knowledgecenter/ko/ssw_ibm_i_73/rtref/strfti.htm
   strftime(strftimeBuf, sizeof(strftimeBuf), "%b %d %R", localtime(&fsb.st_ctime));
-  printf("\t%s", strftimeBuf);
+  printf(" %s", strftimeBuf);
   
   //file name
-  printf("\t%s", argv[1]);
+  printf(" %s", argv[1]);
   
   //The ID of the user performing the program
   pw = getpwuid(getuid()); 
-  printf("\t==> by %s\n", pw->pw_name);
+  printf(" ==> by %s\n", pw->pw_name);
   
   return 0;
 }
