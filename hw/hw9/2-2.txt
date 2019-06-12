@@ -1,24 +1,18 @@
-[hwangsh@para ~/hw9]_5977
-$ joe mycomp.c
-Processing '/etc/joe/joerc'...Processing '/etc/joe/ftyperc'...done
-done
-^K  I A  mycomp.c (Modified)(c)  void my  Row 5    Col 14   9:28  Ctrl-K H
-for help
+$ vi mycomp.c  
 #include <stdio.h>
 
 void mycomp(int a, int b)
 {
    printf("V2 computation result = %d \n", a+b);
 }
-
-
-File mycomp.c saved
-[hwangsh@para ~/hw9]_5978
-$ gcc -fPIC -c mycomp.c 
-[hwangsh@para ~/hw9]_5979
+~
+"mycomp.c" 6L, 99C written
+[hwangsh@para ~/hw9]_7022
+$ gcc -fPIC -c mycomp.c
+[hwangsh@para ~/hw9]_7023
 $ gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.2 mycomp.o
-[hwangsh@para ~/hw9]_5980
+[hwangsh@para ~/hw9]_7024
 $ ln -sf libmy.so.1.0.2 libmy.so
-[hwangsh@para ~/hw9]_5981
+[hwangsh@para ~/hw9]_7025
 $ ./main2 
 V2 computation result = 5 

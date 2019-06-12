@@ -1,11 +1,12 @@
-[hwangsh@para ~/hw9]_5972
-$ gcc -fPIC -c mycomp.c 
-[hwangsh@para ~/hw9]_5973
+ngsh@para ~/hw9]_7009
+$ gcc -fPIC -c mycomp.c
+[hwangsh@para ~/hw9]_7010
 $ gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
-[hwangsh@para ~/hw9]_5974
-$ ln -s libmy.so.1.0.1 libmy.so       
-[hwangsh@para ~/hw9]_5975
-$ gcc -o main2 main2.c -lmy -L.
-[hwangsh@para ~/hw9]_5976
+[hwangsh@para ~/hw9]_7011
+$ ln -s libmy.so.1.0.1 libmy.so
+[hwangsh@para ~/hw9]_7012
+$ gcc -o main2 main2.c -lmy -L$HOME/hw9
+[hwangsh@para ~/hw9]_7013
 $ ./main2 
-V1 computation result = 5 
+V1 computation result = 5
+

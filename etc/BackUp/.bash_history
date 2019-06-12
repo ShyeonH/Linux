@@ -1,381 +1,3 @@
-kill -19 5085 5088
-#1555566028
-pwd
-#1555566060
-jobs
-#1555566112
-bg 5085
-#1555566128
-bg 2
-#1555566150
-jobs
-#1555566205
-fg 2
-#1555566224
-jobs
-#1555566227
-bg 2
-#1555566229
-jobs
-#1555566348
-ps -ef | grep cron
-#1555566412
-ps -ef | grep sshd
-#1555566611
-crontab -e
-#1555566686
-joe mycron
-#1555567090
-cat mycron 
-#1555567107
-crontab mycron
-#1555567123
-crontab -1
-#1555567140
-crontab mycron
-#1555567173
-joe mycron
-#1555567193
-crontab mycron
-#1555567211
-ps -ef | grep atd
-#1555567225
-ll
-#1555567233
-rc mycron~
-#1555567237
-ll
-#1555567241
-ls
-#1555567255
-rc mycron
-#1555567268
-ra mycron~
-#1555567278
-cat .bashrc
-#1555567292
-rf mycron~
-#1555567294
-ll
-#1555567302
-joe mycron
-#1555567328
-ll
-#1555567334
-rf mycron~
-#1555567351
-crontab mycron
-#1555567395
-joe myc
-#1555567401
-joe mycron 
-#1555567413
-crontab mycron
-#1555567418
-crontab -l
-#1555568328
-ll
-#1555568358
-history | grep cd
-#1555568434
-cd /storage/
-#1555568435
-ls
-#1555568443
-ls PubSW/
-#1555568453
-cd PubSW/VirtualBox/
-#1555568454
-ls
-#1555901303
-pwd
-#1555901304
-ll
-#1555901306
-ls -a
-#1555901307
-pwd
-#1555901308
-ls
-#1555901313
-cd HwangshEtc/
-#1555901314
-pwd
-#1555901315
-ls
-#1556072982
-ls -a
-#1556072986
-ls -l
-#1556072989
-ls -h
-#1556072994
-ls -hl
-#1556073002
-ls -R
-#1556073007
-ls -r
-#1556073011
-ls -q
-#1556073015
-ls -w
-#1556073020
-ls -r
-#1556073023
-ls -R
-#1556073029
-ls
-#1556073043
-ls -R HwangshEtc
-#1556073055
-ls - HwangshEtc
-#1556073058
-ls -F HwangshEtc
-#1556073063
-ls -F
-#1556073145
-file
-#1556073154
-file mycron
-#1556073162
-man file
-#1556073191
-cat mycron
-#1556073251
-man cat
-#1556083671
-ls
-#1556083673
-w
-#1556083676
-who
-#1556083774
-ps -ef
-#1556083783
-who
-#1556083785
-w
-#1556083789
-who -a
-#1556084459
-ps -f
-#1556084486
-cd /etc
-#1556084486
-pwd
-#1556084494
-lpwd
-#1556084498
-exit
-#1556084290
-ls
-#1556084299
-home
-#1556084300
-gh
-#1556084303
-ls
-#1556084309
-cd ch3-2
-#1556084310
-ls
-#1556084313
-cat grepfile 
-#1556084322
-cat grepfile | rev
-#1556084333
-cat grepfile | rev | tac
-#1556084344
-tac grepfile | rev
-#1556084354
-cal 11 2077
-#1556084391
-echo $LANG
-#1556084402
-printenv
-#1556084412
-printenv LANG
-#1556084422
-printenv
-#1556084425
-env
-#1556084431
-env LANG
-#1556084435
-printenv LANG
-#1556084449
-bash
-#1556084501
-pwd
-#1556084506
-ps -f
-#1556084524
-sleep 10
-#1556084539
-ps
-#1556084543
-ps -e
-#1556084547
-ps -ef
-#1556084561
-ps -ef | more
-#1556084611
-(pwd; sleep 10; echo done)
-#1556084912
-ps -ef
-#1556084921
-ps -ef | grep
-#1556084924
-ps -ef | grep sshd
-#1556084939
-killall sshd
-#1556084986
-at 3 pm
-#1556085044
-ls
-#1556085048
-cd ch3-2/
-#1556085049
-pwd
-#1556085050
-ls
-#1556085058
-at 3 pm
-#1556085075
-pwd
-#1556085075
-ls
-#1556085077
-ll
-#1556085079
-la
-#1556085080
-pwd
-#1556085080
-ls
-#1556085081
-ll
-#1556085084
-pwd
-#1556085085
-ll
-#1556085087
-gh
-#1556085125
-ls
-#1556085148
-ls a*
-#1556085174
-sleep 10 &
-#1556085337
-echo $LANG
-#1556085354
-a=123
-#1556085364
-echo a
-#1556085369
-echo $a
-#1556085419
-cat /etc/shells
-#1556085434
-csh
-#1556085451
-echo $SHELL
-#1556085466
-echo $PATH
-#1556085469
-echo $PS1
-#1556085480
-printenv
-#1556085596
-cat /etc/passwd | grep hwang
-#1556085658
-chsh -s /bin/csh
-#1556085673
-cat /etc/passwd | grep hwang
-#1556085715
-chsh -s /bin/bash
-#1556085723
-cat /etc/passwd | grep hwang
-#1556087902
-ls -a
-#1556087914
-joe .bash_logout
-#1556087964
-exit
-#1556088219
-echo $PS1
-#1556093571
-ls
-#1556093574
-pwd
-#1556093634
-exit
-#1556093873
-ssh 223.195.109.78
-#1556094257
-ssh seok@223.195.109.78
-#1556095236
-man more
-#1556095277
-tail -3 history
-#1556095281
-tail -n 3 history
-#1556095294
-history
-#1556095303
-[wd
-#1556095304
-pwd
-#1556095305
-ls
-#1556095316
-tail -1 mycron
-#1556095327
-tail -n 1 mycron
-#1556096572
-ps -ef
-#1556096575
-ps -f
-#1556096657
-ssh 223.195.109.78
-#1556096669
-ssh seok@223.195.109.78
-#1556096867
-cd /home/class/hwangsh/.ssh/
-#1556096868
-ls
-#1556096874
-cat known_hosts 
-#1556096897
-joe known_hosts 
-#1556097021
-ssh seok@223.195.109.78
-#1556099066
-joe known_hosts 
-#1556099090
-cd /home/class/hwangsh/.ssh/
-#1556099093
-joe known_hosts 
-#1556100141
-pwd
-#1556100145
-cd /home/class/hwangsh/.ssh/
-#1556100148
-joe known_hosts 
-#1556100153
-pwd
-#1556100155
-gh
-#1556100163
-joe .bashrc
-#1556101971
-man touch
-#1556102077
-pwd
-#1556102077
-ls
-#1556102081
 cat my
 #1556102083
 cat myc
@@ -13946,3 +13568,381 @@ cp libmycomp.so /usr/local/lib
 cat /etc/ld.so.conf
 #1559725979
 ll /etc/ld.so.conf
+#1559793253
+cd hw10/
+#1559793254
+ll
+#1559793257
+./a.out 
+#1559793260
+./a.out myll
+#1559793465
+012 345 678
+#1560170987
+ls
+#1560170989
+last
+#1560170991
+w
+#1560170993
+who
+#1560170996
+ls
+#1560171035
+last | sort
+#1560171109
+history | grep -d
+#1560170987
+ls
+#1560170989
+last
+#1560170991
+w
+#1560170993
+who
+#1560170996
+ls
+#1560171035
+last | sort
+#1560171109
+history | grep -d
+#1560171115
+history | grep '-d'
+#1560170987
+ls
+#1560170989
+last
+#1560170991
+w
+#1560170993
+who
+#1560170996
+ls
+#1560171035
+last | sort
+#1560171109
+history | grep -d
+#1560171115
+history | grep '-d'
+#1560171119
+history | grep "-d"
+#1560170987
+ls
+#1560170989
+last
+#1560170991
+w
+#1560170993
+who
+#1560170996
+ls
+#1560171035
+last | sort
+#1560171109
+history | grep -d
+#1560171115
+history | grep '-d'
+#1560171119
+history | grep "-d"
+#1560171124
+history | grep d
+#1560171146
+history | grep w
+#1560171157
+history | grep w | less
+#1560171186
+history | grep uni | less
+#1560171207
+last | sort | cut -d " " 1
+#1560171210
+last | sort | cut -d " " -f 1
+#1560171215
+last | sort | cut -d " " -f 1, 4
+#1560171217
+last | sort | cut -d " " -f 1, 3
+#1560171220
+last | sort | cut -d " " -f 1,3
+#1560171223
+last | sort | cut -d " " -f 3
+#1560171225
+last | sort | cut -d " " -f 4
+#1560171226
+last | sort | cut -d " " -f 5
+#1560171228
+last | sort | cut -d " " -f 6
+#1560171230
+last | sort | cut -d " " -f 
+#1560171231
+last | sort | cut -d " " -f 7
+#1560171234
+last | sort | cut -d " " -f 8
+#1560171235
+last | sort | cut -d " " -f 9
+#1560171239
+last | sor
+#1560171261
+last | sort | cut -d " " -f 10
+#1560171271
+last | sort | cut -d " " -f 11
+#1560171273
+last | sort | cut -d " " -f 13
+#1560171276
+last | sort | cut -d " " -f 15
+#1560171277
+last | sort | cut -d " " -f 18
+#1560171279
+last | sort | cut -d " " -f 10
+#1560171282
+last | sort | cut -d " " -f 21
+#1560171287
+last | sort | cut -d " " -f 22
+#1560171289
+last | sort | cut -d " " -f 23
+#1560171295
+last | sort
+#1560171303
+last | sort | cut -d "\t" -f 23
+#1560171309
+last | sort | cut -d "  " -f 23
+#1560171311
+last | sort | cut -d "  " -f 1
+#1560171321
+last | sort | cut -d "(" -f 1
+#1560171325
+last | sort | cut -d "(" -f 2
+#1560171335
+last | sort
+#1560171387
+last | sort | grep hwangsh| cut -d "(" -f 2
+#1560171413
+ls
+#1560171416
+cd hw9
+#1560171417
+ll
+#1560171429
+cat main2.c 
+#1560171437
+cat 2-1.txt 
+#1560171468
+history 
+#1560171492
+env
+#1560171499
+ll
+#1560171500
+pwd
+#1560171512
+gcc main2.c -lmy
+#1560317534
+ls
+#1560317776
+cd
+#1560317777
+ls
+#1560317780
+cd hw9
+#1560317780
+ls
+#1560317782
+ll
+#1560317843
+ls
+#1560317844
+cd
+#1560317846
+ls
+#1560317848
+cd test/
+#1560317848
+ls
+#1560317850
+cd
+#1560317856
+md libtest
+#1560317859
+cd libtest/
+#1560317860
+ls
+#1560317894
+cd
+#1560317895
+ls
+#1560317903
+rm -rf libtest/
+#1560317904
+ls
+#1560317907
+cd hw9
+#1560317907
+ls
+#1560317909
+ll
+#1560317945
+env
+#1560317951
+cd
+#1560317951
+ls
+#1560317959
+cd
+#1560317962
+cd hw9
+#1560317966
+cat 2-1.txt 
+#1560317997
+gcc -fPIC -c mycomp.c
+#1560318004
+ls
+#1560318028
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1560318045
+ln -sf libmy.so.1.0.1 libmy.so
+#1560318047
+ll
+#1560318084
+cp -f libmy.so* ~/lib/
+#1560318088
+cd ~/lib/
+#1560318089
+ll
+#1560318101
+cd ~/hw9/
+#1560318102
+ls
+#1560318104
+ll
+#1560318111
+cat 2-1.txt 
+#1560318148
+gcc -o main2 main2.c -lmy -L$HOME/lib
+#1560318152
+./main2 
+#1560318165
+cat mycomp.c
+#1560318213
+vi mycomp.c 
+#1560318224
+ls
+#1560318227
+ll
+#1560318244
+./main2 
+#1560318274
+ls
+#1560318386
+cd
+#1560318387
+ls
+#1560318389
+cd test/
+#1560318389
+ls
+#1560318392
+rm -f *
+#1560318393
+ll
+#1560318427
+last
+#1560318430
+who
+#1560318435
+ls
+#1560318448
+cp ~/lib/* .
+#1560318448
+ll
+#1560318459
+ln libmy.so libmy
+#1560318460
+ll
+#1560318473
+ln -s libmy libmyslink
+#1560318474
+ll
+#1560318497
+cd
+#1560318498
+ls
+#1560318507
+cd ch7/sp4
+#1560318507
+ls
+#1560318511
+cat plink.c 
+#1560318522
+ls
+#1560318528
+gcc plink.c 
+#1560318529
+./a.out 
+#1560318535
+ll
+#1560318584
+ls -li
+#1560318590
+ls -h
+#1560318594
+ls --help
+#1560318603
+ls -li
+#1560318661
+gcc punlink.c 
+#1560318662
+./a.out 
+#1560318666
+ll
+#1560318675
+cat punlink.c 
+#1560318800
+ls --help
+#1560318960
+cat pdup.c 
+#1560319261
+ls
+#1560319269
+gcc pdup.c 
+#1560319272
+./a.out 
+#1560319278
+cat data 
+#1560319291
+cd ../sp5
+#1560319292
+ls
+#1560319437
+cat pdir.c 
+#1560320056
+ls
+#1560320059
+cat pdir.c 
+#1560320180
+gcc pdir.c 
+#1560320182
+./a .
+#1560320188
+./a.out .
+#1560320193
+./a.out showdir.c 
+#1560320212
+ls -gl
+#1560320215
+ls
+#1560320225
+ls -il
+#1560320274
+./a.out .
+#1560320357
+cat pdirpos.c 
+#1560320584
+ls
+#1560320707
+pwd
+#1560320857
+ls
+#1560324097
+cd hw9
+#1560324098
+ls
+#1560324102
+cat 2-1.txt 

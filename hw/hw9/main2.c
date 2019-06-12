@@ -2,10 +2,8 @@
  
 void main(void)
 {
-   int i;
-   int j;
-   i=2;
-   j=3;
+   int i=2;
+   int j=3;
    
    mycomp(i,j);
 }
