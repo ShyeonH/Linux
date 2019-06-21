@@ -1,807 +1,3 @@
-cat my
-#1556102083
-cat myc
-#1556102084
-cat mycron
-#1556102095
-wc -l mycron
-#1556102100
-wc -w mycron
-#1556102113
-wc -c mycron
-#1556102122
-pwd
-#1556102123
-ls
-#1556102126
-cd HwangshEtc/
-#1556102127
-ls
-#1556102135
-joe aaa.txt
-#1556102149
-wc -l aaa.txt 
-#1556102156
-joe aaa.txt
-#1556102165
-wc w aaa.txt 
-#1556102168
-wc -w aaa.txt 
-#1556102183
-wc -c aaa.txt 
-#1556102189
-cat aaa.txt 
-#1556102195
-joe aaa.txt 
-#1556102208
-wc -l aaa.txt 
-#1556102221
-wc -w aaa.txt 
-#1556102225
-wc -c aaa.txt 
-#1556103511
-du
-#1556103516
-du -h
-#1556103519
-df -h
-#1556108276
-ls
-#1556108284
-cd HwangshEtc/
-#1556108284
-ls
-#1556108294
-mkdir 1
-#1556108295
-ls
-#1556108297
-cd 1
-#1556108351
-cp -rf /home/zzz/runme 
-#1556108352
-ls
-#1556108361
-cp -f /home/zzz/runme 
-#1556108374
-cp -rf /home/zzz/runme ./
-#1556108375
-ls
-#1556108408
-joe myinfo.txt
-#1556108462
-cat myinfo.txt 
-#1556108468
-joe myinfo.txt
-#1556108473
-cat myinfo.txt 
-#1556108535
-find csum.c
-#1556108541
-find / csum.c
-#1556108578
-find / -name csum.c
-#1556108588
-find / -name csum.c 2> dev/null
-#1556108603
-find / -name csum.c 2> /dev/null
-#1556108626
-cp /etc//skel/csum.c ./
-#1556108629
-joe csum.c 
-#1556108706
-gcc -o csum.c mysum
-#1556108724
-gcc -o mysum csum.c
-#1556108725
-ls
-#1556108730
-./mysum 
-#1556108835
-./mysum > mysum.out
-#1556108836
-ls
-#1556108843
-cat mysum.out 
-#1556108868
-ls
-#1556108870
-pwd
-#1556108872
-u
-#1556108873
-ls
-#1556108874
-pwd
-#1556108878
-mkdir 2
-#1556108882
-pwd
-#1556108884
-ls
-#1556108885
-cd 2
-#1556108887
-pwd
-#1556108887
-ls
-#1556108911
-date
-#1556108936
-joe 2.txt
-#1556108938
-;s
-#1556108941
-ls
-#1556108946
-joe 2.txt
-#1556108952
-ls
-#1556108958
-date > 2.txt 
-#1556108960
-joe 2.txt
-#1556108998
-cat > 2.txt 
-#1556109014
-joe 2.txt
-#1556109042
-date > 2.txt 
-#1556109044
-joe 2.txt
-#1556109056
-cat >> 2.txt 
-#1556109068
-joe 2.txt
-#1556109099
-tail man date
-#1556109106
-man date
-#1556109117
-man date | tail
-#1556109125
-man date | tail -n 2
-#1556109132
-man date | tail -n 3
-#1556109134
-man date | tail -n 4
-#1556109137
-man date | tail -n 5
-#1556109145
-man date | head -n 5
-#1556109151
-man date | head -n 10
-#1556109157
-man date | head -n 7
-#1556109165
-man date | head -n 7 >> 2.txt
-#1556109168
-joe 2.txt
-#1556109206
-echo $PATH >> 2.txt
-#1556109208
-joe 2.txt
-#1556109250
-(pwd; echo asfas;) >> 3.aaa
-#1556109254
-joe 3.aaa 
-#1556109269
-rm rf 3.aaa 
-#1556109273
-rm -rf 3.aaa 
-#1556109274
-ls
-#1556109343
-man 2 exit >> 2.txt
-#1556109350
-joe 3.aaa 
-#1556109359
-rm -rf 3.aaa 
-#1556109363
-joe 2.txt
-#1556109425
-pwd
-#1556109439
-pwd ~
-#1556109469
-cat /etc/passwd
-#1556109482
-u
-#1556109487
-cd Hw
-#1556109489
-cd HwangshEtc/
-#1556109491
-ls
-#1556109498
-rm -rf 1, 2
-#1556109499
-ls
-#1556109505
-rm -rf 1 2
-#1556109507
-ls
-#1556109515
-cat aaa.txt
-#1556109526
-rm -rf aaa.txt aaa.txt~
-#1556109527
-ls
-#1556109606
-file ~
-#1556109609
-file
-#1556109623
-file ~/*
-#1556109669
-file /etc/pki/* | grep dir
-#1556109674
-file /etc/pki/*
-#1556109736
-ls ../HwBkup/hw2/No2.txt 
-#1556109741
-cat ../HwBkup/hw2/No2.txt 
-#1556109842
-tree /etc/pki
-#1556109884
-reboot
-#1556110178
-date 1111
-#1556110248
-env
-#1556110326
-pwd
-#1556110380
-ls
-#1556110382
-pwd
-#1556110403
-cp -rf /etc/sysconfig ./
-#1556110412
-ls
-#1556110415
-tree
-#1556110430
-ls sysconfig/
-#1556110443
-ll sysconfig/
-#1556110497
-ls
-#1556110508
-mv sysconfig 1-1
-#1556110509
-;s
-#1556110510
-ls
-#1556110513
-ls 1-1/
-#1556110639
-rm -rf ./1-1/new
-#1556110643
-ls 1-1/
-#1556110676
-rm -rf ./1-1/old/
-#1556110697
-mv 1-1/sv newsv
-#1556110700
-ls 1-1/
-#1556110714
-ls
-#1556110728
-mv newsv/ 1-1/
-#1556110729
-ls
-#1556110733
-ls 1-1/
-#1556110884
-touch 1-6.txt
-#1556110885
-ls
-#1556110888
-ll
-#1556110896
-rm 1-6.txt 
-#1556110898
-ll
-#1556110956
-cmp /home/smpldir/hwfiles/devQry1.txt /home/smpldir/hwfiles/devQry2.txt 
-#1556111000
-head -n 10 /home/smpldir/ConnRec 
-#1556111006
-tail -n 10 /home/smpldir/ConnRec 
-#1556111081
-wc -lwc /home/smpldir/devQry.txt
-#1556111090
-wc -wlc /home/smpldir/devQry.txt
-#1556111130
-wc /home/smpldir/devQry.txt
-#1556111144
-wc -c /home/smpldir/devQry.txt
-#1556111357
-pwd
-#1556111379
-ls -a ~
-#1556111433
-file /usr/bin/talk
-#1556111466
-ll /usr/bin/talk
-#1556111534
-ll /etc/ppp/
-#1556111601
-ll /etc/ppp | cut -d " "
-#1556111657
-ll /etc/ppp | cut -d " " -f 5
-#1556111670
-ll /etc/ppp | cut -d " " -f 4,5
-#1556111678
-ll /etc/ppp | cut -d " " -f 4,5,6
-#1556111692
-ll /etc/ppp | cut -d "  " -f 4,5,6
-#1556111700
-ll /etc/ppp | cut -d "   " -f 4,5,6
-#1556111702
-ll /etc/ppp | cut -d "    " -f 4,5,6
-#1556111721
-ll /etc/ppp | cut -d " " -f 1,4,5,6
-#1556111727
-ll /etc/ppp | cut -d " " -f 1,5
-#1556111759
-ll /etc/ppp | sort
-#1556111789
-du /etc/ppp | sort
-#1556111794
-df /etc/ppp | sort
-#1556111806
-du -g /etc/ppp
-#1556111809
-du -h /etc/ppp
-#1556111820
-du -h /etc/ppp/*
-#1556111825
-du -h /etc/*
-#1556111914
-file /etc/sysconfig/
-#1556111926
-file /etc/sysconfig /etc/motd
-#1556111940
-file /etc/sysconfig motd
-#1556111962
-mkdir -r uvw/xyz
-#1556111978
-mkdir -p uvw/xyz
-#1556112001
-ls
-#1556112011
-joe csum_c 
-#1556114338
-ls
-#1556114341
-ll
-#1556114369
-chmod go-rwx uvw
-#1556114371
-ll
-#1556114374
-cd uvw/
-#1556114375
-ll
-#1556114381
-u
-#1556114405
-chmod -R go-rwx uvw
-#1556114407
-ll
-#1556114411
-ll uvw/
-#1556114447
-ls
-#1556114448
-pwd
-#1556114494
-history | tail -n 20
-#1556114513
-ll
-#1556114517
-ls
-#1556114518
-ll
-#1556114519
-ls
-#1556114519
-lls
-#1556114521
-pwd
-#1556114522
-sadlpas
-#1556114522
-flas
-#1556114523
-flpaslfp
-#1556114523
-aslfpl
-#1556114525
-asdfhjadfh
-#1556114525
-sdfl;h
-#1556114525
-dfjh
-#1556114525
-sdfjh
-#1556114526
-aldfjh
-#1556114526
-adjo
-#1556114642
-cat /storage/devQ.txt | tail -5
-#1556114645
-cat /storage/devQ.txt | tail -n 5
-#1556114657
-ls
-#1556114675
-joe script
-#1556114694
-ll
-#1556114707
-chmoe +x script 
-#1556114714
-chmod +x script 
-#1556114715
-ll
-#1556114719
-./script 
-#1556114743
-w
-#1556114764
-top
-#1556114792
-w
-#1556114807
-ls
-#1556114822
-joe log
-#1556114855
-ls
-#1556114867
-history | grep log
-#1556114890
-history | grep >>
-#1556114893
-history | grep >
-#1556114906
-history | grep ">>"
-#1556114923
-history | grep ">"
-#1556114992
-history | grep at
-#1556115047
-top
-#1556115084
-history | grep tail
-#1556115104
-tail -f log.file
-#1556115109
-ls
-#1556115123
-joe log.file
-#1556115129
-tail -f log.file
-#1556115141
-history | grep tail
-#1556115208
-w
-#1556115240
-w | tail -f > log.file 
-#1556115244
-cat log.file 
-#1556115274
-history | grep tail
-#1556115284
-head -n 50 last.out 
-#1556115295
-tail last.out 
-#1556115299
-head last.out 
-#1556115301
-less last.out 
-#1556115305
-more last.out 
-#1556115306
-last
-#1556115320
-last > last.out
-#1556115324
-ls
-#1556115385
-ls /var/
-#1556115409
-ls /var/log
-#1556115430
-cat /var/log/boot.log 
-#1556115433
-ls
-#1556115449
-rm -rf last.out log.file 
-#1556115450
-ls
-#1556115477
-joe script 
-#1556115528
-./script
-#1556115546
-joe script 
-#1556115610
-ls
-#1556115619
-joe log.txt
-#1556115623
-./script
-#1556115631
-joe log.txt
-#1556115638
-joe script 
-#1556115653
-./script
-#1556115659
-cat log.txt 
-#1556115673
-tail -f log.txt 
-#1556115692
-joe script
-#1556115708
-tail -f log.txt 
-#1556115753
-joe script
-#1556115766
-tail -f log.txt 
-#1556115791
-cat log.txt 
-#1556115807
-./script
-#1556115809
-jobs
-#1556115812
-job
-#1556115818
-cat log.txt 
-#1556115834
-ll
-#1556115864
-job
-#1556115869
-ps -f
-#1556115909
-jo script
-#1556115914
-joe script
-#1556115933
-job
-#1556115936
-ll
-#1556115957
-cat log.txt 
-#1556116033
-w
-#1556116041
-who
-#1556116042
-w
-#1556116043
-who
-#1556116044
-w
-#1556116045
-who
-#1556116046
-w
-#1556116046
-who
-#1556116047
-w
-#1556116048
-who
-#1556116049
-w
-#1556116049
-who
-#1556116050
-w
-#1556116050
-who
-#1556116051
-w
-#1556116105
-joe ../.bash_logout
-#1556116181
-ls
-#1556116193
-diff csum.c log.txt 
-#1556116282
-date
-#1556116303
-(sleep 10;&date)
-#1556116306
-(sleep 10;& date)
-#1556116308
-(sleep 10; & date)
-#1556116315
-(sleep 10 &; date)
-#1556116322
-(sleep 10; date)
-#1556116335
-(sleep 10; date)&
-#1556116353
-pwd
-#1556116369
-joe script
-#1556116405
-./script
-#1556116433
-(sleep 10; date)&
-#1556116435
-pwd
-#1556116439
-joe script
-#1556116477
-jobs
-#1556116479
-job
-#1556116484
-joe script
-#1556116494
-./ script
-#1556116499
-./script
-#1556116558
-whereisHereItIs /etc
-#1556116571
-whereis HereItIs /etc
-#1556116595
-job
-#1556116603
-joe script
-#1556116615
-job
-#1556116664
-which cp
-#1556116682
-locate cp
-#1556116696
-whereis cp
-#1556116751
-whereis HereItIs /etc
-#1556116818
-;s
-#1556116819
-ls
-#1556116838
-whereis / script
-#1556116848
-whereis script /
-#1556116853
-whereis script
-#1556116858
-ls
-#1556116876
-cat >acacac.txt
-#1556116888
-whereis acacac.txt
-#1556116893
-whereis / acacac.txt
-#1556116905
-whereis acacac.txt /home
-#1556116917
-whereis /home acacac.txt
-#1556116926
-whereis /etc HereItIs
-#1556116942
-find -name /etc HereItIs
-#1556116951
-find -name HereItIs /etc
-#1556116966
- find /etc -name HereItIs
-#1556116985
-whereis /etc HereItIs
-#1556117076
-joe script
-#1556117133
-./script
-#1556117337
-joe script
-#1556117347
-./script
-#1556123791
-ls
-#1556123794
-pwd
-#1556123817
-find -name hidden.file /etc
-#1556123831
-find -name /etc hidden.file
-#1556123859
-find /etc -name hidden.file
-#1556123869
-find /etc -name hidden.file 2> /dev/null
-#1556123904
-df -h /etc
-#1556123911
-du -h /etc
-#1556123915
-df -h /etc
-#1556123948
-which ifconfig
-#1556123964
-whereis cp
-#1556124062
-last | grep Mon | sort
-#1556124067
-last | grep Mon
-#1556124072
-last | grep Mon | sort
-#1556124079
-last | grep Mon | sort | uniq
-#1556124166
-history 20
-#1556124289
-ps -ef | grep hwang
-#1556124324
-which gcc
-#1556124376
-ls
-#1556124396
-cat log.txt | tr 'a-z' 'A-Z'
-#1556124408
-cat log.txt
-#1556124640
-last | grep 'Apr 3' | cut -d ' ' -f 1
-#1556124642
-last | grep 'Apr 3' | cut -d ' ' -f 
-#1556124646
-last | grep 'Apr 3' | cut -d " " -f 
-#1556124648
-last | grep 'Apr 3' | cut -d " "
-#1556124651
-last | grep 'Apr 3'\
-#1556124654
-last | grep 'Apr 3'
-#1556124664
-last
-#1556124683
-last | grep "Apr  3"
-#1556124708
-last | grep "Apr  3" | cut -d " " -f 5
-#1556124724
-last | grep "Apr  3" | cut -d " " -f 1
-#1556124735
-last | grep "Apr  3" | cut -d " " -f 1 | unoq
-#1556124739
-last | grep "Apr  3" | cut -d " " -f 1 | uniq
-#1556124816
-du -h ~
-#1556124826
-du -sh ~
-#1556124893
-grep
-#1556124897
-grep a
-#1556124905
-grep -wl a
-#1556124918
-grep -wl memory
-#1556124925
-grep -wi memory
-#1556124939
-grep -wl memory
-#1556124971
-cd /home/smpldir/ch3-2
-#1556124974
-grep -wl memory
-#1556124995
-history |grep grep
-#1556125028
-grep -wl memory /home/smpldir/ch3-2/*
-#1556125032
-gh
-#1556125034
 grep -wl memory /home/smpldir/ch3-2/*
 #1556125054
 man grep
@@ -13946,3 +13142,807 @@ cd hw9
 ls
 #1560324102
 cat 2-1.txt 
+#1560323941
+pwpwd
+#1560323943
+ls
+#1560323947
+cd hw9
+#1560323947
+ls
+#1560323949
+dc
+#1560323957
+ls
+#1560323961
+man dc
+#1560324105
+ls
+#1560324107
+ll
+#1560324982
+ls
+#1560324985
+cd hw9
+#1560324987
+ls
+#1560324992
+cat 2-1.txt 
+#1560325109
+vi 2-1.txt 
+#1560325645
+vi 2-2.txt 
+#1560324996
+ls
+#1560324999
+cd hw90
+#1560325000
+cd hw9
+#1560325001
+ls
+#1560325010
+rm libmy.so*
+#1560325011
+ls
+#1560325012
+ll
+#1560325017
+rm main2
+#1560325019
+ll
+#1560325039
+rm mycomp.o
+#1560325040
+ll
+#1560325082
+cat mygop.
+#1560325083
+cat mygop.c
+#1560325096
+cat mycomp.c 
+#1560325157
+ls
+#1560325159
+ll
+#1560325365
+vi main2.c 
+#1560325395
+cat mycomp.c 
+#1560325411
+gcc -fPIC -c mycomp.c 
+#1560325431
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1560325441
+ln -s libmy.so.1.0.1 libmy.so
+#1560325522
+mv libmy.so.1.0.1 ~/lib
+#1560325538
+cd ~/lib/
+#1560325539
+ls
+#1560325542
+rm libmy.so
+#1560325545
+ll
+#1560325549
+rm libmy.so.1.0.1 
+#1560325550
+ls
+#1560325553
+cd ~/hw9
+#1560325554
+ls
+#1560325557
+ll
+#1560325560
+rm libmy.so 
+#1560325561
+ll
+#1560325566
+rm mycomp.O
+#1560325569
+rm mycomp.o
+#1560325569
+ll
+#1560325599
+gcc -fPIC -c mycomp.c
+#1560325606
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.1 mycomp.o
+#1560325611
+ln -s libmy.so.1.0.1 libmy.so
+#1560325632
+gcc -o main2 main2.c -lmy -L$HOME/hw9
+#1560325636
+./main2 
+#1560325673
+rm 2-1.txt 
+#1560326039
+ls
+#1560326116
+vi 2-1.txt
+#1560326327
+ls
+#1560326336
+vi 2-1.txt
+#1560326342
+ls
+#1560326362
+vi mycomp.c \
+#1560326366
+vi mycomp.c
+#1560326387
+gcc -fPIC -c mycomp.c
+#1560326395
+gcc -shared -Wl,-soname,libmy.so -o libmy.so.1.0.2 mycomp.o
+#1560326403
+ln -sf libmy.so.1.0.2 libmy.so
+#1560326405
+./main2 
+#1560326417
+rm 2-2.txt 
+#1560326430
+vi 2-2.txt
+#1560326449
+;s
+#1560326450
+ls
+#1560326455
+cat 2-2.txt 
+#1560326458
+rm 2-2.txt 
+#1560326459
+ll
+#1560326463
+vi 2-1.txt 
+#1560326470
+vi 2-2.txt 
+#1560326502
+cat 2-2.txt 
+#1560326508
+ls
+#1560326511
+ll
+#1560326521
+ls
+#1560326522
+ll
+#1560326524
+cd
+#1560326526
+ls
+#1560326546
+cp -rf hw9 git_linux/hw/
+#1560326551
+cd git_linux/hw/
+#1560326551
+ls
+#1560326554
+cd hw
+#1560326557
+cd hw9
+#1560326558
+ls
+#1560326559
+ll
+#1560326563
+cd ../..
+#1560326564
+ls
+#1560326568
+git status 
+#1560326592
+git add hw
+#1560326594
+git status 
+#1560326607
+git add etc/BackUp
+#1560326609
+git status 
+#1560326623
+git log
+#1560326635
+git commit -m v3.4
+#1560326655
+git status 
+#1560326664
+git log 
+#1560326714
+git tag 700cea5b71a0844c4b95f1c73a4a334df1b246c9 1.2.0
+#1560326722
+git tag
+#1560326736
+git tag 1.2.0 700cea5b71a0844c4b95f1c73a4a334df1b246c9
+#1560326738
+git tag
+#1560326746
+git status 
+#1560326750
+git push 
+#1560326772
+git push --tags
+#1560326884
+ls
+#1560334848
+sleep 1000 &
+#1560334851
+sleep 2000 &
+#1560334854
+jobs
+#1560334859
+fg 1
+#1560334864
+jobs
+#1560334869
+fg 2
+#1560334872
+jobs
+#1560334883
+bg 2
+#1560334885
+jobs
+#1560334889
+ps
+#1560334903
+kill -SIGKILL 8910
+#1560334904
+ps
+#1560334908
+jobs
+#1560420908
+ls
+#1560420912
+cat Doxyfile2 
+#1560420915
+ls
+#1560420916
+ll
+#1560420922
+cd hw9/
+#1560420923
+ls
+#1560420924
+ll
+#1560420931
+cat 1-1.txt 
+#1560420962
+cat 1-2.txt 
+#1560420976
+ls
+#1560420978
+car 2-1.txt 
+#1560420982
+ll
+#1560420984
+cat 2-1.txt 
+#1560420986
+cat 2-2.txt 
+#1560420997
+ls
+#1560420998
+ll
+#1560421002
+cat 3.txt 
+#1560421087
+cat 4.txt 
+#1560421094
+ll
+#1560421098
+./mydate 
+#1560421106
+./myuname 
+#1560421110
+cat 4.txt 
+#1560421114
+cat 5.txt 
+#1560421147
+who
+#1560421151
+whoami
+#1560421152
+w
+#1560421158
+ll
+#1560421171
+./userinfo 
+#1560421177
+./myuname 
+#1560421184
+./mydate 
+#1560421194
+./static 
+#1560421195
+LS
+#1560421196
+LL
+#1560421197
+ll
+#1560421199
+cat 5.txt 
+#1560421204
+ls
+#1560421208
+./ userinfo
+#1560421211
+./userinfo
+#1560421218
+./myuname 
+#1560421239
+./main2 
+#1560421248
+cd
+#1560421249
+l
+#1560421250
+ll
+#1560421255
+cd hw10/
+#1560421256
+ls
+#1560421257
+ll
+#1560421258
+./a.out 
+#1560421273
+./a.out data1
+#1560421283
+./myll data
+#1560421285
+./myll data2
+#1560421292
+cat data*
+#1560421300
+cat mycmp
+#1560421304
+clear
+#1560421307
+cat mycmp.
+#1560421309
+cat mycmp.c
+#1560421497
+ls
+#1560421497
+ll
+#1560421502
+cat myll.c 
+#1560421505
+ls
+#1560421519
+./ mycmp data1 data4
+#1560421523
+./mycmp data1 data4
+#1560421526
+./mycmp data1 data2
+#1560421527
+./mycmp data1 data3
+#1560421535
+ll
+#1560421538
+./mycmp data1 data3
+#1560421541
+./mycmp data1 data4
+#1560421552
+cat mycmp.c
+#1560421585
+ls
+#1560421593
+cat myll.c 
+#1560421620
+ls
+#1560421625
+cd
+#1560421626
+;;
+#1560421627
+ll
+#1560421630
+ll -a
+#1560421647
+cat .#memo.txt 
+#1560421653
+rm .#memo.txt 
+#1560421654
+ls
+#1560421655
+ll
+#1560421656
+ll a-
+#1560421657
+ll -a
+#1560421670
+cat .history 
+#1560421705
+cat CmdHistory 
+#1560421714
+ll
+#1560421726
+cat CmdHistory | wc -l
+#1560421734
+cd lib/
+#1560421734
+ll
+#1560421736
+cd
+#1560421738
+cd test/
+#1560421738
+ll
+#1560421740
+dc
+#1560421743
+cd
+#1560421744
+ll
+#1560421745
+ll -a
+#1560421752
+cat .joe_state 
+#1560421757
+ll -a
+#1560421762
+lla
+#1560421763
+ll -a
+#1560421770
+rm -rf test/
+#1560421772
+ll -a
+#1560421788
+cd mynet/
+#1560421789
+ll
+#1560421796
+cd
+#1560421797
+ll -a
+#1560421802
+rm -f mynet/
+#1560421803
+ll -a
+#1560421827
+rm -f mynet
+#1560421828
+ll
+#1560421832
+cd mysys/
+#1560421833
+ll
+#1560421845
+cat atd
+#1560421874
+cat firewalld 
+#1560421887
+cd new
+#1560421888
+ls
+#1560421889
+ll
+#1560421890
+cd
+#1560421892
+ll -a
+#1560421897
+rm -f mysys
+#1560421898
+ll
+#1560421899
+ll -a
+#1560421906
+cd git_linux/
+#1560421909
+tree
+#1560421914
+ll
+#1560421917
+cd etc/
+#1560421918
+ll
+#1560421920
+ll -a
+#1560421927
+ll 1-1/
+#1560421954
+ll bin
+#1560422059
+ll
+#1560422062
+ll lib/
+#1560422066
+ll uvw/
+#1560422067
+ll
+#1560422072
+ll ch3-2/
+#1560422081
+ll
+#1560422088
+cd ..
+#1560422088
+ll
+#1560422091
+cd practise/
+#1560422091
+ll
+#1560422107
+cd skel/
+#1560422107
+ll
+#1560422113
+./colors 
+#1560422122
+./colors ssum
+#1560422136
+./ssum 
+#1560422163
+ll
+#1560422177
+./ssum; 2
+#1560422183
+./ssum; echo 2
+#1560422198
+./ssum < 2
+#1560422209
+cat csum.c 
+#1560422212
+cd ..
+#1560422213
+ls
+#1560422214
+cd ..
+#1560422215
+ls
+#1560422217
+cd hw/
+#1560422220
+ll
+#1560422224
+cd hw1
+#1560422229
+cd ../hw10
+#1560422230
+ll
+#1560422235
+cd ../hw9
+#1560422235
+ll
+#1560422248
+cat main2.c
+#1560422251
+cat 2-1.txt
+#1560422258
+cd
+#1560422261
+ll
+#1560422262
+ll -a
+#1560422273
+cat .lesshst 
+#1560422299
+1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2css
+#1560422302
+ll
+#1560422304
+ll -a
+#1560422317
+cat .gitconfig 
+#1560422332
+cd .mozilla/
+#1560422332
+ll
+#1560422336
+tree
+#1560422338
+cd
+#1560422340
+exit
+#1560691462
+ls
+#1560691496
+cat .bash_profile
+#1560691501
+cat .bashrc
+#1560691504
+cat .bash
+#1560691507
+cat .bash_logout
+#1560691568
+cat /etc/motd 
+#1560691589
+cat /etc/motd | cut -d "\n" -f 2
+#1560691597
+cat /etc/motd | cut -f "\n" -d 2
+#1560691607
+cat /etc/motd | cut -d" " -f 2
+#1560691614
+cat /etc/motd | cut -d"" -f 2
+#1560691617
+cat /etc/motd | cut -d"\n" -f 2
+#1560691623
+cat /etc/motd | cut -d"`\n`" -f 2
+#1560691627
+cat /etc/motd | cut -d`\n` -f 2
+#1560691632
+cat /etc/motd | cut -d'\n' -f 2
+#1560691638
+cat /etc/motd
+#1560691665
+cat CmdHistory | wc -l
+#1560691683
+ll
+#1560691689
+cd HwBkup/
+#1560691691
+ls
+#1560691694
+cd hw9
+#1560691695
+ll
+#1560691696
+ls
+#1560691700
+cat 2-1.txt 
+#1560691707
+ls
+#1560691710
+cd
+#1560691711
+ls
+#1560691712
+cd git_linux/
+#1560691713
+ls
+#1560691714
+ll
+#1560691716
+cd etc/
+#1560691717
+ll
+#1560691721
+cd BackUp/
+#1560691722
+ll
+#1560691724
+ll -a
+#1560691728
+cd ..
+#1560691728
+ll
+#1560691732
+cd
+#1560691733
+ll
+#1560691735
+ll -a
+#1560691737
+ls -a
+#1560691752
+cd /
+#1560691753
+ll
+#1560691782
+cd tmp/
+#1560691783
+ll
+#1560691804
+cd hsperfdata_choiys/
+#1560691805
+ll
+#1560691808
+cd ..
+#1560691813
+cd hsperfdata_kimwk/
+#1560691813
+ll
+#1560691816
+cd ..
+#1560691823
+vi aaa
+#1560691829
+ll
+#1560691832
+ll -a
+#1560691833
+ll
+#1560691837
+rm aaa
+#1560691838
+ll
+#1560691845
+cd..
+#1560691847
+ll
+#1560691848
+ll -a
+#1560691851
+cd ..
+#1560691852
+ll -a
+#1560691863
+cd etc/
+#1560691864
+ll
+#1560691889
+ll *
+#1560691901
+cd /
+#1560691906
+tree
+#1560691936
+ll *
+#1560691975
+ll * | grep hwangsh
+#1560691988
+cd proc/
+#1560691989
+ll
+#1560691995
+cd 1471
+#1560691997
+ll
+#1560692002
+cd task/
+#1560692002
+ll
+#1560692006
+cd ..
+#1560692006
+ll
+#1560692018
+ll attr/
+#1560692029
+ll net/
+#1560692039
+cd
+#1560692040
+ll
+#1560692042
+cd ..
+#1560692051
+ll
+#1560692057
+cd
+#1560692058
+cd ..
+#1560692059
+ll
+#1560692084
+cd ohys
+#1560692101
+tree
+#1560692134
+ll
+#1560692137
+cd /..
+#1560692137
+ll
+#1560692140
+cd
+#1560692142
+cd ..
+#1560692144
+ll
+#1560692166
+cd smpldir/
+#1560692166
+ll
+#1560692177
+cd
+#1560692178
+lls
+#1560692180
+ll
+#1560692188
+cd hw10/
+#1560692189
+ll
+#1560692236
+exit
+#1560852302
+ls
+#1560852304
+ll
+#1560868754
+cat .bashrc
+#1560868763
+cat .bash_profile
+#1560868773
+exit
