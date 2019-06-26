@@ -1,63 +1,3 @@
-ls -a ~
-#1556111433
-file /usr/bin/talk
-#1556111466
-ll /usr/bin/talk
-#1556111534
-ll /etc/ppp/
-#1556111601
-ll /etc/ppp | cut -d " "
-#1556111657
-ll /etc/ppp | cut -d " " -f 5
-#1556111670
-ll /etc/ppp | cut -d " " -f 4,5
-#1556111678
-ll /etc/ppp | cut -d " " -f 4,5,6
-#1556111692
-ll /etc/ppp | cut -d "  " -f 4,5,6
-#1556111700
-ll /etc/ppp | cut -d "   " -f 4,5,6
-#1556111702
-ll /etc/ppp | cut -d "    " -f 4,5,6
-#1556111721
-ll /etc/ppp | cut -d " " -f 1,4,5,6
-#1556111727
-ll /etc/ppp | cut -d " " -f 1,5
-#1556111759
-ll /etc/ppp | sort
-#1556111789
-du /etc/ppp | sort
-#1556111794
-df /etc/ppp | sort
-#1556111806
-du -g /etc/ppp
-#1556111809
-du -h /etc/ppp
-#1556111820
-du -h /etc/ppp/*
-#1556111825
-du -h /etc/*
-#1556111914
-file /etc/sysconfig/
-#1556111926
-file /etc/sysconfig /etc/motd
-#1556111940
-file /etc/sysconfig motd
-#1556111962
-mkdir -r uvw/xyz
-#1556111978
-mkdir -p uvw/xyz
-#1556112001
-ls
-#1556112011
-joe csum_c 
-#1556114338
-ls
-#1556114341
-ll
-#1556114369
-chmod go-rwx uvw
-#1556114371
 ll
 #1556114374
 cd uvw/
@@ -13945,4 +13885,64 @@ cat .bashrc
 #1561437730
 gh
 #1561437747
+exit
+#1561455363
+cat /etc/motd 
+#1561455378
+ls
+#1561455387
+cd git_linux/
+#1561455388
+ls
+#1561455389
+cd etc/
+#1561455390
+ls
+#1561455394
+cd BackUp/
+#1561455394
+ls
+#1561455396
+ls -a
+#1561455411
+cat .bash_history | wc -l
+#1561455415
+ll
+#1561455417
+ll -a
+#1561455440
+cat .history 
+#1561455463
+exit
+#1561455471
+cd git_linux/
+#1561455475
+git status 
+#1561455477
+ls
+#1561455478
+ll
+#1561455484
+git log
+#1561455499
+git commit -am v3.4.2
+#1561455502
+git status 
+#1561455514
+git tag
+#1561455520
+git log
+#1561455537
+git tag 
+#1561455545
+git tag 1.2.1 d3b36b3ee478e1046bcdd4bde5a8dc04b6978c17
+#1561455556
+git log --decorate
+#1561455565
+git push
+#1561455577
+git push -tags
+#1561455581
+git push --tags
+#1561455690
 exit
